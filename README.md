@@ -23,6 +23,6 @@ https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_compression/blob/main/docs/tutoria
 * nvcr.io/nvidia/isaac/ros:x86_64-ros2_humble_c59eda1b21db0e3c8f28c8d436ad1f4e
 
 
-**How to set up:**
+**First time setup**
 <br>
-1. Cl
+1. 
