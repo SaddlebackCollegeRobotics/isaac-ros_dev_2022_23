@@ -1,0 +1,9 @@
+source;share/isaac_ros_to_h264_msgs_packet/hook/pythonpath.ps1
+source;share/isaac_ros_to_h264_msgs_packet/hook/pythonpath.dsv
+source;share/isaac_ros_to_h264_msgs_packet/hook/pythonpath.sh
+source;share/isaac_ros_to_h264_msgs_packet/hook/ament_prefix_path.ps1
+source;share/isaac_ros_to_h264_msgs_packet/hook/ament_prefix_path.dsv
+source;share/isaac_ros_to_h264_msgs_packet/hook/ament_prefix_path.sh
+source;../../build/isaac_ros_to_h264_msgs_packet/share/isaac_ros_to_h264_msgs_packet/hook/pythonpath_develop.ps1
+source;../../build/isaac_ros_to_h264_msgs_packet/share/isaac_ros_to_h264_msgs_packet/hook/pythonpath_develop.dsv
+source;../../build/isaac_ros_to_h264_msgs_packet/share/isaac_ros_to_h264_msgs_packet/hook/pythonpath_develop.sh

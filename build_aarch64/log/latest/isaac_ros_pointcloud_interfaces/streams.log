@@ -1,0 +1,216 @@
+[0.085s] Invoking command in '/workspaces/isaac_ros-dev/build/isaac_ros_pointcloud_interfaces': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib /usr/bin/cmake /workspaces/isaac_ros-dev/src/isaac_ros_common/isaac_ros_pointcloud_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces
+[0.233s] -- The C compiler identification is GNU 9.4.0
+[0.393s] -- The CXX compiler identification is GNU 9.4.0
+[0.439s] -- Detecting C compiler ABI info
+[0.593s] -- Detecting C compiler ABI info - done
+[0.625s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.626s] -- Detecting C compile features
+[0.627s] -- Detecting C compile features - done
+[0.635s] -- Detecting CXX compiler ABI info
+[0.843s] -- Detecting CXX compiler ABI info - done
+[0.868s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.868s] -- Detecting CXX compile features
+[0.870s] -- Detecting CXX compile features - done
+[0.877s] -- Found ament_cmake_auto: 1.3.3 (/opt/ros/humble/install/share/ament_cmake_auto/cmake)
+[3.134s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+[3.332s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.653s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.674s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+[3.805s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.918s] -- Loading isaac_ros_common extras
+[3.918s] -- CMAKE_BUILD_TYPE: Release
+[3.980s] -- Looking for pthread.h
+[4.150s] -- Looking for pthread.h - found
+[4.152s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.368s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.369s] -- Looking for pthread_create in pthreads
+[4.541s] -- Looking for pthread_create in pthreads - not found
+[4.541s] -- Looking for pthread_create in pthread
+[4.775s] -- Looking for pthread_create in pthread - found
+[4.779s] -- Found Threads: TRUE  
+[4.821s] -- Found CUDA: /usr/local/cuda (found version "11.4") 
+[4.824s] -- Loading isaac_ros_common extras (modules)
+[5.071s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)
+[5.079s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/install/share/rmw_fastrtps_cpp/cmake)
+[5.449s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.540s] -- Found FastRTPS: /opt/ros/humble/install/include  
+[5.721s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.623s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/install/share/ament_cmake_ros/cmake)
+[7.087s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.662s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.761s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.6") 
+[7.766s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/install/share/python_cmake_module/cmake)
+[7.852s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[7.853s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.853s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[7.854s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[7.935s] -- Found PythonExtra: .so  
+[8.109s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/install/share/ament_lint_auto/cmake)
+[8.186s] -- Added test 'lint_cmake' to check CMake code style
+[8.201s] -- Added test 'xmllint' to check XML markup files
+[8.204s] -- Configuring done
+[8.335s] -- Generating done
+[8.359s] -- Build files have been written to: /workspaces/isaac_ros-dev/build/isaac_ros_pointcloud_interfaces
+[8.419s] Invoked command in '/workspaces/isaac_ros-dev/build/isaac_ros_pointcloud_interfaces' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib /usr/bin/cmake /workspaces/isaac_ros-dev/src/isaac_ros_common/isaac_ros_pointcloud_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces
+[8.423s] Invoking command in '/workspaces/isaac_ros-dev/build/isaac_ros_pointcloud_interfaces': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/isaac_ros_pointcloud_interfaces -- -j4 -l4
+[8.583s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[8.644s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[8.707s] [  6%] Built target ament_cmake_python_symlink_isaac_ros_pointcloud_interfaces
+[10.438s] [  6%] Built target isaac_ros_pointcloud_interfaces__cpp
+[10.476s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[10.532s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[10.584s] [ 16%] [32mBuilding C object CMakeFiles/isaac_ros_pointcloud_interfaces__rosidl_generator_c.dir/rosidl_generator_c/isaac_ros_pointcloud_interfaces/msg/detail/flat_scan__functions.c.o[0m
+[11.708s] [ 19%] [32m[1mLinking C shared library libisaac_ros_pointcloud_interfaces__rosidl_generator_c.so[0m
+[11.752s] running egg_info
+[11.755s] creating isaac_ros_pointcloud_interfaces.egg-info
+[11.891s] writing isaac_ros_pointcloud_interfaces.egg-info/PKG-INFO
+[11.892s] writing dependency_links to isaac_ros_pointcloud_interfaces.egg-info/dependency_links.txt
+[11.899s] writing top-level names to isaac_ros_pointcloud_interfaces.egg-info/top_level.txt
+[11.900s] writing manifest file 'isaac_ros_pointcloud_interfaces.egg-info/SOURCES.txt'
+[11.973s] [ 19%] Built target isaac_ros_pointcloud_interfaces__rosidl_generator_c
+[12.031s] [ 22%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[12.387s] reading manifest file 'isaac_ros_pointcloud_interfaces.egg-info/SOURCES.txt'
+[12.389s] writing manifest file 'isaac_ros_pointcloud_interfaces.egg-info/SOURCES.txt'
+[13.048s] [ 22%] Built target ament_cmake_python_build_isaac_ros_pointcloud_interfaces_egg
+[13.140s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[13.256s] [ 29%] [32mBuilding CXX object CMakeFiles/isaac_ros_pointcloud_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/isaac_ros_pointcloud_interfaces/msg/flat_scan__type_support.cpp.o[0m
+[13.488s] [ 32%] [32mBuilding CXX object CMakeFiles/isaac_ros_pointcloud_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/isaac_ros_pointcloud_interfaces/msg/detail/dds_fastrtps/flat_scan__type_support.cpp.o[0m
+[14.648s] [ 35%] [32mBuilding CXX object CMakeFiles/isaac_ros_pointcloud_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/isaac_ros_pointcloud_interfaces/msg/detail/flat_scan__type_support.cpp.o[0m
+[15.958s] [ 38%] [32mBuilding CXX object CMakeFiles/isaac_ros_pointcloud_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/isaac_ros_pointcloud_interfaces/msg/detail/flat_scan__type_support_c.cpp.o[0m
+[16.104s] [ 41%] [32m[1mLinking CXX shared library libisaac_ros_pointcloud_interfaces__rosidl_typesupport_cpp.so[0m
+[16.394s] [ 41%] Built target isaac_ros_pointcloud_interfaces__rosidl_typesupport_cpp
+[16.490s] [ 45%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[19.360s] [ 48%] [32mBuilding C object CMakeFiles/isaac_ros_pointcloud_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/isaac_ros_pointcloud_interfaces/msg/detail/flat_scan__type_support.c.o[0m
+[19.470s] [ 51%] [32m[1mLinking CXX shared library libisaac_ros_pointcloud_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[19.892s] [ 51%] Built target isaac_ros_pointcloud_interfaces__rosidl_typesupport_fastrtps_cpp
+[19.963s] [ 54%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[19.968s] [ 58%] [32m[1mLinking CXX shared library libisaac_ros_pointcloud_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[20.004s] [ 61%] [32m[1mLinking C shared library libisaac_ros_pointcloud_interfaces__rosidl_typesupport_introspection_c.so[0m
+[20.218s] [ 61%] Built target isaac_ros_pointcloud_interfaces__rosidl_typesupport_introspection_c
+[20.257s] [ 64%] [32m[1mLinking CXX shared library libisaac_ros_pointcloud_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[20.370s] [ 64%] Built target isaac_ros_pointcloud_interfaces__rosidl_typesupport_introspection_cpp
+[20.682s] [ 64%] Built target isaac_ros_pointcloud_interfaces__rosidl_typesupport_fastrtps_c
+[21.689s] [ 67%] [32mBuilding CXX object CMakeFiles/isaac_ros_pointcloud_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/isaac_ros_pointcloud_interfaces/msg/flat_scan__type_support.cpp.o[0m
+[21.880s] [ 70%] [32m[1mLinking CXX shared library libisaac_ros_pointcloud_interfaces__rosidl_typesupport_c.so[0m
+[22.088s] [ 70%] Built target isaac_ros_pointcloud_interfaces__rosidl_typesupport_c
+[22.166s] [ 70%] Built target isaac_ros_pointcloud_interfaces
+[22.272s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[24.661s] [ 74%] Built target isaac_ros_pointcloud_interfaces__py
+[24.700s] [ 77%] [32mBuilding C object CMakeFiles/isaac_ros_pointcloud_interfaces__rosidl_generator_py.dir/rosidl_generator_py/isaac_ros_pointcloud_interfaces/msg/_flat_scan_s.c.o[0m
+[25.339s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/isaac_ros_pointcloud_interfaces/libisaac_ros_pointcloud_interfaces__rosidl_generator_py.so[0m
+[25.420s] [ 80%] Built target isaac_ros_pointcloud_interfaces__rosidl_generator_py
+[25.480s] [ 83%] [32mBuilding C object CMakeFiles/isaac_ros_pointcloud_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/isaac_ros_pointcloud_interfaces/_isaac_ros_pointcloud_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[25.492s] [ 87%] [32mBuilding C object CMakeFiles/isaac_ros_pointcloud_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/isaac_ros_pointcloud_interfaces/_isaac_ros_pointcloud_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[25.503s] [ 90%] [32mBuilding C object CMakeFiles/isaac_ros_pointcloud_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/isaac_ros_pointcloud_interfaces/_isaac_ros_pointcloud_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[26.003s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/isaac_ros_pointcloud_interfaces/isaac_ros_pointcloud_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[26.068s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/isaac_ros_pointcloud_interfaces/isaac_ros_pointcloud_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[26.134s] [ 96%] Built target isaac_ros_pointcloud_interfaces__rosidl_typesupport_c__pyext
+[26.138s] [100%] [32m[1mLinking C shared library rosidl_generator_py/isaac_ros_pointcloud_interfaces/isaac_ros_pointcloud_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[26.203s] [100%] Built target isaac_ros_pointcloud_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[26.241s] [100%] Built target isaac_ros_pointcloud_interfaces__rosidl_typesupport_introspection_c__pyext
+[26.268s] Invoked command in '/workspaces/isaac_ros-dev/build/isaac_ros_pointcloud_interfaces' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/isaac_ros_pointcloud_interfaces -- -j4 -l4
+[26.712s] Invoking command in '/workspaces/isaac_ros-dev/build/isaac_ros_pointcloud_interfaces': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/isaac_ros_pointcloud_interfaces
+[26.734s] -- Install configuration: "Release"
+[26.734s] -- Execute custom install script
+[26.735s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/ament_index/resource_index/rosidl_interfaces/isaac_ros_pointcloud_interfaces
+[26.748s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/include/isaac_ros_pointcloud_interfaces/isaac_ros_pointcloud_interfaces/msg/detail/flat_scan__functions.h
+[26.760s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/include/isaac_ros_pointcloud_interfaces/isaac_ros_pointcloud_interfaces/msg/detail/flat_scan__struct.h
+[26.771s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/include/isaac_ros_pointcloud_interfaces/isaac_ros_pointcloud_interfaces/msg/detail/flat_scan__type_support.h
+[26.781s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/include/isaac_ros_pointcloud_interfaces/isaac_ros_pointcloud_interfaces/msg/flat_scan.h
+[26.791s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/include/isaac_ros_pointcloud_interfaces/isaac_ros_pointcloud_interfaces/msg/rosidl_generator_c__visibility_control.h
+[26.809s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/isaac_ros_pointcloud_interfaces/environment/library_path.sh
+[26.827s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/isaac_ros_pointcloud_interfaces/environment/library_path.dsv
+[26.853s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/include/isaac_ros_pointcloud_interfaces/isaac_ros_pointcloud_interfaces/msg/detail/flat_scan__rosidl_typesupport_fastrtps_c.h
+[26.864s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/include/isaac_ros_pointcloud_interfaces/isaac_ros_pointcloud_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[26.893s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/include/isaac_ros_pointcloud_interfaces/isaac_ros_pointcloud_interfaces/msg/detail/flat_scan__rosidl_typesupport_introspection_c.h
+[26.932s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/include/isaac_ros_pointcloud_interfaces/isaac_ros_pointcloud_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[26.954s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/include/isaac_ros_pointcloud_interfaces/isaac_ros_pointcloud_interfaces/msg/detail/flat_scan__builder.hpp
+[26.986s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/include/isaac_ros_pointcloud_interfaces/isaac_ros_pointcloud_interfaces/msg/detail/flat_scan__struct.hpp
+[27.010s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/include/isaac_ros_pointcloud_interfaces/isaac_ros_pointcloud_interfaces/msg/detail/flat_scan__traits.hpp
+[27.036s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/include/isaac_ros_pointcloud_interfaces/isaac_ros_pointcloud_interfaces/msg/flat_scan.hpp
+[27.058s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/include/isaac_ros_pointcloud_interfaces/isaac_ros_pointcloud_interfaces/msg/detail/flat_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[27.086s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/include/isaac_ros_pointcloud_interfaces/isaac_ros_pointcloud_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[27.129s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/include/isaac_ros_pointcloud_interfaces/isaac_ros_pointcloud_interfaces/msg/detail/flat_scan__rosidl_typesupport_introspection_cpp.hpp
+[27.157s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/isaac_ros_pointcloud_interfaces/environment/pythonpath.sh
+[27.179s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/isaac_ros_pointcloud_interfaces/environment/pythonpath.dsv
+[27.209s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/python3.8/site-packages/isaac_ros_pointcloud_interfaces-0.30.0-py3.8.egg-info/PKG-INFO
+[27.226s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/python3.8/site-packages/isaac_ros_pointcloud_interfaces-0.30.0-py3.8.egg-info/SOURCES.txt
+[27.246s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/python3.8/site-packages/isaac_ros_pointcloud_interfaces-0.30.0-py3.8.egg-info/dependency_links.txt
+[27.281s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/python3.8/site-packages/isaac_ros_pointcloud_interfaces-0.30.0-py3.8.egg-info/top_level.txt
+[27.304s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/python3.8/site-packages/isaac_ros_pointcloud_interfaces/__init__.py
+[27.321s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/python3.8/site-packages/isaac_ros_pointcloud_interfaces/_isaac_ros_pointcloud_interfaces_s.ep.rosidl_typesupport_c.c
+[27.342s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/python3.8/site-packages/isaac_ros_pointcloud_interfaces/_isaac_ros_pointcloud_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[27.354s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/python3.8/site-packages/isaac_ros_pointcloud_interfaces/_isaac_ros_pointcloud_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[27.365s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/python3.8/site-packages/isaac_ros_pointcloud_interfaces/isaac_ros_pointcloud_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[27.377s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/python3.8/site-packages/isaac_ros_pointcloud_interfaces/isaac_ros_pointcloud_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[27.400s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/python3.8/site-packages/isaac_ros_pointcloud_interfaces/isaac_ros_pointcloud_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[27.412s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/python3.8/site-packages/isaac_ros_pointcloud_interfaces/libisaac_ros_pointcloud_interfaces__rosidl_generator_py.so
+[27.446s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/python3.8/site-packages/isaac_ros_pointcloud_interfaces/msg/__init__.py
+[27.476s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/python3.8/site-packages/isaac_ros_pointcloud_interfaces/msg/_flat_scan.py
+[27.510s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/python3.8/site-packages/isaac_ros_pointcloud_interfaces/msg/_flat_scan_s.c
+[27.520s] -- Up-to-date symlink: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/python3.8/site-packages/isaac_ros_pointcloud_interfaces/isaac_ros_pointcloud_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[27.520s] -- Up-to-date symlink: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/python3.8/site-packages/isaac_ros_pointcloud_interfaces/isaac_ros_pointcloud_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[27.521s] -- Up-to-date symlink: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/python3.8/site-packages/isaac_ros_pointcloud_interfaces/isaac_ros_pointcloud_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[27.522s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/isaac_ros_pointcloud_interfaces/msg/FlatScan.idl
+[27.536s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/isaac_ros_pointcloud_interfaces/msg/FlatScan.msg
+[27.553s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/ament_index/resource_index/package_run_dependencies/isaac_ros_pointcloud_interfaces
+[27.566s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/ament_index/resource_index/parent_prefix_path/isaac_ros_pointcloud_interfaces
+[27.577s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/isaac_ros_pointcloud_interfaces/environment/ament_prefix_path.sh
+[27.588s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/isaac_ros_pointcloud_interfaces/environment/ament_prefix_path.dsv
+[27.603s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/isaac_ros_pointcloud_interfaces/environment/path.sh
+[27.617s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/isaac_ros_pointcloud_interfaces/environment/path.dsv
+[27.645s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/isaac_ros_pointcloud_interfaces/local_setup.bash
+[27.665s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/isaac_ros_pointcloud_interfaces/local_setup.sh
+[27.674s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/isaac_ros_pointcloud_interfaces/local_setup.zsh
+[27.684s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/isaac_ros_pointcloud_interfaces/local_setup.dsv
+[27.701s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/isaac_ros_pointcloud_interfaces/package.dsv
+[27.710s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/ament_index/resource_index/packages/isaac_ros_pointcloud_interfaces
+[27.721s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/isaac_ros_pointcloud_interfaces/cmake/rosidl_cmake-extras.cmake
+[27.734s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/isaac_ros_pointcloud_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[27.742s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/isaac_ros_pointcloud_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[27.753s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/isaac_ros_pointcloud_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[27.765s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/isaac_ros_pointcloud_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[27.777s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/isaac_ros_pointcloud_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[27.789s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/isaac_ros_pointcloud_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[27.799s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/isaac_ros_pointcloud_interfaces/cmake/isaac_ros_pointcloud_interfacesConfig.cmake
+[27.812s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/isaac_ros_pointcloud_interfaces/cmake/isaac_ros_pointcloud_interfacesConfig-version.cmake
+[27.823s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/isaac_ros_pointcloud_interfaces/package.xml
+[27.834s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/libisaac_ros_pointcloud_interfaces__rosidl_generator_c.so
+[27.836s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/libisaac_ros_pointcloud_interfaces__rosidl_generator_c.so" to ""
+[27.836s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/libisaac_ros_pointcloud_interfaces__rosidl_typesupport_fastrtps_c.so
+[27.838s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/libisaac_ros_pointcloud_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[27.839s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/libisaac_ros_pointcloud_interfaces__rosidl_typesupport_introspection_c.so
+[27.841s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/libisaac_ros_pointcloud_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[27.841s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/libisaac_ros_pointcloud_interfaces__rosidl_typesupport_c.so
+[27.844s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/libisaac_ros_pointcloud_interfaces__rosidl_typesupport_c.so" to ""
+[27.844s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/libisaac_ros_pointcloud_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[27.845s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/libisaac_ros_pointcloud_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[27.846s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/libisaac_ros_pointcloud_interfaces__rosidl_typesupport_introspection_cpp.so
+[27.848s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/libisaac_ros_pointcloud_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[27.849s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/libisaac_ros_pointcloud_interfaces__rosidl_typesupport_cpp.so
+[27.850s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/libisaac_ros_pointcloud_interfaces__rosidl_typesupport_cpp.so" to ""
+[27.948s] Listing '/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/python3.8/site-packages/isaac_ros_pointcloud_interfaces'...
+[27.949s] Compiling '/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/python3.8/site-packages/isaac_ros_pointcloud_interfaces/__init__.py'...
+[27.949s] Listing '/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/python3.8/site-packages/isaac_ros_pointcloud_interfaces/msg'...
+[27.949s] Compiling '/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/python3.8/site-packages/isaac_ros_pointcloud_interfaces/msg/__init__.py'...
+[27.949s] Compiling '/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/python3.8/site-packages/isaac_ros_pointcloud_interfaces/msg/_flat_scan.py'...
+[27.964s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/libisaac_ros_pointcloud_interfaces__rosidl_generator_py.so
+[27.965s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/libisaac_ros_pointcloud_interfaces__rosidl_generator_py.so" to ""
+[27.966s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/isaac_ros_pointcloud_interfaces/cmake/export_isaac_ros_pointcloud_interfaces__rosidl_generator_cExport.cmake
+[27.966s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/isaac_ros_pointcloud_interfaces/cmake/export_isaac_ros_pointcloud_interfaces__rosidl_generator_cExport-release.cmake
+[27.967s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/isaac_ros_pointcloud_interfaces/cmake/export_isaac_ros_pointcloud_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[27.967s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/isaac_ros_pointcloud_interfaces/cmake/export_isaac_ros_pointcloud_interfaces__rosidl_typesupport_fastrtps_cExport-release.cmake
+[27.968s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/isaac_ros_pointcloud_interfaces/cmake/isaac_ros_pointcloud_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[27.968s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/isaac_ros_pointcloud_interfaces/cmake/isaac_ros_pointcloud_interfaces__rosidl_typesupport_introspection_cExport-release.cmake
+[27.969s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/isaac_ros_pointcloud_interfaces/cmake/isaac_ros_pointcloud_interfaces__rosidl_typesupport_cExport.cmake
+[27.969s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/isaac_ros_pointcloud_interfaces/cmake/isaac_ros_pointcloud_interfaces__rosidl_typesupport_cExport-release.cmake
+[27.970s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/isaac_ros_pointcloud_interfaces/cmake/export_isaac_ros_pointcloud_interfaces__rosidl_generator_cppExport.cmake
+[27.970s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/isaac_ros_pointcloud_interfaces/cmake/export_isaac_ros_pointcloud_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[27.971s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/isaac_ros_pointcloud_interfaces/cmake/export_isaac_ros_pointcloud_interfaces__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[27.971s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/isaac_ros_pointcloud_interfaces/cmake/isaac_ros_pointcloud_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[27.972s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/isaac_ros_pointcloud_interfaces/cmake/isaac_ros_pointcloud_interfaces__rosidl_typesupport_introspection_cppExport-release.cmake
+[27.972s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/isaac_ros_pointcloud_interfaces/cmake/isaac_ros_pointcloud_interfaces__rosidl_typesupport_cppExport.cmake
+[27.973s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/isaac_ros_pointcloud_interfaces/cmake/isaac_ros_pointcloud_interfaces__rosidl_typesupport_cppExport-release.cmake
+[27.973s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/isaac_ros_pointcloud_interfaces/cmake/export_isaac_ros_pointcloud_interfaces__rosidl_generator_pyExport.cmake
+[27.974s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/share/isaac_ros_pointcloud_interfaces/cmake/export_isaac_ros_pointcloud_interfaces__rosidl_generator_pyExport-release.cmake
+[27.988s] Invoked command in '/workspaces/isaac_ros-dev/build/isaac_ros_pointcloud_interfaces' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/isaac_ros_pointcloud_interfaces

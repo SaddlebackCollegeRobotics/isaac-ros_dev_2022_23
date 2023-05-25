@@ -1,0 +1,211 @@
+[0.124s] Invoking command in '/workspaces/isaac_ros-dev/build/isaac_ros_stereo_image_proc': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_point_cloud_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_disparity_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_point_cloud_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_disparity_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_point_cloud_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_disparity_image_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/build/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/isaac_ros-dev/src/isaac_ros_image_pipeline/isaac_ros_stereo_image_proc -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc
+[2.389s] -- The CUDA compiler identification is NVIDIA 11.4.315
+[2.571s] -- The CXX compiler identification is GNU 9.4.0
+[2.595s] -- Detecting CUDA compiler ABI info
+[4.408s] -- Detecting CUDA compiler ABI info - done
+[4.469s] -- Check for working CUDA compiler: /usr/local/cuda/bin/nvcc - skipped
+[4.470s] -- Detecting CUDA compile features
+[4.472s] -- Detecting CUDA compile features - done
+[4.486s] -- Detecting CXX compiler ABI info
+[4.766s] -- Detecting CXX compiler ABI info - done
+[4.784s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.786s] -- Detecting CXX compile features
+[4.788s] -- Detecting CXX compile features - done
+[4.801s] -- Found ament_cmake_auto: 1.3.3 (/opt/ros/humble/install/share/ament_cmake_auto/cmake)
+[7.125s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+[7.319s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.797s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)
+[7.816s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+[7.849s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)
+[7.898s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.966s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.198s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)
+[8.209s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/install/share/rmw_fastrtps_cpp/cmake)
+[8.629s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[8.749s] -- Found FastRTPS: /opt/ros/humble/install/include  
+[8.945s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.988s] -- Looking for C++ include pthread.h
+[9.279s] -- Looking for C++ include pthread.h - found
+[9.281s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.564s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[9.567s] -- Looking for pthread_create in pthreads
+[9.785s] -- Looking for pthread_create in pthreads - not found
+[9.786s] -- Looking for pthread_create in pthread
+[10.053s] -- Looking for pthread_create in pthread - found
+[10.060s] -- Found Threads: TRUE  
+[11.622s] -- Loading isaac_ros_common extras
+[11.623s] -- CMAKE_BUILD_TYPE: Release
+[11.720s] -- Found CUDA: /usr/local/cuda (found version "11.4") 
+[11.723s] -- Loading isaac_ros_common extras (modules)
+[11.963s] -- Loading isaac_ros_gxf extras
+[16.984s] -- The C compiler identification is GNU 9.4.0
+[17.008s] -- Detecting C compiler ABI info
+[17.191s] -- Detecting C compiler ABI info - done
+[17.211s] -- Check for working C compiler: /usr/bin/cc - skipped
+[17.213s] -- Detecting C compile features
+[17.215s] -- Detecting C compile features - done
+[17.227s] -- Found atlas lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/libgxf_atlas.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[17.236s] -- Found cuda lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/cuda/libgxf_cuda.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[17.244s] -- Found isaac_messages lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/libgxf_isaac_messages.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[17.252s] -- Found isaac_ros_messages lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/libgxf_isaac_ros_messages.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[17.260s] -- Found multimedia lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/multimedia/libgxf_multimedia.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[17.279s] -- Found gxf_optimizer lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/libgxf_optimizer.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[17.287s] -- Found serialization lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/serialization/libgxf_serialization.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[17.296s] -- Found std lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/std/libgxf_std.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[17.304s] -- Found core lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/core/libgxf_core.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[17.310s] -- Found GXF:  (found suitable version "2.5.0", minimum required is "2.5.0") found components: multimedia std 
+[22.748s] -- Performing Test FLAG_WEXTRA
+[23.012s] -- Performing Test FLAG_WEXTRA - Success
+[23.051s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/install/share/ament_lint_auto/cmake)
+[23.183s] -- Found launch_testing_ament_cmake: 1.0.4 (/opt/ros/humble/install/share/launch_testing_ament_cmake/cmake)
+[23.190s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/install/share/python_cmake_module/cmake)
+[23.271s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.6") 
+[23.293s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[23.295s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[23.295s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[23.296s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[23.377s] -- Found PythonExtra: .so  
+[23.411s] -- Added test 'copyright' to check source files copyright and LICENSE
+[23.424s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[23.430s] -- Configured cppcheck include dirs: /workspaces/isaac_ros-dev/src/isaac_ros_image_pipeline/isaac_ros_stereo_image_proc/include
+[23.430s] -- Configured cppcheck exclude dirs and/or files: 
+[23.441s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[23.442s] -- Configured cpplint exclude dirs and/or files: 
+[23.447s] -- Added test 'flake8' to check Python code syntax and style conventions
+[23.452s] -- Added test 'lint_cmake' to check CMake code style
+[23.456s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[23.466s] -- Added test 'uncrustify' to check C / C++ code style
+[23.467s] -- Configured uncrustify additional arguments: 
+[23.472s] -- Added test 'xmllint' to check XML markup files
+[23.520s] -- Configuring done
+[23.756s] -- Generating done
+[23.785s] -- Build files have been written to: /workspaces/isaac_ros-dev/build/isaac_ros_stereo_image_proc
+[23.844s] Invoked command in '/workspaces/isaac_ros-dev/build/isaac_ros_stereo_image_proc' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_point_cloud_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_disparity_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_point_cloud_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_disparity_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_point_cloud_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_disparity_image_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/build/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/isaac_ros-dev/src/isaac_ros_image_pipeline/isaac_ros_stereo_image_proc -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc
+[23.846s] Invoking command in '/workspaces/isaac_ros-dev/build/isaac_ros_stereo_image_proc': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_point_cloud_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_disparity_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_point_cloud_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_disparity_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_point_cloud_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_disparity_image_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/build/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/isaac_ros_stereo_image_proc -- -j4 -l4
+[23.985s] [  2%] [32mBuilding CXX object CMakeFiles/point_cloud_node.dir/src/point_cloud_node.cpp.o[0m
+[24.013s] [  5%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/convert.cpp.o[0m
+[24.017s] [  7%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/binary.cpp.o[0m
+[27.276s] [ 10%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emit.cpp.o[0m
+[29.116s] [ 12%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o[0m
+[31.219s] [ 15%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o[0m
+[34.439s] [ 17%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o[0m
+[37.577s] [ 20%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o[0m
+[48.131s] [ 23%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.o[0m
+[49.468s] [ 25%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/exp.cpp.o[0m
+[51.547s] [ 28%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/memory.cpp.o[0m
+[54.087s] [ 30%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/node.cpp.o[0m
+[55.509s] [ 33%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o[0m
+[58.620s] [ 35%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o[0m
+[62.016s] [ 38%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o[0m
+[64.639s] [ 41%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/null.cpp.o[0m
+[65.403s] [ 43%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o[0m
+[66.908s] [ 46%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/parse.cpp.o[0m
+[70.108s] [ 48%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/parser.cpp.o[0m
+[73.108s] [ 51%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.o[0m
+[74.814s] [ 53%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o[0m
+[79.844s] [ 56%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o[0m
+[83.291s] [ 58%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o[0m
+[86.284s] [ 61%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o[0m
+[93.996s] [ 64%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o[0m
+[96.284s] [ 66%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o[0m
+[100.128s] [ 69%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/stream.cpp.o[0m
+[102.028s] [ 71%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/tag.cpp.o[0m
+[103.616s] [ 74%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.o[0m
+[105.236s] [ 76%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.o[0m
+[106.776s] [ 79%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/directives.cpp.o[0m
+[107.848s] [ 82%] [32m[1mLinking CXX static library libyaml-cpp.a[0m
+[107.977s] [ 82%] Built target yaml-cpp
+[176.153s] [ 84%] [32m[1mLinking CXX shared library libpoint_cloud_node.so[0m
+[177.331s] [ 84%] Built target point_cloud_node
+[177.371s] [ 87%] [32mBuilding CXX object gxf/sgm_disparity/CMakeFiles/gxf_disparity_extension.dir/disparity_extension.cpp.o[0m
+[182.846s] [ 89%] [32mBuilding CXX object gxf/sgm_disparity/CMakeFiles/gxf_disparity_extension.dir/disparity_extension/sgm_disparity.cpp.o[0m
+[197.971s] [ 92%] [32mBuilding CXX object gxf/sgm_disparity/CMakeFiles/gxf_disparity_extension.dir/disparity_extension/disparity_compositor.cpp.o[0m
+[209.753s] [ 94%] [32m[1mLinking CXX shared library libgxf_disparity_extension.so[0m
+[209.987s] [ 94%] Built target gxf_disparity_extension
+[210.035s] [ 97%] [32mBuilding CXX object CMakeFiles/disparity_node.dir/src/disparity_node.cpp.o[0m
+[326.746s] [100%] [32m[1mLinking CXX shared library libdisparity_node.so[0m
+[328.360s] [100%] Built target disparity_node
+[328.420s] Invoked command in '/workspaces/isaac_ros-dev/build/isaac_ros_stereo_image_proc' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_point_cloud_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_disparity_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_point_cloud_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_disparity_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_point_cloud_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_disparity_image_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/build/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/isaac_ros_stereo_image_proc -- -j4 -l4
+[328.552s] Invoking command in '/workspaces/isaac_ros-dev/build/isaac_ros_stereo_image_proc': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_point_cloud_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_disparity_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_point_cloud_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_disparity_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_point_cloud_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_disparity_image_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/build/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/isaac_ros_stereo_image_proc
+[328.570s] -- Install configuration: "Release"
+[328.571s] -- Execute custom install script
+[328.573s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/lib/pkgconfig/yaml-cpp.pc
+[328.590s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/share/isaac_ros_stereo_image_proc/gxf/lib/sgm_disparity/libgxf_disparity_extension.so
+[328.604s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/include/isaac_ros_stereo_image_proc/disparity_node.hpp
+[328.617s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/include/isaac_ros_stereo_image_proc/point_cloud_node.hpp
+[328.630s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/share/isaac_ros_stereo_image_proc/environment/library_path.sh
+[328.642s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/share/isaac_ros_stereo_image_proc/environment/library_path.dsv
+[328.655s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/lib/libpoint_cloud_node.so
+[328.667s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/lib/libdisparity_node.so
+[328.681s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/share/isaac_ros_stereo_image_proc/config/isaac_ros_stereo_image_proc_isaac_sim.rviz
+[328.693s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/share/isaac_ros_stereo_image_proc/config/isaac_ros_stereo_image_proc_realsense.rviz
+[328.705s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/share/isaac_ros_stereo_image_proc/config/nitros_disparity_node.yaml
+[328.718s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/share/isaac_ros_stereo_image_proc/config/nitros_point_cloud_node.yaml
+[328.729s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/share/isaac_ros_stereo_image_proc/config/realsense.yaml
+[328.743s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/share/isaac_ros_stereo_image_proc/launch/isaac_ros_stereo_image_pipeline.launch.py
+[328.756s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/share/isaac_ros_stereo_image_proc/launch/isaac_ros_stereo_image_pipeline_isaac_sim.launch.py
+[328.770s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/share/ament_index/resource_index/package_run_dependencies/isaac_ros_stereo_image_proc
+[328.784s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/share/ament_index/resource_index/parent_prefix_path/isaac_ros_stereo_image_proc
+[328.797s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/share/isaac_ros_stereo_image_proc/environment/ament_prefix_path.sh
+[328.810s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/share/isaac_ros_stereo_image_proc/environment/ament_prefix_path.dsv
+[328.822s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/share/isaac_ros_stereo_image_proc/environment/path.sh
+[328.835s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/share/isaac_ros_stereo_image_proc/environment/path.dsv
+[328.848s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/share/isaac_ros_stereo_image_proc/local_setup.bash
+[328.861s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/share/isaac_ros_stereo_image_proc/local_setup.sh
+[328.874s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/share/isaac_ros_stereo_image_proc/local_setup.zsh
+[328.887s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/share/isaac_ros_stereo_image_proc/local_setup.dsv
+[328.900s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/share/isaac_ros_stereo_image_proc/package.dsv
+[328.914s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/share/ament_index/resource_index/packages/isaac_ros_stereo_image_proc
+[328.928s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/share/ament_index/resource_index/rclcpp_components/isaac_ros_stereo_image_proc
+[328.942s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/share/isaac_ros_stereo_image_proc/cmake/ament_cmake_export_dependencies-extras.cmake
+[328.956s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/share/isaac_ros_stereo_image_proc/cmake/ament_cmake_export_include_directories-extras.cmake
+[328.970s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/share/isaac_ros_stereo_image_proc/cmake/ament_cmake_export_libraries-extras.cmake
+[328.984s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/share/isaac_ros_stereo_image_proc/cmake/isaac_ros_stereo_image_procConfig.cmake
+[328.996s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/share/isaac_ros_stereo_image_proc/cmake/isaac_ros_stereo_image_procConfig-version.cmake
+[329.010s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/share/isaac_ros_stereo_image_proc/package.xml
+[329.023s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/lib/libyaml-cpp.a
+[329.056s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/include/yaml-cpp
+[329.058s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/include/yaml-cpp/exceptions.h
+[329.061s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/include/yaml-cpp/ostream_wrapper.h
+[329.064s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/include/yaml-cpp/emitterstyle.h
+[329.067s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/include/yaml-cpp/yaml.h
+[329.069s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/include/yaml-cpp/binary.h
+[329.072s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/include/yaml-cpp/emitfromevents.h
+[329.075s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/include/yaml-cpp/dll.h
+[329.078s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/include/yaml-cpp/traits.h
+[329.080s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/include/yaml-cpp/contrib
+[329.081s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/include/yaml-cpp/contrib/anchordict.h
+[329.084s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/include/yaml-cpp/contrib/graphbuilder.h
+[329.088s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/include/yaml-cpp/emitter.h
+[329.091s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/include/yaml-cpp/stlemitter.h
+[329.094s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/include/yaml-cpp/eventhandler.h
+[329.097s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/include/yaml-cpp/emittermanip.h
+[329.099s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/include/yaml-cpp/anchor.h
+[329.102s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/include/yaml-cpp/parser.h
+[329.105s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/include/yaml-cpp/emitterdef.h
+[329.108s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/include/yaml-cpp/node
+[329.109s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/include/yaml-cpp/node/emit.h
+[329.112s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/include/yaml-cpp/node/impl.h
+[329.116s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/include/yaml-cpp/node/convert.h
+[329.119s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/include/yaml-cpp/node/iterator.h
+[329.122s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/include/yaml-cpp/node/parse.h
+[329.125s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/include/yaml-cpp/node/detail
+[329.126s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/include/yaml-cpp/node/detail/impl.h
+[329.129s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/include/yaml-cpp/node/detail/node_ref.h
+[329.132s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/include/yaml-cpp/node/detail/iterator.h
+[329.135s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/include/yaml-cpp/node/detail/node_iterator.h
+[329.139s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/include/yaml-cpp/node/detail/memory.h
+[329.142s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/include/yaml-cpp/node/detail/iterator_fwd.h
+[329.145s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/include/yaml-cpp/node/detail/node_data.h
+[329.148s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/include/yaml-cpp/node/detail/bool_type.h
+[329.151s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/include/yaml-cpp/node/detail/node.h
+[329.154s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/include/yaml-cpp/node/node.h
+[329.157s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/include/yaml-cpp/node/ptr.h
+[329.161s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/include/yaml-cpp/node/type.h
+[329.163s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/include/yaml-cpp/null.h
+[329.165s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/include/yaml-cpp/mark.h
+[329.168s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/lib/cmake/yaml-cpp/yaml-cpp-config.cmake
+[329.171s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/lib/cmake/yaml-cpp/yaml-cpp-config-version.cmake
+[329.174s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/lib/cmake/yaml-cpp/yaml-cpp-targets.cmake
+[329.177s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_stereo_image_proc/lib/cmake/yaml-cpp/yaml-cpp-targets-release.cmake
+[329.199s] Invoked command in '/workspaces/isaac_ros-dev/build/isaac_ros_stereo_image_proc' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_point_cloud_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_disparity_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_point_cloud_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_disparity_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_point_cloud_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_disparity_image_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/build/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/isaac_ros_stereo_image_proc

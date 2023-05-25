@@ -1,0 +1,15 @@
+/workspaces/isaac_ros-dev/install/isaac_ros_image_pipeline/share/ament_index/resource_index/package_run_dependencies/isaac_ros_image_pipeline
+/workspaces/isaac_ros-dev/install/isaac_ros_image_pipeline/share/ament_index/resource_index/parent_prefix_path/isaac_ros_image_pipeline
+/workspaces/isaac_ros-dev/install/isaac_ros_image_pipeline/share/isaac_ros_image_pipeline/environment/ament_prefix_path.sh
+/workspaces/isaac_ros-dev/install/isaac_ros_image_pipeline/share/isaac_ros_image_pipeline/environment/ament_prefix_path.dsv
+/workspaces/isaac_ros-dev/install/isaac_ros_image_pipeline/share/isaac_ros_image_pipeline/environment/path.sh
+/workspaces/isaac_ros-dev/install/isaac_ros_image_pipeline/share/isaac_ros_image_pipeline/environment/path.dsv
+/workspaces/isaac_ros-dev/install/isaac_ros_image_pipeline/share/isaac_ros_image_pipeline/local_setup.bash
+/workspaces/isaac_ros-dev/install/isaac_ros_image_pipeline/share/isaac_ros_image_pipeline/local_setup.sh
+/workspaces/isaac_ros-dev/install/isaac_ros_image_pipeline/share/isaac_ros_image_pipeline/local_setup.zsh
+/workspaces/isaac_ros-dev/install/isaac_ros_image_pipeline/share/isaac_ros_image_pipeline/local_setup.dsv
+/workspaces/isaac_ros-dev/install/isaac_ros_image_pipeline/share/isaac_ros_image_pipeline/package.dsv
+/workspaces/isaac_ros-dev/install/isaac_ros_image_pipeline/share/ament_index/resource_index/packages/isaac_ros_image_pipeline
+/workspaces/isaac_ros-dev/install/isaac_ros_image_pipeline/share/isaac_ros_image_pipeline/cmake/isaac_ros_image_pipelineConfig.cmake
+/workspaces/isaac_ros-dev/install/isaac_ros_image_pipeline/share/isaac_ros_image_pipeline/cmake/isaac_ros_image_pipelineConfig-version.cmake
+/workspaces/isaac_ros-dev/install/isaac_ros_image_pipeline/share/isaac_ros_image_pipeline/package.xml

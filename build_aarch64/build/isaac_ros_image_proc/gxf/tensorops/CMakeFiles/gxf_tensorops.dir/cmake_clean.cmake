@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/gxf_tensorops.dir/CameraModel.cpp.o"
+  "CMakeFiles/gxf_tensorops.dir/CameraModel.cpp.o.d"
+  "CMakeFiles/gxf_tensorops.dir/ConvertColorFormat.cpp.o"
+  "CMakeFiles/gxf_tensorops.dir/ConvertColorFormat.cpp.o.d"
+  "CMakeFiles/gxf_tensorops.dir/CropAndResize.cpp.o"
+  "CMakeFiles/gxf_tensorops.dir/CropAndResize.cpp.o.d"
+  "CMakeFiles/gxf_tensorops.dir/Frame3D.cpp.o"
+  "CMakeFiles/gxf_tensorops.dir/Frame3D.cpp.o.d"
+  "CMakeFiles/gxf_tensorops.dir/ImageAdapter.cpp.o"
+  "CMakeFiles/gxf_tensorops.dir/ImageAdapter.cpp.o.d"
+  "CMakeFiles/gxf_tensorops.dir/ImageUtils.cpp.o"
+  "CMakeFiles/gxf_tensorops.dir/ImageUtils.cpp.o.d"
+  "CMakeFiles/gxf_tensorops.dir/InterleavedToPlanar.cpp.o"
+  "CMakeFiles/gxf_tensorops.dir/InterleavedToPlanar.cpp.o.d"
+  "CMakeFiles/gxf_tensorops.dir/Normalize.cpp.o"
+  "CMakeFiles/gxf_tensorops.dir/Normalize.cpp.o.d"
+  "CMakeFiles/gxf_tensorops.dir/Reshape.cpp.o"
+  "CMakeFiles/gxf_tensorops.dir/Reshape.cpp.o.d"
+  "CMakeFiles/gxf_tensorops.dir/Resize.cpp.o"
+  "CMakeFiles/gxf_tensorops.dir/Resize.cpp.o.d"
+  "CMakeFiles/gxf_tensorops.dir/TensorOperator.cpp.o"
+  "CMakeFiles/gxf_tensorops.dir/TensorOperator.cpp.o.d"
+  "CMakeFiles/gxf_tensorops.dir/TensorOps.cpp.o"
+  "CMakeFiles/gxf_tensorops.dir/TensorOps.cpp.o.d"
+  "CMakeFiles/gxf_tensorops.dir/TensorStream.cpp.o"
+  "CMakeFiles/gxf_tensorops.dir/TensorStream.cpp.o.d"
+  "CMakeFiles/gxf_tensorops.dir/Undistort.cpp.o"
+  "CMakeFiles/gxf_tensorops.dir/Undistort.cpp.o.d"
+  "CMakeFiles/gxf_tensorops.dir/detail/ImageAdapterTensorImpl.cpp.o"
+  "CMakeFiles/gxf_tensorops.dir/detail/ImageAdapterTensorImpl.cpp.o.d"
+  "CMakeFiles/gxf_tensorops.dir/detail/ImageAdapterVideoBufferImpl.cpp.o"
+  "CMakeFiles/gxf_tensorops.dir/detail/ImageAdapterVideoBufferImpl.cpp.o.d"
+  "libgxf_tensorops.pdb"
+  "libgxf_tensorops.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/gxf_tensorops.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
