@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: isaac-ros-to-h264-msgs-packet
+Version: 0.30.0
+Summary: Reformat compressed message to h264_msgs::Packet
+Author: Hemal Shah
+Author-email: hemals@nvidia.com
+Maintainer: Hemal Shah
+Maintainer-email: hemals@nvidia.com
+License: Apache-2.0

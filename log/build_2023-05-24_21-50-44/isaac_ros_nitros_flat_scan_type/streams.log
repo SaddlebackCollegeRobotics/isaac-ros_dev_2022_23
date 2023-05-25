@@ -1,0 +1,192 @@
+[0.112s] Invoking command in '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_flat_scan_type': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake /workspaces/isaac_ros-dev/src/isaac_ros_nitros/isaac_ros_nitros_type/isaac_ros_nitros_flat_scan_type -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type
+[0.224s] -- The C compiler identification is GNU 9.4.0
+[0.325s] -- The CXX compiler identification is GNU 9.4.0
+[0.340s] -- Detecting C compiler ABI info
+[0.421s] -- Detecting C compiler ABI info - done
+[0.439s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.440s] -- Detecting C compile features
+[0.441s] -- Detecting C compile features - done
+[0.447s] -- Detecting CXX compiler ABI info
+[0.540s] -- Detecting CXX compiler ABI info - done
+[0.556s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.557s] -- Detecting CXX compile features
+[0.557s] -- Detecting CXX compile features - done
+[0.561s] -- Found ament_cmake_auto: 1.3.3 (/opt/ros/humble/install/share/ament_cmake_auto/cmake)
+[1.830s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+[2.075s] -- Loading isaac_ros_common extras
+[2.075s] -- CMAKE_BUILD_TYPE: Release
+[2.093s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.193s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.193s] -- Looking for pthread_create in pthreads
+[2.270s] -- Looking for pthread_create in pthreads - not found
+[2.270s] -- Looking for pthread_create in pthread
+[2.365s] -- Looking for pthread_create in pthread - found
+[2.366s] -- Found Threads: TRUE  
+[2.386s] -- Found CUDA: /usr/local/cuda (found version "11.8") 
+[2.388s] -- Loading isaac_ros_common extras (modules)
+[2.474s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)
+[2.483s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+[2.502s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)
+[2.533s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.570s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.699s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)
+[2.704s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/install/share/rmw_fastrtps_cpp/cmake)
+[2.848s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.884s] -- Found FastRTPS: /opt/ros/humble/install/include  
+[2.964s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.522s] -- Loading isaac_ros_gxf extras
+[3.613s] -- Found atlas lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/libgxf_atlas.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[3.615s] -- Found cuda lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/cuda/libgxf_cuda.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[3.618s] -- Found isaac_messages lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/libgxf_isaac_messages.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[3.621s] -- Found isaac_ros_messages lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/libgxf_isaac_ros_messages.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[3.623s] -- Found multimedia lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/multimedia/libgxf_multimedia.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[3.626s] -- Found gxf_optimizer lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/libgxf_optimizer.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[3.629s] -- Found serialization lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/serialization/libgxf_serialization.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[3.631s] -- Found std lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/std/libgxf_std.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[3.634s] -- Found core lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/core/libgxf_core.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[3.637s] -- Found GXF:  (found suitable version "2.5.0", minimum required is "2.5.0") found components: core isaac_ros_messages 
+[7.631s] -- Performing Test FLAG_WEXTRA
+[8.056s] -- Performing Test FLAG_WEXTRA - Success
+[8.563s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/install/share/ament_lint_auto/cmake)
+[8.678s] -- Found launch_testing_ament_cmake: 1.0.4 (/opt/ros/humble/install/share/launch_testing_ament_cmake/cmake)
+[8.681s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/install/share/python_cmake_module/cmake)
+[8.829s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.6") 
+[8.840s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[8.841s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.841s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[8.841s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[9.022s] -- Found PythonExtra: .so  
+[9.039s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.040s] -- Configured cppcheck include dirs: /workspaces/isaac_ros-dev/src/isaac_ros_nitros/isaac_ros_nitros_type/isaac_ros_nitros_flat_scan_type/include
+[9.040s] -- Configured cppcheck exclude dirs and/or files: 
+[9.042s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[9.042s] -- Configured cpplint exclude dirs and/or files: 
+[9.043s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.045s] -- Added test 'lint_cmake' to check CMake code style
+[9.046s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[9.049s] -- Added test 'uncrustify' to check C / C++ code style
+[9.049s] -- Configured uncrustify additional arguments: 
+[9.051s] -- Added test 'xmllint' to check XML markup files
+[9.067s] -- Configuring done (8.9s)
+[9.302s] -- Generating done (0.2s)
+[9.312s] -- Build files have been written to: /workspaces/isaac_ros-dev/build/isaac_ros_nitros_flat_scan_type
+[9.402s] Invoked command in '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_flat_scan_type' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake /workspaces/isaac_ros-dev/src/isaac_ros_nitros/isaac_ros_nitros_type/isaac_ros_nitros_flat_scan_type -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type
+[9.410s] Invoking command in '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_flat_scan_type': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /workspaces/isaac_ros-dev/build/isaac_ros_nitros_flat_scan_type -- -j16 -l16
+[11.713s] [  2%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/binary.cpp.o[0m
+[11.714s] [  8%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emit.cpp.o[0m
+[11.714s] [  5%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/convert.cpp.o[0m
+[11.714s] [ 11%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/directives.cpp.o[0m
+[11.714s] [ 14%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o[0m
+[11.714s] [ 17%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o[0m
+[11.714s] [ 20%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o[0m
+[11.714s] [ 22%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o[0m
+[11.714s] [ 25%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.o[0m
+[11.715s] [ 28%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/exp.cpp.o[0m
+[11.715s] [ 31%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/memory.cpp.o[0m
+[11.715s] [ 34%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/node.cpp.o[0m
+[11.715s] [ 37%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o[0m
+[11.715s] [ 40%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o[0m
+[11.715s] [ 42%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o[0m
+[11.715s] [ 45%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/null.cpp.o[0m
+[11.715s] [ 48%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o[0m
+[11.715s] [ 51%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/parse.cpp.o[0m
+[11.715s] [ 54%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/parser.cpp.o[0m
+[11.914s] [ 57%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.o[0m
+[13.148s] [ 60%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o[0m
+[24.042s] [ 62%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.o[0m
+[24.625s] [ 65%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.o[0m
+[25.193s] [ 68%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/tag.cpp.o[0m
+[25.772s] [ 71%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/stream.cpp.o[0m
+[26.403s] [ 74%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o[0m
+[27.755s] [ 77%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o[0m
+[28.588s] [ 80%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o[0m
+[31.453s] [ 82%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o[0m
+[32.442s] [ 85%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o[0m
+[33.774s] [ 88%] [32m[1mLinking CXX static library libyaml-cpp.a[0m
+[33.844s] [ 88%] Built target yaml-cpp
+[33.864s] [ 91%] [32mBuilding CXX object CMakeFiles/isaac_ros_nitros_flat_scan_type.dir/src/nitros_flat_scan.cpp.o[0m
+[51.995s] [ 94%] [32m[1mLinking CXX shared library libisaac_ros_nitros_flat_scan_type.so[0m
+[52.279s] [ 94%] Built target isaac_ros_nitros_flat_scan_type
+[52.296s] [ 97%] [32mBuilding CXX object CMakeFiles/isaac_ros_nitros_flat_scan_forward_node.dir/test/src/nitros_flat_scan_forward_node.cpp.o[0m
+[75.319s] [100%] [32m[1mLinking CXX shared library libisaac_ros_nitros_flat_scan_forward_node.so[0m
+[75.588s] [100%] Built target isaac_ros_nitros_flat_scan_forward_node
+[75.604s] Invoked command in '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_flat_scan_type' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /workspaces/isaac_ros-dev/build/isaac_ros_nitros_flat_scan_type -- -j16 -l16
+[75.665s] Invoking command in '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_flat_scan_type': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --install /workspaces/isaac_ros-dev/build/isaac_ros_nitros_flat_scan_type
+[76.691s] -- Install configuration: "Release"
+[76.691s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/lib/libyaml-cpp.a
+[76.691s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/include/yaml-cpp
+[76.691s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/include/yaml-cpp/mark.h
+[76.691s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/include/yaml-cpp/emittermanip.h
+[76.691s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/include/yaml-cpp/emitter.h
+[76.692s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/include/yaml-cpp/exceptions.h
+[76.692s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/include/yaml-cpp/traits.h
+[76.692s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/include/yaml-cpp/eventhandler.h
+[76.692s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/include/yaml-cpp/parser.h
+[76.692s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/include/yaml-cpp/dll.h
+[76.692s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/include/yaml-cpp/null.h
+[76.692s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/include/yaml-cpp/contrib
+[76.692s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/include/yaml-cpp/contrib/graphbuilder.h
+[76.692s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/include/yaml-cpp/contrib/anchordict.h
+[76.692s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/include/yaml-cpp/emitterdef.h
+[76.693s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/include/yaml-cpp/anchor.h
+[76.693s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/include/yaml-cpp/emitfromevents.h
+[76.693s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/include/yaml-cpp/emitterstyle.h
+[76.693s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/include/yaml-cpp/node
+[76.693s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/include/yaml-cpp/node/impl.h
+[76.693s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/include/yaml-cpp/node/parse.h
+[76.693s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/include/yaml-cpp/node/detail
+[76.693s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/include/yaml-cpp/node/detail/node_data.h
+[76.693s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/include/yaml-cpp/node/detail/impl.h
+[76.694s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/include/yaml-cpp/node/detail/node_iterator.h
+[76.694s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/include/yaml-cpp/node/detail/memory.h
+[76.694s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/include/yaml-cpp/node/detail/iterator.h
+[76.694s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/include/yaml-cpp/node/detail/iterator_fwd.h
+[76.694s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/include/yaml-cpp/node/detail/node.h
+[76.694s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/include/yaml-cpp/node/detail/bool_type.h
+[76.694s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/include/yaml-cpp/node/detail/node_ref.h
+[76.694s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/include/yaml-cpp/node/convert.h
+[76.694s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/include/yaml-cpp/node/iterator.h
+[76.694s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/include/yaml-cpp/node/type.h
+[76.694s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/include/yaml-cpp/node/node.h
+[76.695s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/include/yaml-cpp/node/emit.h
+[76.695s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/include/yaml-cpp/node/ptr.h
+[76.695s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/include/yaml-cpp/ostream_wrapper.h
+[76.695s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/include/yaml-cpp/stlemitter.h
+[76.695s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/include/yaml-cpp/binary.h
+[76.695s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/include/yaml-cpp/yaml.h
+[76.695s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/lib/cmake/yaml-cpp/yaml-cpp-config.cmake
+[76.695s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/lib/cmake/yaml-cpp/yaml-cpp-config-version.cmake
+[76.696s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/lib/cmake/yaml-cpp/yaml-cpp-targets.cmake
+[76.696s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/lib/cmake/yaml-cpp/yaml-cpp-targets-release.cmake
+[76.696s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/lib/pkgconfig/yaml-cpp.pc
+[76.696s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/share/isaac_ros_nitros_flat_scan_type/test/config
+[76.696s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/share/isaac_ros_nitros_flat_scan_type/test/config/test_forward_node.yaml
+[76.696s] -- Up-to-date: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/include
+[76.696s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/include/isaac_ros_nitros_flat_scan_type
+[76.696s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/include/isaac_ros_nitros_flat_scan_type/nitros_flat_scan.hpp
+[76.696s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/share/isaac_ros_nitros_flat_scan_type/environment/library_path.sh
+[76.696s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/share/isaac_ros_nitros_flat_scan_type/environment/library_path.dsv
+[76.697s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/lib/libisaac_ros_nitros_flat_scan_type.so
+[76.697s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/lib/libisaac_ros_nitros_flat_scan_type.so" to "/usr/local/cuda/lib64:/opt/ros/humble/install/lib:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/core:/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib"
+[76.697s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/lib/libisaac_ros_nitros_flat_scan_forward_node.so
+[76.697s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/lib/libisaac_ros_nitros_flat_scan_forward_node.so" to "/usr/local/cuda/lib64:/opt/ros/humble/install/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/core:/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib"
+[76.697s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/share/ament_index/resource_index/package_run_dependencies/isaac_ros_nitros_flat_scan_type
+[76.697s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/share/ament_index/resource_index/parent_prefix_path/isaac_ros_nitros_flat_scan_type
+[76.697s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/share/isaac_ros_nitros_flat_scan_type/environment/ament_prefix_path.sh
+[76.697s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/share/isaac_ros_nitros_flat_scan_type/environment/ament_prefix_path.dsv
+[76.697s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/share/isaac_ros_nitros_flat_scan_type/environment/path.sh
+[76.698s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/share/isaac_ros_nitros_flat_scan_type/environment/path.dsv
+[76.698s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/share/isaac_ros_nitros_flat_scan_type/local_setup.bash
+[76.698s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/share/isaac_ros_nitros_flat_scan_type/local_setup.sh
+[76.698s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/share/isaac_ros_nitros_flat_scan_type/local_setup.zsh
+[76.698s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/share/isaac_ros_nitros_flat_scan_type/local_setup.dsv
+[76.698s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/share/isaac_ros_nitros_flat_scan_type/package.dsv
+[76.698s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/share/ament_index/resource_index/packages/isaac_ros_nitros_flat_scan_type
+[76.698s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/share/ament_index/resource_index/rclcpp_components/isaac_ros_nitros_flat_scan_type
+[76.698s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/share/isaac_ros_nitros_flat_scan_type/cmake/ament_cmake_export_dependencies-extras.cmake
+[76.698s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/share/isaac_ros_nitros_flat_scan_type/cmake/ament_cmake_export_include_directories-extras.cmake
+[76.698s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/share/isaac_ros_nitros_flat_scan_type/cmake/ament_cmake_export_libraries-extras.cmake
+[76.699s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/share/isaac_ros_nitros_flat_scan_type/cmake/isaac_ros_nitros_flat_scan_typeConfig.cmake
+[76.699s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/share/isaac_ros_nitros_flat_scan_type/cmake/isaac_ros_nitros_flat_scan_typeConfig-version.cmake
+[76.699s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_flat_scan_type/share/isaac_ros_nitros_flat_scan_type/package.xml
+[76.815s] Invoked command in '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_flat_scan_type' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --install /workspaces/isaac_ros-dev/build/isaac_ros_nitros_flat_scan_type

@@ -1,0 +1,11 @@
+prefix=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_detection2_d_array_type
+exec_prefix=${prefix}
+includedir=${prefix}/include
+libdir=${exec_prefix}/lib
+
+Name: Yaml-cpp
+Description: A YAML parser and emitter for C++
+Version: 0.6.3
+Requires:
+Libs: -L${libdir} -lyaml-cpp
+Cflags: -I${includedir}

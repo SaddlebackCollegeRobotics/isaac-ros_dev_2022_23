@@ -1,22 +1,22 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /workspaces/isaac_ros-dev/build/isaac_ros_nitros_occupancy_grid_type/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_e19ea/fast && /usr/bin/make  -f CMakeFiles/cmTC_e19ea.dir/build.make CMakeFiles/cmTC_e19ea.dir/build
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_893bf/fast && /usr/bin/make  -f CMakeFiles/cmTC_893bf.dir/build.make CMakeFiles/cmTC_893bf.dir/build
 make[1]: Entering directory '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_occupancy_grid_type/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e19ea.dir/src.c.o
-/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -fPIC  -o CMakeFiles/cmTC_e19ea.dir/src.c.o -c /workspaces/isaac_ros-dev/build/isaac_ros_nitros_occupancy_grid_type/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_e19ea
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e19ea.dir/link.txt --verbose=1
-/usr/bin/cc -fPIC  CMakeFiles/cmTC_e19ea.dir/src.c.o -o cmTC_e19ea 
-/usr/bin/ld: CMakeFiles/cmTC_e19ea.dir/src.c.o: in function `main':
+Building C object CMakeFiles/cmTC_893bf.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -fPIC  -o CMakeFiles/cmTC_893bf.dir/src.c.o -c /workspaces/isaac_ros-dev/build/isaac_ros_nitros_occupancy_grid_type/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_893bf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_893bf.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC  CMakeFiles/cmTC_893bf.dir/src.c.o -o cmTC_893bf 
+/usr/bin/ld: CMakeFiles/cmTC_893bf.dir/src.c.o: in function `main':
 src.c:(.text+0x48): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x50): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x58): undefined reference to `pthread_cancel'
 /usr/bin/ld: src.c:(.text+0x64): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_e19ea.dir/build.make:99: cmTC_e19ea] Error 1
+make[1]: *** [CMakeFiles/cmTC_893bf.dir/build.make:99: cmTC_893bf] Error 1
 make[1]: Leaving directory '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_occupancy_grid_type/CMakeFiles/CMakeTmp'
-make: *** [Makefile:127: cmTC_e19ea/fast] Error 2
+make: *** [Makefile:127: cmTC_893bf/fast] Error 2
 
 
 Source file was:
@@ -43,18 +43,18 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /workspaces/isaac_ros-dev/build/isaac_ros_nitros_occupancy_grid_type/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_7de02/fast && /usr/bin/make  -f CMakeFiles/cmTC_7de02.dir/build.make CMakeFiles/cmTC_7de02.dir/build
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_bc4d5/fast && /usr/bin/make  -f CMakeFiles/cmTC_bc4d5.dir/build.make CMakeFiles/cmTC_bc4d5.dir/build
 make[1]: Entering directory '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_occupancy_grid_type/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7de02.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_7de02.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.23/Modules/CheckFunctionExists.c
-Linking C executable cmTC_7de02
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7de02.dir/link.txt --verbose=1
-/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_7de02.dir/CheckFunctionExists.c.o -o cmTC_7de02  -lpthreads 
+Building C object CMakeFiles/cmTC_bc4d5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_bc4d5.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.23/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bc4d5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc4d5.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_bc4d5.dir/CheckFunctionExists.c.o -o cmTC_bc4d5  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_7de02.dir/build.make:99: cmTC_7de02] Error 1
+make[1]: *** [CMakeFiles/cmTC_bc4d5.dir/build.make:99: cmTC_bc4d5] Error 1
 make[1]: Leaving directory '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_occupancy_grid_type/CMakeFiles/CMakeTmp'
-make: *** [Makefile:127: cmTC_7de02/fast] Error 2
+make: *** [Makefile:127: cmTC_bc4d5/fast] Error 2
 
 
 

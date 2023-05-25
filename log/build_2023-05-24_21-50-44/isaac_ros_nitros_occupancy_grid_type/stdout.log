@@ -1,0 +1,186 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_auto: 1.3.3 (/opt/ros/humble/install/share/ament_cmake_auto/cmake)
+-- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+-- Loading isaac_ros_common extras
+-- CMAKE_BUILD_TYPE: Release
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found CUDA: /usr/local/cuda (found version "11.8") 
+-- Loading isaac_ros_common extras (modules)
+-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/install/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/humble/install/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Loading isaac_ros_gxf extras
+-- Found atlas lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/libgxf_atlas.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+-- Found cuda lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/cuda/libgxf_cuda.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+-- Found isaac_messages lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/libgxf_isaac_messages.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+-- Found isaac_ros_messages lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/libgxf_isaac_ros_messages.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+-- Found multimedia lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/multimedia/libgxf_multimedia.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+-- Found gxf_optimizer lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/libgxf_optimizer.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+-- Found serialization lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/serialization/libgxf_serialization.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+-- Found std lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/std/libgxf_std.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+-- Found core lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/core/libgxf_core.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+-- Found GXF:  (found suitable version "2.5.0", minimum required is "2.5.0") found components: core 
+-- Performing Test FLAG_WEXTRA
+-- Performing Test FLAG_WEXTRA - Success
+-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/install/share/ament_lint_auto/cmake)
+-- Found launch_testing_ament_cmake: 1.0.4 (/opt/ros/humble/install/share/launch_testing_ament_cmake/cmake)
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/install/share/python_cmake_module/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.6") 
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found PythonExtra: .so  
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /workspaces/isaac_ros-dev/src/isaac_ros_nitros/isaac_ros_nitros_type/isaac_ros_nitros_occupancy_grid_type/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (6.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspaces/isaac_ros-dev/build/isaac_ros_nitros_occupancy_grid_type
+[  5%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/binary.cpp.o[0m
+[  8%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emit.cpp.o[0m
+[ 11%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/convert.cpp.o[0m
+[  5%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/directives.cpp.o[0m
+[ 14%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o[0m
+[ 17%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o[0m
+[ 20%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o[0m
+[ 22%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/exp.cpp.o[0m
+[ 25%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.o[0m
+[ 28%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o[0m
+[ 31%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/memory.cpp.o[0m
+[ 34%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/node.cpp.o[0m
+[ 37%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o[0m
+[ 40%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/null.cpp.o[0m
+[ 42%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o[0m
+[ 45%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o[0m
+[ 48%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o[0m
+[ 51%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/parse.cpp.o[0m
+[ 54%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/parser.cpp.o[0m
+[ 57%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.o[0m
+[ 60%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o[0m
+[ 62%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o[0m
+[ 65%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o[0m
+[ 68%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o[0m
+[ 71%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o[0m
+[ 74%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o[0m
+[ 77%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/tag.cpp.o[0m
+[ 80%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/stream.cpp.o[0m
+[ 82%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.o[0m
+[ 85%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.o[0m
+[ 88%] [32m[1mLinking CXX static library libyaml-cpp.a[0m
+[ 88%] Built target yaml-cpp
+[ 91%] [32mBuilding CXX object CMakeFiles/isaac_ros_nitros_occupancy_grid_type.dir/src/nitros_occupancy_grid.cpp.o[0m
+[ 94%] [32m[1mLinking CXX shared library libisaac_ros_nitros_occupancy_grid_type.so[0m
+[ 94%] Built target isaac_ros_nitros_occupancy_grid_type
+[ 97%] [32mBuilding CXX object CMakeFiles/nitros_occupancy_grid_forward_node.dir/test/src/nitros_occupancy_grid_forward_node.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libnitros_occupancy_grid_forward_node.so[0m
+[100%] Built target nitros_occupancy_grid_forward_node
+-- Install configuration: "Release"
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/lib/libyaml-cpp.a
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/include/yaml-cpp
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/include/yaml-cpp/mark.h
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/include/yaml-cpp/emittermanip.h
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/include/yaml-cpp/emitter.h
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/include/yaml-cpp/exceptions.h
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/include/yaml-cpp/traits.h
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/include/yaml-cpp/eventhandler.h
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/include/yaml-cpp/parser.h
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/include/yaml-cpp/dll.h
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/include/yaml-cpp/null.h
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/include/yaml-cpp/contrib
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/include/yaml-cpp/contrib/graphbuilder.h
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/include/yaml-cpp/contrib/anchordict.h
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/include/yaml-cpp/emitterdef.h
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/include/yaml-cpp/anchor.h
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/include/yaml-cpp/emitfromevents.h
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/include/yaml-cpp/emitterstyle.h
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/include/yaml-cpp/node
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/include/yaml-cpp/node/impl.h
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/include/yaml-cpp/node/parse.h
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/include/yaml-cpp/node/detail
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/include/yaml-cpp/node/detail/node_data.h
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/include/yaml-cpp/node/detail/impl.h
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/include/yaml-cpp/node/detail/node_iterator.h
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/include/yaml-cpp/node/detail/memory.h
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/include/yaml-cpp/node/detail/iterator.h
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/include/yaml-cpp/node/detail/iterator_fwd.h
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/include/yaml-cpp/node/detail/node.h
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/include/yaml-cpp/node/detail/bool_type.h
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/include/yaml-cpp/node/detail/node_ref.h
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/include/yaml-cpp/node/convert.h
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/include/yaml-cpp/node/iterator.h
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/include/yaml-cpp/node/type.h
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/include/yaml-cpp/node/node.h
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/include/yaml-cpp/node/emit.h
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/include/yaml-cpp/node/ptr.h
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/include/yaml-cpp/ostream_wrapper.h
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/include/yaml-cpp/stlemitter.h
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/include/yaml-cpp/binary.h
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/include/yaml-cpp/yaml.h
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/lib/cmake/yaml-cpp/yaml-cpp-config.cmake
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/lib/cmake/yaml-cpp/yaml-cpp-config-version.cmake
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/lib/cmake/yaml-cpp/yaml-cpp-targets.cmake
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/lib/cmake/yaml-cpp/yaml-cpp-targets-release.cmake
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/lib/pkgconfig/yaml-cpp.pc
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/share/isaac_ros_nitros_occupancy_grid_type/test/config
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/share/isaac_ros_nitros_occupancy_grid_type/test/config/test_forward_node.yaml
+-- Up-to-date: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/include
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/include/isaac_ros_nitros_occupancy_grid_type
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/include/isaac_ros_nitros_occupancy_grid_type/nitros_occupancy_grid.hpp
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/share/isaac_ros_nitros_occupancy_grid_type/environment/library_path.sh
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/share/isaac_ros_nitros_occupancy_grid_type/environment/library_path.dsv
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/lib/libisaac_ros_nitros_occupancy_grid_type.so
+-- Set runtime path of "/workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/lib/libisaac_ros_nitros_occupancy_grid_type.so" to "/usr/local/cuda/lib64:/opt/ros/humble/install/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/core"
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/lib/libnitros_occupancy_grid_forward_node.so
+-- Set runtime path of "/workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/lib/libnitros_occupancy_grid_forward_node.so" to "/usr/local/cuda/lib64:/opt/ros/humble/install/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/core"
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/share/ament_index/resource_index/package_run_dependencies/isaac_ros_nitros_occupancy_grid_type
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/share/ament_index/resource_index/parent_prefix_path/isaac_ros_nitros_occupancy_grid_type
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/share/isaac_ros_nitros_occupancy_grid_type/environment/ament_prefix_path.sh
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/share/isaac_ros_nitros_occupancy_grid_type/environment/ament_prefix_path.dsv
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/share/isaac_ros_nitros_occupancy_grid_type/environment/path.sh
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/share/isaac_ros_nitros_occupancy_grid_type/environment/path.dsv
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/share/isaac_ros_nitros_occupancy_grid_type/local_setup.bash
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/share/isaac_ros_nitros_occupancy_grid_type/local_setup.sh
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/share/isaac_ros_nitros_occupancy_grid_type/local_setup.zsh
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/share/isaac_ros_nitros_occupancy_grid_type/local_setup.dsv
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/share/isaac_ros_nitros_occupancy_grid_type/package.dsv
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/share/ament_index/resource_index/packages/isaac_ros_nitros_occupancy_grid_type
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/share/ament_index/resource_index/rclcpp_components/isaac_ros_nitros_occupancy_grid_type
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/share/isaac_ros_nitros_occupancy_grid_type/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/share/isaac_ros_nitros_occupancy_grid_type/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/share/isaac_ros_nitros_occupancy_grid_type/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/share/isaac_ros_nitros_occupancy_grid_type/cmake/isaac_ros_nitros_occupancy_grid_typeConfig.cmake
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/share/isaac_ros_nitros_occupancy_grid_type/cmake/isaac_ros_nitros_occupancy_grid_typeConfig-version.cmake
+-- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_occupancy_grid_type/share/isaac_ros_nitros_occupancy_grid_type/package.xml

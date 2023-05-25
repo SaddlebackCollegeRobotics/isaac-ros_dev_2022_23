@@ -1,191 +1,194 @@
-[0.116s] Invoking command in '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_compressed_image_type': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/build/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/isaac_ros-dev/src/isaac_ros_nitros/isaac_ros_nitros_type/isaac_ros_nitros_compressed_image_type -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type
-[0.291s] -- The C compiler identification is GNU 9.4.0
-[0.465s] -- The CXX compiler identification is GNU 9.4.0
-[0.485s] -- Detecting C compiler ABI info
-[0.647s] -- Detecting C compiler ABI info - done
-[0.688s] -- Check for working C compiler: /usr/bin/cc - skipped
-[0.688s] -- Detecting C compile features
-[0.689s] -- Detecting C compile features - done
-[0.698s] -- Detecting CXX compiler ABI info
-[0.904s] -- Detecting CXX compiler ABI info - done
-[0.925s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
-[0.926s] -- Detecting CXX compile features
-[0.928s] -- Detecting CXX compile features - done
-[0.935s] -- Found ament_cmake_auto: 1.3.3 (/opt/ros/humble/install/share/ament_cmake_auto/cmake)
-[3.238s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
-[3.433s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
-[3.756s] -- Loading isaac_ros_common extras
-[3.756s] -- CMAKE_BUILD_TYPE: Release
-[3.797s] -- Looking for pthread.h
-[3.974s] -- Looking for pthread.h - found
-[3.975s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
-[4.166s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
-[4.166s] -- Looking for pthread_create in pthreads
-[4.343s] -- Looking for pthread_create in pthreads - not found
-[4.343s] -- Looking for pthread_create in pthread
-[4.580s] -- Looking for pthread_create in pthread - found
-[4.582s] -- Found Threads: TRUE  
-[4.650s] -- Found CUDA: /usr/local/cuda (found version "11.4") 
-[4.653s] -- Loading isaac_ros_common extras (modules)
-[4.792s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)
-[4.808s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
-[4.836s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)
-[4.882s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
-[4.949s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
-[5.162s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)
-[5.171s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/install/share/rmw_fastrtps_cpp/cmake)
-[5.582s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
-[5.681s] -- Found FastRTPS: /opt/ros/humble/install/include  
-[5.857s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
-[7.069s] -- Loading isaac_ros_gxf extras
-[7.084s] -- Found atlas lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/libgxf_atlas.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
-[7.091s] -- Found cuda lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/cuda/libgxf_cuda.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
-[7.097s] -- Found isaac_messages lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/libgxf_isaac_messages.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
-[7.104s] -- Found isaac_ros_messages lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/libgxf_isaac_ros_messages.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
-[7.111s] -- Found multimedia lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/multimedia/libgxf_multimedia.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
-[7.122s] -- Found gxf_optimizer lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/libgxf_optimizer.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
-[7.129s] -- Found serialization lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/serialization/libgxf_serialization.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
-[7.134s] -- Found std lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/std/libgxf_std.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
-[7.140s] -- Found core lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/core/libgxf_core.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
-[7.144s] -- Found GXF:  (found suitable version "2.5.0", minimum required is "2.5.0") found components: core multimedia 
-[14.172s] -- Performing Test FLAG_WEXTRA
-[14.695s] -- Performing Test FLAG_WEXTRA - Success
-[15.165s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/install/share/ament_lint_auto/cmake)
-[15.271s] -- Found launch_testing_ament_cmake: 1.0.4 (/opt/ros/humble/install/share/launch_testing_ament_cmake/cmake)
-[15.278s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/install/share/python_cmake_module/cmake)
-[15.359s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.6") 
-[15.373s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
-[15.374s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
-[15.375s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
-[15.375s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
-[15.461s] -- Found PythonExtra: .so  
-[15.490s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
-[15.492s] -- Configured cppcheck include dirs: /workspaces/isaac_ros-dev/src/isaac_ros_nitros/isaac_ros_nitros_type/isaac_ros_nitros_compressed_image_type/include
-[15.492s] -- Configured cppcheck exclude dirs and/or files: 
-[15.497s] -- Added test 'cpplint' to check C / C++ code against the Google style
-[15.498s] -- Configured cpplint exclude dirs and/or files: 
-[15.500s] -- Added test 'flake8' to check Python code syntax and style conventions
-[15.503s] -- Added test 'lint_cmake' to check CMake code style
-[15.506s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
-[15.511s] -- Added test 'uncrustify' to check C / C++ code style
-[15.511s] -- Configured uncrustify additional arguments: 
-[15.514s] -- Added test 'xmllint' to check XML markup files
-[15.527s] -- Configuring done
-[15.710s] -- Generating done
-[15.719s] -- Build files have been written to: /workspaces/isaac_ros-dev/build/isaac_ros_nitros_compressed_image_type
-[15.768s] Invoked command in '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_compressed_image_type' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/build/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/isaac_ros-dev/src/isaac_ros_nitros/isaac_ros_nitros_type/isaac_ros_nitros_compressed_image_type -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type
-[15.777s] Invoking command in '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_compressed_image_type': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/build/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/isaac_ros_nitros_compressed_image_type -- -j4 -l4
-[15.881s] [  2%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/binary.cpp.o[0m
-[16.678s] [  5%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emit.cpp.o[0m
-[18.283s] [  8%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o[0m
-[20.199s] [ 11%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o[0m
-[22.886s] [ 14%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o[0m
-[25.434s] [ 17%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o[0m
-[34.099s] [ 20%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.o[0m
-[35.096s] [ 22%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/exp.cpp.o[0m
-[36.724s] [ 25%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/memory.cpp.o[0m
-[38.580s] [ 28%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/node.cpp.o[0m
-[39.582s] [ 31%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o[0m
-[42.144s] [ 34%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o[0m
-[44.639s] [ 37%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o[0m
-[46.816s] [ 40%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/null.cpp.o[0m
-[47.327s] [ 42%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o[0m
-[48.446s] [ 45%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/parse.cpp.o[0m
-[51.064s] [ 48%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/parser.cpp.o[0m
-[53.491s] [ 51%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.o[0m
-[54.916s] [ 54%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o[0m
-[59.017s] [ 57%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o[0m
-[61.909s] [ 60%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o[0m
-[64.197s] [ 62%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o[0m
-[70.303s] [ 65%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o[0m
-[72.044s] [ 68%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o[0m
-[75.099s] [ 71%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/stream.cpp.o[0m
-[76.550s] [ 74%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/tag.cpp.o[0m
-[77.755s] [ 77%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.o[0m
-[78.934s] [ 80%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.o[0m
-[80.155s] [ 82%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/directives.cpp.o[0m
-[80.937s] [ 85%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/convert.cpp.o[0m
-[83.153s] [ 88%] [32m[1mLinking CXX static library libyaml-cpp.a[0m
-[83.290s] [ 88%] Built target yaml-cpp
-[83.330s] [ 91%] [32mBuilding CXX object CMakeFiles/isaac_ros_nitros_compressed_image_type.dir/src/nitros_compressed_image.cpp.o[0m
-[113.924s] [ 94%] [32m[1mLinking CXX shared library libisaac_ros_nitros_compressed_image_type.so[0m
-[114.457s] [ 94%] Built target isaac_ros_nitros_compressed_image_type
-[114.498s] [ 97%] [32mBuilding CXX object CMakeFiles/nitros_compressed_image_forward_node.dir/test/src/nitros_compressed_image_forward_node.cpp.o[0m
-[170.730s] [100%] [32m[1mLinking CXX shared library libnitros_compressed_image_forward_node.so[0m
-[171.681s] [100%] Built target nitros_compressed_image_forward_node
-[171.703s] Invoked command in '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_compressed_image_type' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/build/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/isaac_ros_nitros_compressed_image_type -- -j4 -l4
-[171.802s] Invoking command in '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_compressed_image_type': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/build/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/isaac_ros_nitros_compressed_image_type
-[171.816s] -- Install configuration: "Release"
-[171.817s] -- Execute custom install script
-[171.818s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/lib/pkgconfig/yaml-cpp.pc
-[171.831s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/isaac_ros_nitros_compressed_image_type/test/config/test_forward_node.yaml
-[171.843s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/isaac_ros_nitros_compressed_image_type/nitros_compressed_image.hpp
-[171.854s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/isaac_ros_nitros_compressed_image_type/environment/library_path.sh
-[171.865s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/isaac_ros_nitros_compressed_image_type/environment/library_path.dsv
-[171.876s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/lib/libisaac_ros_nitros_compressed_image_type.so
-[171.888s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/lib/libnitros_compressed_image_forward_node.so
-[171.900s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/ament_index/resource_index/package_run_dependencies/isaac_ros_nitros_compressed_image_type
-[171.911s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/ament_index/resource_index/parent_prefix_path/isaac_ros_nitros_compressed_image_type
-[171.921s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/isaac_ros_nitros_compressed_image_type/environment/ament_prefix_path.sh
-[171.932s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/isaac_ros_nitros_compressed_image_type/environment/ament_prefix_path.dsv
-[171.942s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/isaac_ros_nitros_compressed_image_type/environment/path.sh
-[171.952s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/isaac_ros_nitros_compressed_image_type/environment/path.dsv
-[171.963s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/isaac_ros_nitros_compressed_image_type/local_setup.bash
-[171.973s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/isaac_ros_nitros_compressed_image_type/local_setup.sh
-[171.984s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/isaac_ros_nitros_compressed_image_type/local_setup.zsh
-[171.995s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/isaac_ros_nitros_compressed_image_type/local_setup.dsv
-[172.006s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/isaac_ros_nitros_compressed_image_type/package.dsv
-[172.016s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/ament_index/resource_index/packages/isaac_ros_nitros_compressed_image_type
-[172.028s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/ament_index/resource_index/rclcpp_components/isaac_ros_nitros_compressed_image_type
-[172.039s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/isaac_ros_nitros_compressed_image_type/cmake/ament_cmake_export_dependencies-extras.cmake
-[172.049s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/isaac_ros_nitros_compressed_image_type/cmake/ament_cmake_export_include_directories-extras.cmake
-[172.061s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/isaac_ros_nitros_compressed_image_type/cmake/ament_cmake_export_libraries-extras.cmake
-[172.079s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/isaac_ros_nitros_compressed_image_type/cmake/isaac_ros_nitros_compressed_image_typeConfig.cmake
-[172.092s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/isaac_ros_nitros_compressed_image_type/cmake/isaac_ros_nitros_compressed_image_typeConfig-version.cmake
-[172.110s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/isaac_ros_nitros_compressed_image_type/package.xml
-[172.123s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/lib/libyaml-cpp.a
-[172.133s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp
-[172.143s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/exceptions.h
-[172.145s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/ostream_wrapper.h
-[172.146s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/emitterstyle.h
-[172.147s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/yaml.h
-[172.148s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/binary.h
-[172.149s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/emitfromevents.h
-[172.150s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/dll.h
-[172.151s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/traits.h
-[172.152s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/contrib
-[172.153s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/contrib/anchordict.h
-[172.153s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/contrib/graphbuilder.h
-[172.154s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/emitter.h
-[172.155s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/stlemitter.h
-[172.156s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/eventhandler.h
-[172.157s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/emittermanip.h
-[172.158s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/anchor.h
-[172.159s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/parser.h
-[172.160s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/emitterdef.h
-[172.161s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/node
-[172.162s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/node/emit.h
-[172.163s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/node/impl.h
-[172.164s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/node/convert.h
-[172.165s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/node/iterator.h
-[172.166s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/node/parse.h
-[172.167s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/node/detail
-[172.168s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/node/detail/impl.h
-[172.169s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/node/detail/node_ref.h
-[172.170s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/node/detail/iterator.h
-[172.171s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/node/detail/node_iterator.h
-[172.172s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/node/detail/memory.h
-[172.173s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/node/detail/iterator_fwd.h
-[172.174s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/node/detail/node_data.h
-[172.175s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/node/detail/bool_type.h
-[172.176s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/node/detail/node.h
-[172.177s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/node/node.h
-[172.178s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/node/ptr.h
-[172.179s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/node/type.h
-[172.180s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/null.h
-[172.181s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/mark.h
-[172.182s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/lib/cmake/yaml-cpp/yaml-cpp-config.cmake
-[172.183s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/lib/cmake/yaml-cpp/yaml-cpp-config-version.cmake
-[172.184s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/lib/cmake/yaml-cpp/yaml-cpp-targets.cmake
-[172.194s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/lib/cmake/yaml-cpp/yaml-cpp-targets-release.cmake
-[172.214s] Invoked command in '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_compressed_image_type' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/build/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/isaac_ros_nitros_compressed_image_type
+[0.112s] Invoking command in '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_compressed_image_type': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/isaac_ros-dev/src/isaac_ros_nitros/isaac_ros_nitros_type/isaac_ros_nitros_compressed_image_type -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type
+[0.273s] -- The C compiler identification is GNU 9.4.0
+[0.417s] -- The CXX compiler identification is GNU 9.4.0
+[0.437s] -- Detecting C compiler ABI info
+[0.611s] -- Detecting C compiler ABI info - done
+[0.638s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.639s] -- Detecting C compile features
+[0.641s] -- Detecting C compile features - done
+[0.651s] -- Detecting CXX compiler ABI info
+[0.898s] -- Detecting CXX compiler ABI info - done
+[0.915s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.915s] -- Detecting CXX compile features
+[0.917s] -- Detecting CXX compile features - done
+[0.923s] -- Found ament_cmake_auto: 1.3.3 (/opt/ros/humble/install/share/ament_cmake_auto/cmake)
+[3.190s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+[3.648s] -- Loading isaac_ros_common extras
+[3.649s] -- CMAKE_BUILD_TYPE: Release
+[3.688s] -- Looking for pthread.h
+[3.886s] -- Looking for pthread.h - found
+[3.887s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.143s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.144s] -- Looking for pthread_create in pthreads
+[4.334s] -- Looking for pthread_create in pthreads - not found
+[4.334s] -- Looking for pthread_create in pthread
+[4.555s] -- Looking for pthread_create in pthread - found
+[4.558s] -- Found Threads: TRUE  
+[4.622s] -- Found CUDA: /usr/local/cuda (found version "11.4") 
+[4.623s] -- Loading isaac_ros_common extras (modules)
+[4.757s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)
+[4.772s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+[4.804s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)
+[4.849s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.911s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.130s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)
+[5.133s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/install/share/rmw_fastrtps_cpp/cmake)
+[5.562s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.660s] -- Found FastRTPS: /opt/ros/humble/install/include  
+[5.854s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.081s] -- Loading isaac_ros_gxf extras
+[7.099s] -- Found atlas lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/libgxf_atlas.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[7.106s] -- Found cuda lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/cuda/libgxf_cuda.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[7.114s] -- Found isaac_messages lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/libgxf_isaac_messages.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[7.122s] -- Found isaac_ros_messages lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/libgxf_isaac_ros_messages.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[7.130s] -- Found multimedia lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/multimedia/libgxf_multimedia.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[7.141s] -- Found gxf_optimizer lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/libgxf_optimizer.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[7.148s] -- Found serialization lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/serialization/libgxf_serialization.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[7.155s] -- Found std lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/std/libgxf_std.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[7.162s] -- Found core lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/core/libgxf_core.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[7.168s] -- Found GXF:  (found suitable version "2.5.0", minimum required is "2.5.0") found components: core multimedia 
+[10.440s] -- Performing Test FLAG_WEXTRA
+[10.698s] -- Performing Test FLAG_WEXTRA - Success
+[11.169s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/install/share/ament_lint_auto/cmake)
+[11.314s] -- Found launch_testing_ament_cmake: 1.0.4 (/opt/ros/humble/install/share/launch_testing_ament_cmake/cmake)
+[11.321s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/install/share/python_cmake_module/cmake)
+[11.397s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.6") 
+[11.411s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[11.412s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[11.413s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[11.413s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[11.493s] -- Found PythonExtra: .so  
+[11.537s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.538s] -- Configured cppcheck include dirs: /workspaces/isaac_ros-dev/src/isaac_ros_nitros/isaac_ros_nitros_type/isaac_ros_nitros_compressed_image_type/include
+[11.538s] -- Configured cppcheck exclude dirs and/or files: 
+[11.543s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[11.543s] -- Configured cpplint exclude dirs and/or files: 
+[11.545s] -- Added test 'flake8' to check Python code syntax and style conventions
+[11.548s] -- Added test 'lint_cmake' to check CMake code style
+[11.550s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[11.555s] -- Added test 'uncrustify' to check C / C++ code style
+[11.555s] -- Configured uncrustify additional arguments: 
+[11.557s] -- Added test 'xmllint' to check XML markup files
+[11.600s] -- Configuring done
+[12.012s] -- Generating done
+[12.032s] -- Build files have been written to: /workspaces/isaac_ros-dev/build/isaac_ros_nitros_compressed_image_type
+[12.089s] Invoked command in '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_compressed_image_type' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/isaac_ros-dev/src/isaac_ros_nitros/isaac_ros_nitros_type/isaac_ros_nitros_compressed_image_type -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type
+[12.091s] Invoking command in '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_compressed_image_type': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/isaac_ros_nitros_compressed_image_type -- -j4 -l4
+[12.305s] [  2%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/binary.cpp.o[0m
+[12.341s] [  5%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/convert.cpp.o[0m
+[12.366s] [  8%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/directives.cpp.o[0m
+[13.458s] [ 11%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emit.cpp.o[0m
+[18.269s] [ 14%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o[0m
+[20.748s] [ 17%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o[0m
+[29.451s] [ 20%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.o[0m
+[30.435s] [ 22%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/exp.cpp.o[0m
+[32.054s] [ 25%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/memory.cpp.o[0m
+[33.884s] [ 28%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/node.cpp.o[0m
+[34.882s] [ 31%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o[0m
+[37.406s] [ 34%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o[0m
+[39.886s] [ 37%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o[0m
+[41.980s] [ 40%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/null.cpp.o[0m
+[42.492s] [ 42%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o[0m
+[43.616s] [ 45%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/parse.cpp.o[0m
+[46.342s] [ 48%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/parser.cpp.o[0m
+[48.879s] [ 51%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.o[0m
+[50.272s] [ 54%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o[0m
+[54.300s] [ 57%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o[0m
+[57.188s] [ 60%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o[0m
+[59.435s] [ 62%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o[0m
+[65.575s] [ 65%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o[0m
+[67.307s] [ 68%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o[0m
+[70.391s] [ 71%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/stream.cpp.o[0m
+[71.872s] [ 74%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/tag.cpp.o[0m
+[73.075s] [ 77%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.o[0m
+[74.258s] [ 80%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.o[0m
+[75.478s] [ 82%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o[0m
+[78.070s] [ 85%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o[0m
+[80.006s] [ 88%] [32m[1mLinking CXX static library libyaml-cpp.a[0m
+[80.163s] [ 88%] Built target yaml-cpp
+[80.210s] [ 91%] [32mBuilding CXX object CMakeFiles/isaac_ros_nitros_compressed_image_type.dir/src/nitros_compressed_image.cpp.o[0m
+[110.571s] [ 94%] [32m[1mLinking CXX shared library libisaac_ros_nitros_compressed_image_type.so[0m
+[111.177s] [ 94%] Built target isaac_ros_nitros_compressed_image_type
+[111.324s] [ 97%] [32mBuilding CXX object CMakeFiles/nitros_compressed_image_forward_node.dir/test/src/nitros_compressed_image_forward_node.cpp.o[0m
+[167.214s] [100%] [32m[1mLinking CXX shared library libnitros_compressed_image_forward_node.so[0m
+[168.263s] [100%] Built target nitros_compressed_image_forward_node
+[168.303s] Invoked command in '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_compressed_image_type' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/isaac_ros_nitros_compressed_image_type -- -j4 -l4
+[168.465s] Invoking command in '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_compressed_image_type': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/isaac_ros_nitros_compressed_image_type
+[168.484s] -- Install configuration: "Release"
+[168.486s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/lib/libyaml-cpp.a
+[168.509s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp
+[168.510s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/exceptions.h
+[168.514s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/ostream_wrapper.h
+[168.517s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/emitterstyle.h
+[168.520s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/yaml.h
+[168.523s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/binary.h
+[168.526s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/emitfromevents.h
+[168.529s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/dll.h
+[168.532s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/traits.h
+[168.535s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/contrib
+[168.536s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/contrib/anchordict.h
+[168.539s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/contrib/graphbuilder.h
+[168.543s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/emitter.h
+[168.546s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/stlemitter.h
+[168.549s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/eventhandler.h
+[168.553s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/emittermanip.h
+[168.556s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/anchor.h
+[168.559s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/parser.h
+[168.562s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/emitterdef.h
+[168.565s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/node
+[168.566s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/node/emit.h
+[168.569s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/node/impl.h
+[168.573s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/node/convert.h
+[168.576s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/node/iterator.h
+[168.579s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/node/parse.h
+[168.582s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/node/detail
+[168.583s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/node/detail/impl.h
+[168.587s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/node/detail/node_ref.h
+[168.590s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/node/detail/iterator.h
+[168.594s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/node/detail/node_iterator.h
+[168.597s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/node/detail/memory.h
+[168.601s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/node/detail/iterator_fwd.h
+[168.604s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/node/detail/node_data.h
+[168.607s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/node/detail/bool_type.h
+[168.610s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/node/detail/node.h
+[168.614s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/node/node.h
+[168.617s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/node/ptr.h
+[168.620s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/node/type.h
+[168.623s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/null.h
+[168.626s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/yaml-cpp/mark.h
+[168.630s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/lib/cmake/yaml-cpp/yaml-cpp-config.cmake
+[168.633s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/lib/cmake/yaml-cpp/yaml-cpp-config-version.cmake
+[168.637s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/lib/cmake/yaml-cpp/yaml-cpp-targets.cmake
+[168.640s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/lib/cmake/yaml-cpp/yaml-cpp-targets-release.cmake
+[168.645s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/lib/pkgconfig/yaml-cpp.pc
+[168.648s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/isaac_ros_nitros_compressed_image_type/test/config
+[168.651s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/isaac_ros_nitros_compressed_image_type/test/config/test_forward_node.yaml
+[168.655s] -- Up-to-date: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include
+[168.656s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/isaac_ros_nitros_compressed_image_type
+[168.657s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/include/isaac_ros_nitros_compressed_image_type/nitros_compressed_image.hpp
+[168.662s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/isaac_ros_nitros_compressed_image_type/environment/library_path.sh
+[168.666s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/isaac_ros_nitros_compressed_image_type/environment/library_path.dsv
+[168.670s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/lib/libisaac_ros_nitros_compressed_image_type.so
+[168.679s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/lib/libisaac_ros_nitros_compressed_image_type.so" to "/usr/local/cuda/lib64:/opt/ros/humble/install/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/core:/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/multimedia"
+[168.680s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/lib/libnitros_compressed_image_forward_node.so
+[168.716s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/lib/libnitros_compressed_image_forward_node.so" to "/usr/local/cuda/lib64:/opt/ros/humble/install/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/core:/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/multimedia"
+[168.716s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/ament_index/resource_index/package_run_dependencies/isaac_ros_nitros_compressed_image_type
+[168.717s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/ament_index/resource_index/parent_prefix_path/isaac_ros_nitros_compressed_image_type
+[168.717s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/isaac_ros_nitros_compressed_image_type/environment/ament_prefix_path.sh
+[168.717s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/isaac_ros_nitros_compressed_image_type/environment/ament_prefix_path.dsv
+[168.718s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/isaac_ros_nitros_compressed_image_type/environment/path.sh
+[168.718s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/isaac_ros_nitros_compressed_image_type/environment/path.dsv
+[168.719s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/isaac_ros_nitros_compressed_image_type/local_setup.bash
+[168.719s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/isaac_ros_nitros_compressed_image_type/local_setup.sh
+[168.720s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/isaac_ros_nitros_compressed_image_type/local_setup.zsh
+[168.734s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/isaac_ros_nitros_compressed_image_type/local_setup.dsv
+[168.738s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/isaac_ros_nitros_compressed_image_type/package.dsv
+[168.742s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/ament_index/resource_index/packages/isaac_ros_nitros_compressed_image_type
+[168.742s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/ament_index/resource_index/rclcpp_components/isaac_ros_nitros_compressed_image_type
+[168.744s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/isaac_ros_nitros_compressed_image_type/cmake/ament_cmake_export_dependencies-extras.cmake
+[168.749s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/isaac_ros_nitros_compressed_image_type/cmake/ament_cmake_export_include_directories-extras.cmake
+[168.753s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/isaac_ros_nitros_compressed_image_type/cmake/ament_cmake_export_libraries-extras.cmake
+[168.758s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/isaac_ros_nitros_compressed_image_type/cmake/isaac_ros_nitros_compressed_image_typeConfig.cmake
+[168.761s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/isaac_ros_nitros_compressed_image_type/cmake/isaac_ros_nitros_compressed_image_typeConfig-version.cmake
+[168.761s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/share/isaac_ros_nitros_compressed_image_type/package.xml
+[168.781s] Invoked command in '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_compressed_image_type' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/isaac_ros_nitros_compressed_image_type

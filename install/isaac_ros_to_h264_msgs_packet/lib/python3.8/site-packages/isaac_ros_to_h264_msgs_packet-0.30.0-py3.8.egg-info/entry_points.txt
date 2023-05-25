@@ -1,0 +1,2 @@
+[console_scripts]
+ToH264MsgsPacket = isaac_ros_to_h264_msgs_packet.ToH264MsgsPacket:main

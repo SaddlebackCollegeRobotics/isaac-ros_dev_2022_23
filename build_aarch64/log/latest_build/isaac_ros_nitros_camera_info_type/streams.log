@@ -1,191 +1,194 @@
-[0.181s] Invoking command in '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_camera_info_type': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/build/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/isaac_ros-dev/src/isaac_ros_nitros/isaac_ros_nitros_type/isaac_ros_nitros_camera_info_type -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type
-[0.346s] -- The C compiler identification is GNU 9.4.0
-[0.520s] -- The CXX compiler identification is GNU 9.4.0
-[0.542s] -- Detecting C compiler ABI info
-[0.737s] -- Detecting C compiler ABI info - done
-[0.757s] -- Check for working C compiler: /usr/bin/cc - skipped
-[0.758s] -- Detecting C compile features
-[0.761s] -- Detecting C compile features - done
-[0.770s] -- Detecting CXX compiler ABI info
-[1.011s] -- Detecting CXX compiler ABI info - done
-[1.024s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
-[1.025s] -- Detecting CXX compile features
-[1.026s] -- Detecting CXX compile features - done
-[1.034s] -- Found ament_cmake_auto: 1.3.3 (/opt/ros/humble/install/share/ament_cmake_auto/cmake)
-[3.344s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
-[3.533s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
-[3.847s] -- Loading isaac_ros_common extras
-[3.848s] -- CMAKE_BUILD_TYPE: Release
-[3.895s] -- Looking for pthread.h
-[4.130s] -- Looking for pthread.h - found
-[4.131s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
-[4.316s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
-[4.316s] -- Looking for pthread_create in pthreads
-[4.471s] -- Looking for pthread_create in pthreads - not found
-[4.472s] -- Looking for pthread_create in pthread
-[4.648s] -- Looking for pthread_create in pthread - found
-[4.652s] -- Found Threads: TRUE  
-[4.709s] -- Found CUDA: /usr/local/cuda (found version "11.4") 
-[4.712s] -- Loading isaac_ros_common extras (modules)
-[4.860s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)
-[4.880s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
-[4.909s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)
-[4.952s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
-[5.013s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
-[5.227s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)
-[5.237s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/install/share/rmw_fastrtps_cpp/cmake)
-[5.640s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
-[5.743s] -- Found FastRTPS: /opt/ros/humble/install/include  
-[5.929s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
-[7.135s] -- Loading isaac_ros_gxf extras
-[7.151s] -- Found atlas lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/libgxf_atlas.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
-[7.158s] -- Found cuda lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/cuda/libgxf_cuda.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
-[7.166s] -- Found isaac_messages lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/libgxf_isaac_messages.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
-[7.174s] -- Found isaac_ros_messages lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/libgxf_isaac_ros_messages.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
-[7.182s] -- Found multimedia lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/multimedia/libgxf_multimedia.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
-[7.195s] -- Found gxf_optimizer lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/libgxf_optimizer.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
-[7.202s] -- Found serialization lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/serialization/libgxf_serialization.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
-[7.210s] -- Found std lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/std/libgxf_std.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
-[7.218s] -- Found core lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/core/libgxf_core.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
-[7.223s] -- Found GXF:  (found suitable version "2.5.0", minimum required is "2.5.0") found components: core multimedia 
-[10.495s] -- Performing Test FLAG_WEXTRA
-[10.676s] -- Performing Test FLAG_WEXTRA - Success
-[11.079s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/install/share/ament_lint_auto/cmake)
-[11.186s] -- Found launch_testing_ament_cmake: 1.0.4 (/opt/ros/humble/install/share/launch_testing_ament_cmake/cmake)
-[11.191s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/install/share/python_cmake_module/cmake)
-[11.266s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.6") 
-[11.280s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
-[11.281s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
-[11.281s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
-[11.281s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
-[11.354s] -- Found PythonExtra: .so  
-[11.380s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
-[11.381s] -- Configured cppcheck include dirs: /workspaces/isaac_ros-dev/src/isaac_ros_nitros/isaac_ros_nitros_type/isaac_ros_nitros_camera_info_type/include
-[11.381s] -- Configured cppcheck exclude dirs and/or files: 
-[11.385s] -- Added test 'cpplint' to check C / C++ code against the Google style
-[11.386s] -- Configured cpplint exclude dirs and/or files: 
-[11.387s] -- Added test 'flake8' to check Python code syntax and style conventions
-[11.389s] -- Added test 'lint_cmake' to check CMake code style
-[11.391s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
-[11.399s] -- Added test 'uncrustify' to check C / C++ code style
-[11.399s] -- Configured uncrustify additional arguments: 
-[11.400s] -- Added test 'xmllint' to check XML markup files
-[11.409s] -- Configuring done
-[11.582s] -- Generating done
-[11.590s] -- Build files have been written to: /workspaces/isaac_ros-dev/build/isaac_ros_nitros_camera_info_type
-[11.626s] Invoked command in '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_camera_info_type' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/build/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/isaac_ros-dev/src/isaac_ros_nitros/isaac_ros_nitros_type/isaac_ros_nitros_camera_info_type -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type
-[11.633s] Invoking command in '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_camera_info_type': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/build/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/isaac_ros_nitros_camera_info_type -- -j4 -l4
-[11.856s] [  2%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/directives.cpp.o[0m
-[11.859s] [  5%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emit.cpp.o[0m
-[11.865s] [ 11%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/convert.cpp.o[0m
-[11.865s] [ 11%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/binary.cpp.o[0m
-[15.416s] [ 14%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o[0m
-[17.920s] [ 17%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o[0m
-[26.454s] [ 20%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.o[0m
-[27.451s] [ 22%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/exp.cpp.o[0m
-[29.104s] [ 25%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/memory.cpp.o[0m
-[30.997s] [ 28%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/node.cpp.o[0m
-[32.037s] [ 31%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o[0m
-[34.655s] [ 34%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o[0m
-[37.161s] [ 37%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o[0m
-[39.276s] [ 40%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/null.cpp.o[0m
-[39.781s] [ 42%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o[0m
-[40.901s] [ 45%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/parse.cpp.o[0m
-[43.471s] [ 48%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/parser.cpp.o[0m
-[45.953s] [ 51%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.o[0m
-[47.351s] [ 54%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o[0m
-[51.321s] [ 57%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o[0m
-[54.114s] [ 60%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o[0m
-[56.400s] [ 62%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o[0m
-[62.512s] [ 65%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o[0m
-[64.294s] [ 68%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o[0m
-[67.356s] [ 71%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/stream.cpp.o[0m
-[68.833s] [ 74%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/tag.cpp.o[0m
-[70.042s] [ 77%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.o[0m
-[71.231s] [ 80%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.o[0m
-[72.472s] [ 82%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o[0m
-[75.083s] [ 85%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o[0m
-[77.019s] [ 88%] [32m[1mLinking CXX static library libyaml-cpp.a[0m
-[77.104s] [ 88%] Built target yaml-cpp
-[77.141s] [ 91%] [32mBuilding CXX object CMakeFiles/isaac_ros_nitros_camera_info_type.dir/src/nitros_camera_info.cpp.o[0m
-[105.479s] [ 94%] [32m[1mLinking CXX shared library libisaac_ros_nitros_camera_info_type.so[0m
-[106.049s] [ 94%] Built target isaac_ros_nitros_camera_info_type
-[106.089s] [ 97%] [32mBuilding CXX object CMakeFiles/nitros_camera_info_forward_node.dir/test/src/nitros_camera_info_forward_node.cpp.o[0m
-[162.074s] [100%] [32m[1mLinking CXX shared library libnitros_camera_info_forward_node.so[0m
-[162.962s] [100%] Built target nitros_camera_info_forward_node
-[162.987s] Invoked command in '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_camera_info_type' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/build/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/isaac_ros_nitros_camera_info_type -- -j4 -l4
-[163.100s] Invoking command in '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_camera_info_type': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/build/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/isaac_ros_nitros_camera_info_type
-[163.120s] -- Install configuration: "Release"
-[163.121s] -- Execute custom install script
-[163.123s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/lib/pkgconfig/yaml-cpp.pc
-[163.140s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/isaac_ros_nitros_camera_info_type/test/config/test_forward_node.yaml
-[163.157s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/isaac_ros_nitros_camera_info_type/nitros_camera_info.hpp
-[163.169s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/isaac_ros_nitros_camera_info_type/environment/library_path.sh
-[163.182s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/isaac_ros_nitros_camera_info_type/environment/library_path.dsv
-[163.194s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/lib/libisaac_ros_nitros_camera_info_type.so
-[163.207s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/lib/libnitros_camera_info_forward_node.so
-[163.222s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/ament_index/resource_index/package_run_dependencies/isaac_ros_nitros_camera_info_type
-[163.236s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/ament_index/resource_index/parent_prefix_path/isaac_ros_nitros_camera_info_type
-[163.249s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/isaac_ros_nitros_camera_info_type/environment/ament_prefix_path.sh
-[163.263s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/isaac_ros_nitros_camera_info_type/environment/ament_prefix_path.dsv
-[163.276s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/isaac_ros_nitros_camera_info_type/environment/path.sh
-[163.288s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/isaac_ros_nitros_camera_info_type/environment/path.dsv
-[163.301s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/isaac_ros_nitros_camera_info_type/local_setup.bash
-[163.314s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/isaac_ros_nitros_camera_info_type/local_setup.sh
-[163.327s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/isaac_ros_nitros_camera_info_type/local_setup.zsh
-[163.340s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/isaac_ros_nitros_camera_info_type/local_setup.dsv
-[163.353s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/isaac_ros_nitros_camera_info_type/package.dsv
-[163.370s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/ament_index/resource_index/packages/isaac_ros_nitros_camera_info_type
-[163.385s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/ament_index/resource_index/rclcpp_components/isaac_ros_nitros_camera_info_type
-[163.398s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/isaac_ros_nitros_camera_info_type/cmake/ament_cmake_export_dependencies-extras.cmake
-[163.411s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/isaac_ros_nitros_camera_info_type/cmake/ament_cmake_export_include_directories-extras.cmake
-[163.424s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/isaac_ros_nitros_camera_info_type/cmake/ament_cmake_export_libraries-extras.cmake
-[163.437s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/isaac_ros_nitros_camera_info_type/cmake/isaac_ros_nitros_camera_info_typeConfig.cmake
-[163.450s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/isaac_ros_nitros_camera_info_type/cmake/isaac_ros_nitros_camera_info_typeConfig-version.cmake
-[163.466s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/isaac_ros_nitros_camera_info_type/package.xml
-[163.479s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/lib/libyaml-cpp.a
-[163.509s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp
-[163.511s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/exceptions.h
-[163.515s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/ostream_wrapper.h
-[163.519s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/emitterstyle.h
-[163.522s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/yaml.h
-[163.525s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/binary.h
-[163.528s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/emitfromevents.h
-[163.532s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/dll.h
-[163.535s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/traits.h
-[163.538s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/contrib
-[163.540s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/contrib/anchordict.h
-[163.543s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/contrib/graphbuilder.h
-[163.547s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/emitter.h
-[163.550s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/stlemitter.h
-[163.554s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/eventhandler.h
-[163.557s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/emittermanip.h
-[163.560s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/anchor.h
-[163.566s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/parser.h
-[163.569s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/emitterdef.h
-[163.572s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/node
-[163.574s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/node/emit.h
-[163.577s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/node/impl.h
-[163.581s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/node/convert.h
-[163.585s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/node/iterator.h
-[163.588s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/node/parse.h
-[163.591s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/node/detail
-[163.593s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/node/detail/impl.h
-[163.597s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/node/detail/node_ref.h
-[163.600s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/node/detail/iterator.h
-[163.604s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/node/detail/node_iterator.h
-[163.608s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/node/detail/memory.h
-[163.611s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/node/detail/iterator_fwd.h
-[163.615s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/node/detail/node_data.h
-[163.618s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/node/detail/bool_type.h
-[163.622s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/node/detail/node.h
-[163.625s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/node/node.h
-[163.629s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/node/ptr.h
-[163.632s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/node/type.h
-[163.635s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/null.h
-[163.638s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/mark.h
-[163.642s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/lib/cmake/yaml-cpp/yaml-cpp-config.cmake
-[163.646s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/lib/cmake/yaml-cpp/yaml-cpp-config-version.cmake
-[163.649s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/lib/cmake/yaml-cpp/yaml-cpp-targets.cmake
-[163.653s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/lib/cmake/yaml-cpp/yaml-cpp-targets-release.cmake
-[163.673s] Invoked command in '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_camera_info_type' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/build/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/isaac_ros_nitros_camera_info_type
+[0.175s] Invoking command in '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_camera_info_type': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/isaac_ros-dev/src/isaac_ros_nitros/isaac_ros_nitros_type/isaac_ros_nitros_camera_info_type -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type
+[0.327s] -- The C compiler identification is GNU 9.4.0
+[0.493s] -- The CXX compiler identification is GNU 9.4.0
+[0.510s] -- Detecting C compiler ABI info
+[0.677s] -- Detecting C compiler ABI info - done
+[0.697s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.698s] -- Detecting C compile features
+[0.701s] -- Detecting C compile features - done
+[0.709s] -- Detecting CXX compiler ABI info
+[0.921s] -- Detecting CXX compiler ABI info - done
+[0.940s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.941s] -- Detecting CXX compile features
+[0.942s] -- Detecting CXX compile features - done
+[0.950s] -- Found ament_cmake_auto: 1.3.3 (/opt/ros/humble/install/share/ament_cmake_auto/cmake)
+[3.208s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+[3.657s] -- Loading isaac_ros_common extras
+[3.657s] -- CMAKE_BUILD_TYPE: Release
+[3.701s] -- Looking for pthread.h
+[3.915s] -- Looking for pthread.h - found
+[3.917s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.104s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.104s] -- Looking for pthread_create in pthreads
+[4.308s] -- Looking for pthread_create in pthreads - not found
+[4.308s] -- Looking for pthread_create in pthread
+[4.498s] -- Looking for pthread_create in pthread - found
+[4.501s] -- Found Threads: TRUE  
+[4.568s] -- Found CUDA: /usr/local/cuda (found version "11.4") 
+[4.571s] -- Loading isaac_ros_common extras (modules)
+[4.710s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)
+[4.728s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+[4.756s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)
+[4.801s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.865s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.075s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)
+[5.084s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/install/share/rmw_fastrtps_cpp/cmake)
+[5.475s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.574s] -- Found FastRTPS: /opt/ros/humble/install/include  
+[5.754s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.932s] -- Loading isaac_ros_gxf extras
+[6.947s] -- Found atlas lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/libgxf_atlas.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[6.953s] -- Found cuda lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/cuda/libgxf_cuda.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[6.960s] -- Found isaac_messages lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/libgxf_isaac_messages.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[6.967s] -- Found isaac_ros_messages lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/libgxf_isaac_ros_messages.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[6.974s] -- Found multimedia lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/multimedia/libgxf_multimedia.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[6.985s] -- Found gxf_optimizer lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/libgxf_optimizer.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[6.991s] -- Found serialization lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/serialization/libgxf_serialization.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[6.998s] -- Found std lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/std/libgxf_std.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[7.004s] -- Found core lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/core/libgxf_core.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[7.009s] -- Found GXF:  (found suitable version "2.5.0", minimum required is "2.5.0") found components: core multimedia 
+[10.596s] -- Performing Test FLAG_WEXTRA
+[10.791s] -- Performing Test FLAG_WEXTRA - Success
+[11.203s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/install/share/ament_lint_auto/cmake)
+[11.336s] -- Found launch_testing_ament_cmake: 1.0.4 (/opt/ros/humble/install/share/launch_testing_ament_cmake/cmake)
+[11.342s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/install/share/python_cmake_module/cmake)
+[11.419s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.6") 
+[11.446s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[11.446s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[11.446s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[11.447s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[11.585s] -- Found PythonExtra: .so  
+[11.607s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.609s] -- Configured cppcheck include dirs: /workspaces/isaac_ros-dev/src/isaac_ros_nitros/isaac_ros_nitros_type/isaac_ros_nitros_camera_info_type/include
+[11.609s] -- Configured cppcheck exclude dirs and/or files: 
+[11.616s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[11.617s] -- Configured cpplint exclude dirs and/or files: 
+[11.620s] -- Added test 'flake8' to check Python code syntax and style conventions
+[11.624s] -- Added test 'lint_cmake' to check CMake code style
+[11.627s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[11.634s] -- Added test 'uncrustify' to check C / C++ code style
+[11.635s] -- Configured uncrustify additional arguments: 
+[11.637s] -- Added test 'xmllint' to check XML markup files
+[11.647s] -- Configuring done
+[12.010s] -- Generating done
+[12.042s] -- Build files have been written to: /workspaces/isaac_ros-dev/build/isaac_ros_nitros_camera_info_type
+[12.106s] Invoked command in '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_camera_info_type' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/isaac_ros-dev/src/isaac_ros_nitros/isaac_ros_nitros_type/isaac_ros_nitros_camera_info_type -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type
+[12.109s] Invoking command in '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_camera_info_type': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/isaac_ros_nitros_camera_info_type -- -j4 -l4
+[12.354s] [  2%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/binary.cpp.o[0m
+[12.377s] [  5%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/convert.cpp.o[0m
+[12.391s] [  8%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/directives.cpp.o[0m
+[13.490s] [ 11%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emit.cpp.o[0m
+[18.318s] [ 14%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o[0m
+[20.786s] [ 17%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o[0m
+[29.603s] [ 20%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.o[0m
+[30.592s] [ 22%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/exp.cpp.o[0m
+[32.238s] [ 25%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/memory.cpp.o[0m
+[34.090s] [ 28%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/node.cpp.o[0m
+[35.092s] [ 31%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o[0m
+[37.646s] [ 34%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o[0m
+[40.160s] [ 37%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o[0m
+[42.240s] [ 40%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/null.cpp.o[0m
+[42.750s] [ 42%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o[0m
+[43.863s] [ 45%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/parse.cpp.o[0m
+[46.402s] [ 48%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/parser.cpp.o[0m
+[48.787s] [ 51%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.o[0m
+[50.183s] [ 54%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o[0m
+[54.220s] [ 57%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o[0m
+[57.091s] [ 60%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o[0m
+[59.334s] [ 62%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o[0m
+[65.434s] [ 65%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o[0m
+[67.177s] [ 68%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o[0m
+[70.281s] [ 71%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/stream.cpp.o[0m
+[71.745s] [ 74%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/tag.cpp.o[0m
+[72.969s] [ 77%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.o[0m
+[74.155s] [ 80%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.o[0m
+[75.382s] [ 82%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o[0m
+[77.981s] [ 85%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o[0m
+[79.910s] [ 88%] [32m[1mLinking CXX static library libyaml-cpp.a[0m
+[79.996s] [ 88%] Built target yaml-cpp
+[80.035s] [ 91%] [32mBuilding CXX object CMakeFiles/isaac_ros_nitros_camera_info_type.dir/src/nitros_camera_info.cpp.o[0m
+[108.826s] [ 94%] [32m[1mLinking CXX shared library libisaac_ros_nitros_camera_info_type.so[0m
+[109.398s] [ 94%] Built target isaac_ros_nitros_camera_info_type
+[109.438s] [ 97%] [32mBuilding CXX object CMakeFiles/nitros_camera_info_forward_node.dir/test/src/nitros_camera_info_forward_node.cpp.o[0m
+[165.452s] [100%] [32m[1mLinking CXX shared library libnitros_camera_info_forward_node.so[0m
+[166.510s] [100%] Built target nitros_camera_info_forward_node
+[166.540s] Invoked command in '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_camera_info_type' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/isaac_ros_nitros_camera_info_type -- -j4 -l4
+[166.649s] Invoking command in '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_camera_info_type': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/isaac_ros_nitros_camera_info_type
+[166.669s] -- Install configuration: "Release"
+[166.670s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/lib/libyaml-cpp.a
+[166.673s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp
+[166.674s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/exceptions.h
+[166.674s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/ostream_wrapper.h
+[166.674s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/emitterstyle.h
+[166.674s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/yaml.h
+[166.675s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/binary.h
+[166.675s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/emitfromevents.h
+[166.675s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/dll.h
+[166.676s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/traits.h
+[166.676s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/contrib
+[166.676s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/contrib/anchordict.h
+[166.677s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/contrib/graphbuilder.h
+[166.677s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/emitter.h
+[166.677s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/stlemitter.h
+[166.678s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/eventhandler.h
+[166.678s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/emittermanip.h
+[166.678s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/anchor.h
+[166.679s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/parser.h
+[166.679s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/emitterdef.h
+[166.679s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/node
+[166.680s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/node/emit.h
+[166.680s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/node/impl.h
+[166.680s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/node/convert.h
+[166.680s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/node/iterator.h
+[166.681s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/node/parse.h
+[166.681s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/node/detail
+[166.681s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/node/detail/impl.h
+[166.682s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/node/detail/node_ref.h
+[166.682s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/node/detail/iterator.h
+[166.682s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/node/detail/node_iterator.h
+[166.683s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/node/detail/memory.h
+[166.683s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/node/detail/iterator_fwd.h
+[166.683s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/node/detail/node_data.h
+[166.684s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/node/detail/bool_type.h
+[166.684s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/node/detail/node.h
+[166.685s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/node/node.h
+[166.685s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/node/ptr.h
+[166.685s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/node/type.h
+[166.686s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/null.h
+[166.687s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/yaml-cpp/mark.h
+[166.687s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/lib/cmake/yaml-cpp/yaml-cpp-config.cmake
+[166.688s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/lib/cmake/yaml-cpp/yaml-cpp-config-version.cmake
+[166.688s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/lib/cmake/yaml-cpp/yaml-cpp-targets.cmake
+[166.697s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/lib/cmake/yaml-cpp/yaml-cpp-targets-release.cmake
+[166.701s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/lib/pkgconfig/yaml-cpp.pc
+[166.701s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/isaac_ros_nitros_camera_info_type/test/config
+[166.701s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/isaac_ros_nitros_camera_info_type/test/config/test_forward_node.yaml
+[166.702s] -- Up-to-date: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include
+[166.702s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/isaac_ros_nitros_camera_info_type
+[166.702s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/include/isaac_ros_nitros_camera_info_type/nitros_camera_info.hpp
+[166.703s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/isaac_ros_nitros_camera_info_type/environment/library_path.sh
+[166.703s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/isaac_ros_nitros_camera_info_type/environment/library_path.dsv
+[166.703s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/lib/libisaac_ros_nitros_camera_info_type.so
+[166.704s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/lib/libisaac_ros_nitros_camera_info_type.so" to "/usr/local/cuda/lib64:/opt/ros/humble/install/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/core:/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/multimedia"
+[166.704s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/lib/libnitros_camera_info_forward_node.so
+[166.704s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/lib/libnitros_camera_info_forward_node.so" to "/usr/local/cuda/lib64:/opt/ros/humble/install/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/core:/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/multimedia"
+[166.704s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/ament_index/resource_index/package_run_dependencies/isaac_ros_nitros_camera_info_type
+[166.722s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/ament_index/resource_index/parent_prefix_path/isaac_ros_nitros_camera_info_type
+[166.722s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/isaac_ros_nitros_camera_info_type/environment/ament_prefix_path.sh
+[166.722s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/isaac_ros_nitros_camera_info_type/environment/ament_prefix_path.dsv
+[166.723s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/isaac_ros_nitros_camera_info_type/environment/path.sh
+[166.723s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/isaac_ros_nitros_camera_info_type/environment/path.dsv
+[166.723s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/isaac_ros_nitros_camera_info_type/local_setup.bash
+[166.723s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/isaac_ros_nitros_camera_info_type/local_setup.sh
+[166.723s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/isaac_ros_nitros_camera_info_type/local_setup.zsh
+[166.724s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/isaac_ros_nitros_camera_info_type/local_setup.dsv
+[166.724s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/isaac_ros_nitros_camera_info_type/package.dsv
+[166.724s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/ament_index/resource_index/packages/isaac_ros_nitros_camera_info_type
+[166.724s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/ament_index/resource_index/rclcpp_components/isaac_ros_nitros_camera_info_type
+[166.724s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/isaac_ros_nitros_camera_info_type/cmake/ament_cmake_export_dependencies-extras.cmake
+[166.724s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/isaac_ros_nitros_camera_info_type/cmake/ament_cmake_export_include_directories-extras.cmake
+[166.725s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/isaac_ros_nitros_camera_info_type/cmake/ament_cmake_export_libraries-extras.cmake
+[166.725s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/isaac_ros_nitros_camera_info_type/cmake/isaac_ros_nitros_camera_info_typeConfig.cmake
+[166.725s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/isaac_ros_nitros_camera_info_type/cmake/isaac_ros_nitros_camera_info_typeConfig-version.cmake
+[166.725s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/share/isaac_ros_nitros_camera_info_type/package.xml
+[166.726s] Invoked command in '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_camera_info_type' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/isaac_ros_nitros_camera_info_type

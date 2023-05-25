@@ -1,216 +1,242 @@
-[0.149s] Invoking command in '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_interfaces': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib /usr/bin/cmake /workspaces/isaac_ros-dev/src/isaac_ros_nitros/isaac_ros_nitros_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces
-[0.354s] -- The C compiler identification is GNU 9.4.0
-[0.509s] -- The CXX compiler identification is GNU 9.4.0
-[0.546s] -- Detecting C compiler ABI info
-[0.685s] -- Detecting C compiler ABI info - done
-[0.717s] -- Check for working C compiler: /usr/bin/cc - skipped
-[0.717s] -- Detecting C compile features
-[0.718s] -- Detecting C compile features - done
-[0.730s] -- Detecting CXX compiler ABI info
-[0.939s] -- Detecting CXX compiler ABI info - done
-[0.974s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
-[0.975s] -- Detecting CXX compile features
-[0.978s] -- Detecting CXX compile features - done
-[0.984s] -- Found ament_cmake_auto: 1.3.3 (/opt/ros/humble/install/share/ament_cmake_auto/cmake)
-[3.244s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
-[3.429s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
-[3.733s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
-[3.754s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
-[3.881s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
-[3.998s] -- Loading isaac_ros_common extras
-[3.998s] -- CMAKE_BUILD_TYPE: Release
-[4.036s] -- Looking for pthread.h
-[4.268s] -- Looking for pthread.h - found
-[4.269s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
-[4.484s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
-[4.485s] -- Looking for pthread_create in pthreads
-[4.672s] -- Looking for pthread_create in pthreads - not found
-[4.675s] -- Looking for pthread_create in pthread
-[4.823s] -- Looking for pthread_create in pthread - found
-[4.827s] -- Found Threads: TRUE  
-[4.875s] -- Found CUDA: /usr/local/cuda (found version "11.4") 
-[4.878s] -- Loading isaac_ros_common extras (modules)
-[5.121s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)
-[5.129s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/install/share/rmw_fastrtps_cpp/cmake)
-[5.493s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
-[5.587s] -- Found FastRTPS: /opt/ros/humble/install/include  
-[5.757s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
-[6.615s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/install/share/ament_cmake_ros/cmake)
-[6.921s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
-[7.285s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
-[7.365s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.6") 
-[7.369s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/install/share/python_cmake_module/cmake)
-[7.454s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
-[7.455s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
-[7.456s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
-[7.456s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
-[7.540s] -- Found PythonExtra: .so  
-[7.669s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/install/share/ament_lint_auto/cmake)
-[7.769s] -- Added test 'lint_cmake' to check CMake code style
-[7.772s] -- Added test 'xmllint' to check XML markup files
-[7.783s] -- Configuring done
-[8.183s] -- Generating done
-[8.209s] -- Build files have been written to: /workspaces/isaac_ros-dev/build/isaac_ros_nitros_interfaces
-[8.279s] Invoked command in '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_interfaces' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib /usr/bin/cmake /workspaces/isaac_ros-dev/src/isaac_ros_nitros/isaac_ros_nitros_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces
-[8.282s] Invoking command in '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_interfaces': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/isaac_ros_nitros_interfaces -- -j4 -l4
-[8.391s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
-[8.459s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
-[8.511s] [  6%] Built target ament_cmake_python_symlink_isaac_ros_nitros_interfaces
-[9.827s] [  6%] Built target isaac_ros_nitros_interfaces__cpp
-[9.902s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
-[9.904s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
-[10.058s] [ 16%] [32mBuilding C object CMakeFiles/isaac_ros_nitros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/isaac_ros_nitros_interfaces/msg/detail/topic_statistics__functions.c.o[0m
-[10.624s] [ 19%] [32m[1mLinking C shared library libisaac_ros_nitros_interfaces__rosidl_generator_c.so[0m
-[10.902s] [ 19%] Built target isaac_ros_nitros_interfaces__rosidl_generator_c
-[10.931s] [ 22%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
-[10.958s] running egg_info
-[10.977s] creating isaac_ros_nitros_interfaces.egg-info
-[11.113s] writing isaac_ros_nitros_interfaces.egg-info/PKG-INFO
-[11.122s] writing dependency_links to isaac_ros_nitros_interfaces.egg-info/dependency_links.txt
-[11.131s] writing top-level names to isaac_ros_nitros_interfaces.egg-info/top_level.txt
-[11.132s] writing manifest file 'isaac_ros_nitros_interfaces.egg-info/SOURCES.txt'
-[11.528s] reading manifest file 'isaac_ros_nitros_interfaces.egg-info/SOURCES.txt'
-[11.547s] writing manifest file 'isaac_ros_nitros_interfaces.egg-info/SOURCES.txt'
-[11.991s] [ 22%] Built target ament_cmake_python_build_isaac_ros_nitros_interfaces_egg
-[12.076s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
-[12.159s] [ 29%] [32mBuilding CXX object CMakeFiles/isaac_ros_nitros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/isaac_ros_nitros_interfaces/msg/detail/dds_fastrtps/topic_statistics__type_support.cpp.o[0m
-[12.196s] [ 32%] [32mBuilding CXX object CMakeFiles/isaac_ros_nitros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/isaac_ros_nitros_interfaces/msg/topic_statistics__type_support.cpp.o[0m
-[13.323s] [ 35%] [32mBuilding CXX object CMakeFiles/isaac_ros_nitros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/isaac_ros_nitros_interfaces/msg/detail/topic_statistics__type_support.cpp.o[0m
-[14.477s] [ 38%] [32mBuilding CXX object CMakeFiles/isaac_ros_nitros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/isaac_ros_nitros_interfaces/msg/detail/topic_statistics__type_support_c.cpp.o[0m
-[15.241s] [ 41%] [32m[1mLinking CXX shared library libisaac_ros_nitros_interfaces__rosidl_typesupport_cpp.so[0m
-[15.584s] [ 41%] Built target isaac_ros_nitros_interfaces__rosidl_typesupport_cpp
-[15.647s] [ 45%] [34m[1mGenerating C introspection for ROS interfaces[0m
-[17.132s] [ 48%] [32m[1mLinking CXX shared library libisaac_ros_nitros_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
-[17.763s] [ 48%] Built target isaac_ros_nitros_interfaces__rosidl_typesupport_fastrtps_cpp
-[17.843s] [ 51%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
-[18.369s] [ 54%] [32m[1mLinking CXX shared library libisaac_ros_nitros_interfaces__rosidl_typesupport_introspection_cpp.so[0m
-[18.388s] [ 58%] [32mBuilding C object CMakeFiles/isaac_ros_nitros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/isaac_ros_nitros_interfaces/msg/detail/topic_statistics__type_support.c.o[0m
-[18.780s] [ 61%] [32m[1mLinking C shared library libisaac_ros_nitros_interfaces__rosidl_typesupport_introspection_c.so[0m
-[18.869s] [ 61%] Built target isaac_ros_nitros_interfaces__rosidl_typesupport_introspection_cpp
-[19.037s] [ 61%] Built target isaac_ros_nitros_interfaces__rosidl_typesupport_introspection_c
-[19.604s] [ 64%] [32m[1mLinking CXX shared library libisaac_ros_nitros_interfaces__rosidl_typesupport_fastrtps_c.so[0m
-[19.996s] [ 67%] [32mBuilding CXX object CMakeFiles/isaac_ros_nitros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/isaac_ros_nitros_interfaces/msg/topic_statistics__type_support.cpp.o[0m
-[20.027s] [ 67%] Built target isaac_ros_nitros_interfaces__rosidl_typesupport_fastrtps_c
-[20.345s] [ 70%] [32m[1mLinking CXX shared library libisaac_ros_nitros_interfaces__rosidl_typesupport_c.so[0m
-[20.616s] [ 70%] Built target isaac_ros_nitros_interfaces__rosidl_typesupport_c
-[20.719s] [ 70%] Built target isaac_ros_nitros_interfaces
-[20.867s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
-[22.683s] [ 74%] Built target isaac_ros_nitros_interfaces__py
-[22.791s] [ 77%] [32mBuilding C object CMakeFiles/isaac_ros_nitros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/isaac_ros_nitros_interfaces/msg/_topic_statistics_s.c.o[0m
-[23.371s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/isaac_ros_nitros_interfaces/libisaac_ros_nitros_interfaces__rosidl_generator_py.so[0m
-[23.593s] [ 80%] Built target isaac_ros_nitros_interfaces__rosidl_generator_py
-[23.692s] [ 83%] [32mBuilding C object CMakeFiles/isaac_ros_nitros_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/isaac_ros_nitros_interfaces/_isaac_ros_nitros_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
-[23.700s] [ 87%] [32mBuilding C object CMakeFiles/isaac_ros_nitros_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/isaac_ros_nitros_interfaces/_isaac_ros_nitros_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
-[23.744s] [ 90%] [32mBuilding C object CMakeFiles/isaac_ros_nitros_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/isaac_ros_nitros_interfaces/_isaac_ros_nitros_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
-[24.360s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
-[24.419s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
-[24.490s] [ 96%] Built target isaac_ros_nitros_interfaces__rosidl_typesupport_c__pyext
-[24.499s] [ 96%] Built target isaac_ros_nitros_interfaces__rosidl_typesupport_introspection_c__pyext
-[24.564s] [100%] [32m[1mLinking C shared library rosidl_generator_py/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
-[24.651s] [100%] Built target isaac_ros_nitros_interfaces__rosidl_typesupport_fastrtps_c__pyext
-[24.677s] Invoked command in '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_interfaces' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/isaac_ros_nitros_interfaces -- -j4 -l4
-[24.950s] Invoking command in '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_interfaces': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/isaac_ros_nitros_interfaces
-[24.963s] -- Install configuration: "Release"
-[24.964s] -- Execute custom install script
-[24.965s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/ament_index/resource_index/rosidl_interfaces/isaac_ros_nitros_interfaces
-[24.977s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg/detail/topic_statistics__functions.h
-[24.988s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg/detail/topic_statistics__struct.h
-[24.998s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg/detail/topic_statistics__type_support.h
-[25.009s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg/rosidl_generator_c__visibility_control.h
-[25.020s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg/topic_statistics.h
-[25.031s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/environment/library_path.sh
-[25.041s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/environment/library_path.dsv
-[25.054s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg/detail/topic_statistics__rosidl_typesupport_fastrtps_c.h
-[25.064s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
-[25.074s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg/detail/topic_statistics__rosidl_typesupport_introspection_c.h
-[25.085s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
-[25.096s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg/detail/topic_statistics__builder.hpp
-[25.106s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg/detail/topic_statistics__struct.hpp
-[25.116s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg/detail/topic_statistics__traits.hpp
-[25.126s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg/topic_statistics.hpp
-[25.137s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg/detail/topic_statistics__rosidl_typesupport_fastrtps_cpp.hpp
-[25.147s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
-[25.158s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg/detail/topic_statistics__rosidl_typesupport_introspection_cpp.hpp
-[25.168s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/environment/pythonpath.sh
-[25.178s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/environment/pythonpath.dsv
-[25.189s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces-0.30.0-py3.8.egg-info/PKG-INFO
-[25.199s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces-0.30.0-py3.8.egg-info/SOURCES.txt
-[25.209s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces-0.30.0-py3.8.egg-info/dependency_links.txt
-[25.219s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces-0.30.0-py3.8.egg-info/top_level.txt
-[25.231s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces/__init__.py
-[25.243s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces/_isaac_ros_nitros_interfaces_s.ep.rosidl_typesupport_c.c
-[25.255s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces/_isaac_ros_nitros_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
-[25.266s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces/_isaac_ros_nitros_interfaces_s.ep.rosidl_typesupport_introspection_c.c
-[25.277s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
-[25.288s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
-[25.298s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
-[25.308s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces/libisaac_ros_nitros_interfaces__rosidl_generator_py.so
-[25.318s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces/msg/__init__.py
-[25.328s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces/msg/_topic_statistics.py
-[25.338s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces/msg/_topic_statistics_s.c
-[25.348s] -- Up-to-date symlink: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
-[25.349s] -- Up-to-date symlink: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
-[25.350s] -- Up-to-date symlink: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
-[25.350s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/msg/TopicStatistics.idl
-[25.361s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/msg/TopicStatistics.msg
-[25.372s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/ament_index/resource_index/package_run_dependencies/isaac_ros_nitros_interfaces
-[25.382s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/ament_index/resource_index/parent_prefix_path/isaac_ros_nitros_interfaces
-[25.393s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/environment/ament_prefix_path.sh
-[25.404s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/environment/ament_prefix_path.dsv
-[25.415s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/environment/path.sh
-[25.426s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/environment/path.dsv
-[25.437s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/local_setup.bash
-[25.448s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/local_setup.sh
-[25.462s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/local_setup.zsh
-[25.474s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/local_setup.dsv
-[25.487s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/package.dsv
-[25.499s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/ament_index/resource_index/packages/isaac_ros_nitros_interfaces
-[25.511s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/rosidl_cmake-extras.cmake
-[25.525s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
-[25.540s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
-[25.559s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/ament_cmake_export_targets-extras.cmake
-[25.582s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
-[25.593s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
-[25.609s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
-[25.625s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/isaac_ros_nitros_interfacesConfig.cmake
-[25.655s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/isaac_ros_nitros_interfacesConfig-version.cmake
-[25.684s] -- Symlinking: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/package.xml
-[25.712s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/libisaac_ros_nitros_interfaces__rosidl_generator_c.so
-[25.713s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/libisaac_ros_nitros_interfaces__rosidl_generator_c.so" to ""
-[25.713s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/libisaac_ros_nitros_interfaces__rosidl_typesupport_fastrtps_c.so
-[25.714s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/libisaac_ros_nitros_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
-[25.714s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/libisaac_ros_nitros_interfaces__rosidl_typesupport_introspection_c.so
-[25.715s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/libisaac_ros_nitros_interfaces__rosidl_typesupport_introspection_c.so" to ""
-[25.715s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/libisaac_ros_nitros_interfaces__rosidl_typesupport_c.so
-[25.716s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/libisaac_ros_nitros_interfaces__rosidl_typesupport_c.so" to ""
-[25.716s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/libisaac_ros_nitros_interfaces__rosidl_typesupport_fastrtps_cpp.so
-[25.717s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/libisaac_ros_nitros_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
-[25.717s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/libisaac_ros_nitros_interfaces__rosidl_typesupport_introspection_cpp.so
-[25.718s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/libisaac_ros_nitros_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
-[25.718s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/libisaac_ros_nitros_interfaces__rosidl_typesupport_cpp.so
-[25.719s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/libisaac_ros_nitros_interfaces__rosidl_typesupport_cpp.so" to ""
-[25.904s] Listing '/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces'...
-[25.905s] Compiling '/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces/__init__.py'...
-[25.905s] Listing '/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces/msg'...
-[25.905s] Compiling '/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces/msg/__init__.py'...
-[25.905s] Compiling '/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces/msg/_topic_statistics.py'...
-[25.945s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/libisaac_ros_nitros_interfaces__rosidl_generator_py.so
-[25.946s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/libisaac_ros_nitros_interfaces__rosidl_generator_py.so" to ""
-[25.946s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/export_isaac_ros_nitros_interfaces__rosidl_generator_cExport.cmake
-[25.946s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/export_isaac_ros_nitros_interfaces__rosidl_generator_cExport-release.cmake
-[25.947s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/export_isaac_ros_nitros_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
-[25.947s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/export_isaac_ros_nitros_interfaces__rosidl_typesupport_fastrtps_cExport-release.cmake
-[25.948s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/isaac_ros_nitros_interfaces__rosidl_typesupport_introspection_cExport.cmake
-[25.948s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/isaac_ros_nitros_interfaces__rosidl_typesupport_introspection_cExport-release.cmake
-[25.949s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/isaac_ros_nitros_interfaces__rosidl_typesupport_cExport.cmake
-[25.949s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/isaac_ros_nitros_interfaces__rosidl_typesupport_cExport-release.cmake
-[25.950s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/export_isaac_ros_nitros_interfaces__rosidl_generator_cppExport.cmake
-[25.950s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/export_isaac_ros_nitros_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
-[25.951s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/export_isaac_ros_nitros_interfaces__rosidl_typesupport_fastrtps_cppExport-release.cmake
-[25.951s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/isaac_ros_nitros_interfaces__rosidl_typesupport_introspection_cppExport.cmake
-[25.952s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/isaac_ros_nitros_interfaces__rosidl_typesupport_introspection_cppExport-release.cmake
-[25.952s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/isaac_ros_nitros_interfaces__rosidl_typesupport_cppExport.cmake
-[25.956s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/isaac_ros_nitros_interfaces__rosidl_typesupport_cppExport-release.cmake
-[25.956s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/export_isaac_ros_nitros_interfaces__rosidl_generator_pyExport.cmake
-[25.957s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/export_isaac_ros_nitros_interfaces__rosidl_generator_pyExport-release.cmake
-[25.985s] Invoked command in '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_interfaces' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/isaac_ros_nitros_interfaces
+[0.140s] Invoking command in '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_interfaces': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib /usr/bin/cmake /workspaces/isaac_ros-dev/src/isaac_ros_nitros/isaac_ros_nitros_interfaces -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces
+[0.296s] -- The C compiler identification is GNU 9.4.0
+[0.444s] -- The CXX compiler identification is GNU 9.4.0
+[0.464s] -- Detecting C compiler ABI info
+[0.652s] -- Detecting C compiler ABI info - done
+[0.672s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.674s] -- Detecting C compile features
+[0.679s] -- Detecting C compile features - done
+[0.693s] -- Detecting CXX compiler ABI info
+[0.895s] -- Detecting CXX compiler ABI info - done
+[0.917s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.918s] -- Detecting CXX compile features
+[0.918s] -- Detecting CXX compile features - done
+[0.926s] -- Found ament_cmake_auto: 1.3.3 (/opt/ros/humble/install/share/ament_cmake_auto/cmake)
+[3.186s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+[3.651s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.672s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+[3.801s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.912s] -- Loading isaac_ros_common extras
+[3.913s] -- CMAKE_BUILD_TYPE: Release
+[3.971s] -- Looking for pthread.h
+[4.166s] -- Looking for pthread.h - found
+[4.166s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.332s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.333s] -- Looking for pthread_create in pthreads
+[4.521s] -- Looking for pthread_create in pthreads - not found
+[4.522s] -- Looking for pthread_create in pthread
+[4.714s] -- Looking for pthread_create in pthread - found
+[4.717s] -- Found Threads: TRUE  
+[4.761s] -- Found CUDA: /usr/local/cuda (found version "11.4") 
+[4.763s] -- Loading isaac_ros_common extras (modules)
+[5.015s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)
+[5.024s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/install/share/rmw_fastrtps_cpp/cmake)
+[5.416s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.508s] -- Found FastRTPS: /opt/ros/humble/install/include  
+[5.681s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.496s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/install/share/ament_cmake_ros/cmake)
+[6.805s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.243s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.340s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.6") 
+[7.346s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/install/share/python_cmake_module/cmake)
+[7.447s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[7.448s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.449s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[7.449s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[7.528s] -- Found PythonExtra: .so  
+[7.716s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/install/share/ament_lint_auto/cmake)
+[7.813s] -- Added test 'lint_cmake' to check CMake code style
+[7.814s] -- Added test 'xmllint' to check XML markup files
+[7.832s] -- Configuring done
+[7.971s] -- Generating done
+[7.971s] -- Build files have been written to: /workspaces/isaac_ros-dev/build/isaac_ros_nitros_interfaces
+[8.041s] Invoked command in '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_interfaces' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib /usr/bin/cmake /workspaces/isaac_ros-dev/src/isaac_ros_nitros/isaac_ros_nitros_interfaces -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces
+[8.043s] Invoking command in '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_interfaces': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/isaac_ros_nitros_interfaces -- -j4 -l4
+[8.124s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[8.150s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[8.166s] [  6%] Built target ament_cmake_python_copy_isaac_ros_nitros_interfaces
+[9.538s] [  6%] Built target isaac_ros_nitros_interfaces__cpp
+[9.600s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[9.600s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[9.758s] [ 16%] [32mBuilding C object CMakeFiles/isaac_ros_nitros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/isaac_ros_nitros_interfaces/msg/detail/topic_statistics__functions.c.o[0m
+[10.372s] running egg_info
+[10.392s] creating isaac_ros_nitros_interfaces.egg-info
+[10.542s] writing isaac_ros_nitros_interfaces.egg-info/PKG-INFO
+[10.542s] writing dependency_links to isaac_ros_nitros_interfaces.egg-info/dependency_links.txt
+[10.543s] writing top-level names to isaac_ros_nitros_interfaces.egg-info/top_level.txt
+[10.544s] writing manifest file 'isaac_ros_nitros_interfaces.egg-info/SOURCES.txt'
+[10.553s] [ 19%] [32m[1mLinking C shared library libisaac_ros_nitros_interfaces__rosidl_generator_c.so[0m
+[10.820s] [ 19%] Built target isaac_ros_nitros_interfaces__rosidl_generator_c
+[10.890s] [ 22%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[10.966s] reading manifest file 'isaac_ros_nitros_interfaces.egg-info/SOURCES.txt'
+[10.968s] writing manifest file 'isaac_ros_nitros_interfaces.egg-info/SOURCES.txt'
+[11.459s] [ 22%] Built target ament_cmake_python_build_isaac_ros_nitros_interfaces_egg
+[11.542s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[11.660s] [ 29%] [32mBuilding CXX object CMakeFiles/isaac_ros_nitros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/isaac_ros_nitros_interfaces/msg/topic_statistics__type_support.cpp.o[0m
+[11.813s] [ 32%] [32mBuilding CXX object CMakeFiles/isaac_ros_nitros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/isaac_ros_nitros_interfaces/msg/detail/dds_fastrtps/topic_statistics__type_support.cpp.o[0m
+[13.102s] [ 35%] [32mBuilding CXX object CMakeFiles/isaac_ros_nitros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/isaac_ros_nitros_interfaces/msg/detail/topic_statistics__type_support.cpp.o[0m
+[13.939s] [ 38%] [32mBuilding CXX object CMakeFiles/isaac_ros_nitros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/isaac_ros_nitros_interfaces/msg/detail/topic_statistics__type_support_c.cpp.o[0m
+[14.842s] [ 41%] [32m[1mLinking CXX shared library libisaac_ros_nitros_interfaces__rosidl_typesupport_cpp.so[0m
+[15.146s] [ 41%] Built target isaac_ros_nitros_interfaces__rosidl_typesupport_cpp
+[15.247s] [ 45%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[17.031s] [ 48%] [32m[1mLinking CXX shared library libisaac_ros_nitros_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[17.662s] [ 48%] Built target isaac_ros_nitros_interfaces__rosidl_typesupport_fastrtps_cpp
+[17.678s] [ 51%] [32mBuilding C object CMakeFiles/isaac_ros_nitros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/isaac_ros_nitros_interfaces/msg/detail/topic_statistics__type_support.c.o[0m
+[17.754s] [ 54%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[17.842s] [ 58%] [32m[1mLinking CXX shared library libisaac_ros_nitros_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[18.182s] [ 61%] [32m[1mLinking C shared library libisaac_ros_nitros_interfaces__rosidl_typesupport_introspection_c.so[0m
+[18.441s] [ 61%] Built target isaac_ros_nitros_interfaces__rosidl_typesupport_introspection_c
+[18.441s] [ 61%] Built target isaac_ros_nitros_interfaces__rosidl_typesupport_introspection_cpp
+[18.807s] [ 64%] [32m[1mLinking CXX shared library libisaac_ros_nitros_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[19.238s] [ 64%] Built target isaac_ros_nitros_interfaces__rosidl_typesupport_fastrtps_c
+[19.850s] [ 67%] [32mBuilding CXX object CMakeFiles/isaac_ros_nitros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/isaac_ros_nitros_interfaces/msg/topic_statistics__type_support.cpp.o[0m
+[20.120s] [ 70%] [32m[1mLinking CXX shared library libisaac_ros_nitros_interfaces__rosidl_typesupport_c.so[0m
+[20.359s] [ 70%] Built target isaac_ros_nitros_interfaces__rosidl_typesupport_c
+[20.482s] [ 70%] Built target isaac_ros_nitros_interfaces
+[20.600s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[22.572s] [ 74%] Built target isaac_ros_nitros_interfaces__py
+[22.676s] [ 77%] [32mBuilding C object CMakeFiles/isaac_ros_nitros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/isaac_ros_nitros_interfaces/msg/_topic_statistics_s.c.o[0m
+[23.374s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/isaac_ros_nitros_interfaces/libisaac_ros_nitros_interfaces__rosidl_generator_py.so[0m
+[23.550s] [ 80%] Built target isaac_ros_nitros_interfaces__rosidl_generator_py
+[23.612s] [ 83%] [32mBuilding C object CMakeFiles/isaac_ros_nitros_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/isaac_ros_nitros_interfaces/_isaac_ros_nitros_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[23.622s] [ 87%] [32mBuilding C object CMakeFiles/isaac_ros_nitros_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/isaac_ros_nitros_interfaces/_isaac_ros_nitros_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[23.706s] [ 90%] [32mBuilding C object CMakeFiles/isaac_ros_nitros_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/isaac_ros_nitros_interfaces/_isaac_ros_nitros_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[24.228s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[24.347s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[24.348s] [100%] [32m[1mLinking C shared library rosidl_generator_py/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[24.356s] [100%] Built target isaac_ros_nitros_interfaces__rosidl_typesupport_c__pyext
+[24.439s] [100%] Built target isaac_ros_nitros_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[24.443s] [100%] Built target isaac_ros_nitros_interfaces__rosidl_typesupport_introspection_c__pyext
+[24.467s] Invoked command in '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_interfaces' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/isaac_ros_nitros_interfaces -- -j4 -l4
+[24.716s] Invoking command in '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_interfaces': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/isaac_ros_nitros_interfaces
+[24.735s] -- Install configuration: "Release"
+[24.736s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/ament_index/resource_index/rosidl_interfaces/isaac_ros_nitros_interfaces
+[24.736s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces
+[24.737s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg
+[24.737s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg/rosidl_generator_c__visibility_control.h
+[24.737s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg/topic_statistics.h
+[24.737s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg/detail
+[24.738s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg/detail/topic_statistics__functions.h
+[24.738s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg/detail/topic_statistics__functions.c
+[24.738s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg/detail/topic_statistics__type_support.h
+[24.738s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg/detail/topic_statistics__struct.h
+[24.738s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/environment/library_path.sh
+[24.739s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/environment/library_path.dsv
+[24.741s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/libisaac_ros_nitros_interfaces__rosidl_generator_c.so
+[24.744s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/libisaac_ros_nitros_interfaces__rosidl_generator_c.so" to ""
+[24.749s] -- Up-to-date: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces
+[24.749s] -- Up-to-date: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg
+[24.750s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[24.750s] -- Up-to-date: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg/detail
+[24.750s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg/detail/topic_statistics__rosidl_typesupport_fastrtps_c.h
+[24.758s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/libisaac_ros_nitros_interfaces__rosidl_typesupport_fastrtps_c.so
+[24.758s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/libisaac_ros_nitros_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[24.758s] -- Up-to-date: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces
+[24.759s] -- Up-to-date: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg
+[24.759s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[24.759s] -- Up-to-date: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg/detail
+[24.759s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg/detail/topic_statistics__rosidl_typesupport_introspection_c.h
+[24.760s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg/detail/topic_statistics__type_support.c
+[24.760s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/libisaac_ros_nitros_interfaces__rosidl_typesupport_introspection_c.so
+[24.760s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/libisaac_ros_nitros_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[24.760s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/libisaac_ros_nitros_interfaces__rosidl_typesupport_c.so
+[24.760s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/libisaac_ros_nitros_interfaces__rosidl_typesupport_c.so" to ""
+[24.761s] -- Up-to-date: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces
+[24.761s] -- Up-to-date: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg
+[24.761s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg/topic_statistics.hpp
+[24.761s] -- Up-to-date: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg/detail
+[24.762s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg/detail/topic_statistics__struct.hpp
+[24.765s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg/detail/topic_statistics__builder.hpp
+[24.766s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg/detail/topic_statistics__traits.hpp
+[24.766s] -- Up-to-date: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces
+[24.766s] -- Up-to-date: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg
+[24.766s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[24.766s] -- Up-to-date: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg/detail
+[24.767s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg/detail/dds_fastrtps
+[24.767s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg/detail/topic_statistics__rosidl_typesupport_fastrtps_cpp.hpp
+[24.767s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/libisaac_ros_nitros_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[24.767s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/libisaac_ros_nitros_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[24.767s] -- Up-to-date: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces
+[24.767s] -- Up-to-date: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg
+[24.768s] -- Up-to-date: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg/detail
+[24.768s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg/detail/topic_statistics__rosidl_typesupport_introspection_cpp.hpp
+[24.768s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/include/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces/msg/detail/topic_statistics__type_support.cpp
+[24.768s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/libisaac_ros_nitros_interfaces__rosidl_typesupport_introspection_cpp.so
+[24.768s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/libisaac_ros_nitros_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[24.768s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/libisaac_ros_nitros_interfaces__rosidl_typesupport_cpp.so
+[24.769s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/libisaac_ros_nitros_interfaces__rosidl_typesupport_cpp.so" to ""
+[24.769s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/environment/pythonpath.sh
+[24.773s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/environment/pythonpath.dsv
+[24.773s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces-0.30.0-py3.8.egg-info
+[24.774s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces-0.30.0-py3.8.egg-info/SOURCES.txt
+[24.774s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces-0.30.0-py3.8.egg-info/top_level.txt
+[24.774s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces-0.30.0-py3.8.egg-info/PKG-INFO
+[24.774s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces-0.30.0-py3.8.egg-info/dependency_links.txt
+[24.774s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces
+[24.775s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[24.775s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[24.775s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces/libisaac_ros_nitros_interfaces__rosidl_generator_py.so
+[24.775s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces/_isaac_ros_nitros_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[24.775s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces/_isaac_ros_nitros_interfaces_s.ep.rosidl_typesupport_c.c
+[24.775s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[24.776s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces/__init__.py
+[24.776s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces/msg
+[24.776s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces/msg/_topic_statistics.py
+[24.776s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces/msg/__init__.py
+[24.776s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces/msg/_topic_statistics_s.c
+[24.776s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces/_isaac_ros_nitros_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[24.855s] Listing '/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces'...
+[24.856s] Compiling '/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces/__init__.py'...
+[24.856s] Listing '/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces/msg'...
+[24.856s] Compiling '/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces/msg/__init__.py'...
+[24.856s] Compiling '/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces/msg/_topic_statistics.py'...
+[24.871s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[24.872s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[24.873s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[24.873s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[24.874s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[24.875s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages/isaac_ros_nitros_interfaces/isaac_ros_nitros_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[24.875s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/libisaac_ros_nitros_interfaces__rosidl_generator_py.so
+[24.876s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/libisaac_ros_nitros_interfaces__rosidl_generator_py.so" to ""
+[24.876s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/msg/TopicStatistics.idl
+[24.877s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/msg/TopicStatistics.msg
+[24.877s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/ament_index/resource_index/package_run_dependencies/isaac_ros_nitros_interfaces
+[24.878s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/ament_index/resource_index/parent_prefix_path/isaac_ros_nitros_interfaces
+[24.878s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/environment/ament_prefix_path.sh
+[24.879s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/environment/ament_prefix_path.dsv
+[24.879s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/environment/path.sh
+[24.880s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/environment/path.dsv
+[24.880s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/local_setup.bash
+[24.880s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/local_setup.sh
+[24.881s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/local_setup.zsh
+[24.881s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/local_setup.dsv
+[24.882s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/package.dsv
+[24.884s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/ament_index/resource_index/packages/isaac_ros_nitros_interfaces
+[24.885s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/export_isaac_ros_nitros_interfaces__rosidl_generator_cExport.cmake
+[24.885s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/export_isaac_ros_nitros_interfaces__rosidl_generator_cExport-release.cmake
+[24.886s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/export_isaac_ros_nitros_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[24.887s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/export_isaac_ros_nitros_interfaces__rosidl_typesupport_fastrtps_cExport-release.cmake
+[24.888s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/isaac_ros_nitros_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[24.888s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/isaac_ros_nitros_interfaces__rosidl_typesupport_introspection_cExport-release.cmake
+[24.889s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/isaac_ros_nitros_interfaces__rosidl_typesupport_cExport.cmake
+[24.890s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/isaac_ros_nitros_interfaces__rosidl_typesupport_cExport-release.cmake
+[24.890s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/export_isaac_ros_nitros_interfaces__rosidl_generator_cppExport.cmake
+[24.891s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/export_isaac_ros_nitros_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[24.892s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/export_isaac_ros_nitros_interfaces__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[24.892s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/isaac_ros_nitros_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[24.893s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/isaac_ros_nitros_interfaces__rosidl_typesupport_introspection_cppExport-release.cmake
+[24.894s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/isaac_ros_nitros_interfaces__rosidl_typesupport_cppExport.cmake
+[24.896s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/isaac_ros_nitros_interfaces__rosidl_typesupport_cppExport-release.cmake
+[24.898s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/export_isaac_ros_nitros_interfaces__rosidl_generator_pyExport.cmake
+[24.898s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/export_isaac_ros_nitros_interfaces__rosidl_generator_pyExport-release.cmake
+[24.899s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/rosidl_cmake-extras.cmake
+[24.900s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[24.900s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[24.901s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[24.902s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[24.902s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[24.903s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[24.904s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/isaac_ros_nitros_interfacesConfig.cmake
+[24.904s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/cmake/isaac_ros_nitros_interfacesConfig-version.cmake
+[24.905s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/share/isaac_ros_nitros_interfaces/package.xml
+[24.923s] Invoked command in '/workspaces/isaac_ros-dev/build/isaac_ros_nitros_interfaces' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/isaac_ros_nitros_interfaces

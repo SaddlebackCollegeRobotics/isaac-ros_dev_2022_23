@@ -1,0 +1,4 @@
+nvidia::isaac_ros::image_proc::ImageFormatConverterNode;lib/libimage_format_converter_node.so
+nvidia::isaac_ros::image_proc::RectifyNode;lib/librectify_node.so
+nvidia::isaac_ros::image_proc::ResizeNode;lib/libresize_node.so
+nvidia::isaac_ros::image_proc::ImageFlipNode;lib/libflip_node.so

@@ -315,17 +315,17 @@ isaac_ros_bi3d_interfaces__rosidl_typesupport_cpp/fast:
 .PHONY : isaac_ros_bi3d_interfaces__rosidl_typesupport_cpp/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_symlink_isaac_ros_bi3d_interfaces
+# Target rules for targets named ament_cmake_python_copy_isaac_ros_bi3d_interfaces
 
 # Build rule for target.
-ament_cmake_python_symlink_isaac_ros_bi3d_interfaces: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_isaac_ros_bi3d_interfaces
-.PHONY : ament_cmake_python_symlink_isaac_ros_bi3d_interfaces
+ament_cmake_python_copy_isaac_ros_bi3d_interfaces: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_isaac_ros_bi3d_interfaces
+.PHONY : ament_cmake_python_copy_isaac_ros_bi3d_interfaces
 
 # fast build rule for target.
-ament_cmake_python_symlink_isaac_ros_bi3d_interfaces/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_isaac_ros_bi3d_interfaces.dir/build.make CMakeFiles/ament_cmake_python_symlink_isaac_ros_bi3d_interfaces.dir/build
-.PHONY : ament_cmake_python_symlink_isaac_ros_bi3d_interfaces/fast
+ament_cmake_python_copy_isaac_ros_bi3d_interfaces/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_isaac_ros_bi3d_interfaces.dir/build.make CMakeFiles/ament_cmake_python_copy_isaac_ros_bi3d_interfaces.dir/build
+.PHONY : ament_cmake_python_copy_isaac_ros_bi3d_interfaces/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_isaac_ros_bi3d_interfaces_egg
@@ -683,7 +683,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_isaac_ros_bi3d_interfaces_egg"
-	@echo "... ament_cmake_python_symlink_isaac_ros_bi3d_interfaces"
+	@echo "... ament_cmake_python_copy_isaac_ros_bi3d_interfaces"
 	@echo "... isaac_ros_bi3d_interfaces"
 	@echo "... isaac_ros_bi3d_interfaces__cpp"
 	@echo "... isaac_ros_bi3d_interfaces__py"

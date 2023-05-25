@@ -43,7 +43,90 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/workspaces/isaac_ros-dev/build/isaac_ros_gxf/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/isaac_ros_gxf/gxf/include/" TYPE DIRECTORY FILES "/workspaces/isaac_ros-dev/src/isaac_ros_nitros/isaac_ros_gxf/gxf/core/include/")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/isaac_ros_gxf/gxf/include/" TYPE DIRECTORY FILES "/workspaces/isaac_ros-dev/src/isaac_ros_nitros/isaac_ros_gxf/gxf/ext/include/")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/isaac_ros_gxf/gxf/lib" TYPE DIRECTORY FILES "/workspaces/isaac_ros-dev/src/isaac_ros_nitros/isaac_ros_gxf/gxf/core/lib/gxf_jetpack51/")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/isaac_ros_gxf/gxf/lib" TYPE DIRECTORY FILES "/workspaces/isaac_ros-dev/src/isaac_ros_nitros/isaac_ros_gxf/gxf/ext/lib/gxf_jetpack51/")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/isaac_ros_gxf_cmake_path" TYPE FILE FILES "/workspaces/isaac_ros-dev/build/isaac_ros_gxf/ament_cmake_index/share/ament_index/resource_index/isaac_ros_gxf_cmake_path/isaac_ros_gxf")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/isaac_ros_gxf" TYPE DIRECTORY FILES "/workspaces/isaac_ros-dev/src/isaac_ros_nitros/isaac_ros_gxf/cmake")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/workspaces/isaac_ros-dev/build/isaac_ros_gxf/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/isaac_ros_gxf")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/workspaces/isaac_ros-dev/build/isaac_ros_gxf/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/isaac_ros_gxf")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/isaac_ros_gxf/environment" TYPE FILE FILES "/opt/ros/humble/install/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/isaac_ros_gxf/environment" TYPE FILE FILES "/workspaces/isaac_ros-dev/build/isaac_ros_gxf/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/isaac_ros_gxf/environment" TYPE FILE FILES "/opt/ros/humble/install/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/isaac_ros_gxf/environment" TYPE FILE FILES "/workspaces/isaac_ros-dev/build/isaac_ros_gxf/ament_cmake_environment_hooks/path.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/isaac_ros_gxf" TYPE FILE FILES "/workspaces/isaac_ros-dev/build/isaac_ros_gxf/ament_cmake_environment_hooks/local_setup.bash")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/isaac_ros_gxf" TYPE FILE FILES "/workspaces/isaac_ros-dev/build/isaac_ros_gxf/ament_cmake_environment_hooks/local_setup.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/isaac_ros_gxf" TYPE FILE FILES "/workspaces/isaac_ros-dev/build/isaac_ros_gxf/ament_cmake_environment_hooks/local_setup.zsh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/isaac_ros_gxf" TYPE FILE FILES "/workspaces/isaac_ros-dev/build/isaac_ros_gxf/ament_cmake_environment_hooks/local_setup.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/isaac_ros_gxf" TYPE FILE FILES "/workspaces/isaac_ros-dev/build/isaac_ros_gxf/ament_cmake_environment_hooks/package.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/workspaces/isaac_ros-dev/build/isaac_ros_gxf/ament_cmake_index/share/ament_index/resource_index/packages/isaac_ros_gxf")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/isaac_ros_gxf/cmake" TYPE FILE FILES "/workspaces/isaac_ros-dev/src/isaac_ros_nitros/isaac_ros_gxf/cmake/isaac_ros_gxf-extras.cmake")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/isaac_ros_gxf/cmake" TYPE FILE FILES
+    "/workspaces/isaac_ros-dev/build/isaac_ros_gxf/ament_cmake_core/isaac_ros_gxfConfig.cmake"
+    "/workspaces/isaac_ros-dev/build/isaac_ros_gxf/ament_cmake_core/isaac_ros_gxfConfig-version.cmake"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/isaac_ros_gxf" TYPE FILE FILES "/workspaces/isaac_ros-dev/src/isaac_ros_nitros/isaac_ros_gxf/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

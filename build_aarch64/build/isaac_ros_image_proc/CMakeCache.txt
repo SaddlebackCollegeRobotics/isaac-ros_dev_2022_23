@@ -25,7 +25,7 @@ AMENT_CMAKE_ENVIRONMENT_PARENT_PREFIX_PATH_GENERATION:BOOL=ON
 
 //Replace the CMake install command with a custom implementation
 // using symlinks instead of copying resources
-AMENT_CMAKE_SYMLINK_INSTALL:BOOL=1
+AMENT_CMAKE_SYMLINK_INSTALL:BOOL=OFF
 
 //Generate an uninstall target to revert the effects of the install
 // step
@@ -1436,8 +1436,6 @@ _Python3_EXECUTABLE:INTERNAL=/usr/bin/python3.8
 //Python3 Properties
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;8;10;64;;cpython-38-aarch64-linux-gnu;/usr/lib/python3.8;/usr/lib/python3.8;/usr/lib/python3.8/site-packages;/usr/lib/python3.8/site-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=180e97fb1279d3b900d9246ae8984c88
-//Index for unique symlink install targets
-__AMENT_CMAKE_SYMLINK_INSTALL_TARGETS_INDEX:INTERNAL=4
 __pkg_config_arguments__OPENSSL:INTERNAL=QUIET;openssl
 __pkg_config_checked__OPENSSL:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib__OPENSSL_crypto

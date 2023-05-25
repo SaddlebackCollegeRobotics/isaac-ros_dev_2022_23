@@ -1,19 +1,27 @@
-running develop
 running egg_info
-creating isaac_ros_to_h264_msgs_packet.egg-info
-writing isaac_ros_to_h264_msgs_packet.egg-info/PKG-INFO
-writing dependency_links to isaac_ros_to_h264_msgs_packet.egg-info/dependency_links.txt
-writing entry points to isaac_ros_to_h264_msgs_packet.egg-info/entry_points.txt
-writing requirements to isaac_ros_to_h264_msgs_packet.egg-info/requires.txt
-writing top-level names to isaac_ros_to_h264_msgs_packet.egg-info/top_level.txt
-writing manifest file 'isaac_ros_to_h264_msgs_packet.egg-info/SOURCES.txt'
-reading manifest file 'isaac_ros_to_h264_msgs_packet.egg-info/SOURCES.txt'
-writing manifest file 'isaac_ros_to_h264_msgs_packet.egg-info/SOURCES.txt'
-running build_ext
-Creating /workspaces/isaac_ros-dev/install/isaac_ros_to_h264_msgs_packet/lib/python3.8/site-packages/isaac-ros-to-h264-msgs-packet.egg-link (link to .)
-Installing ToH264MsgsPacket script to /workspaces/isaac_ros-dev/install/isaac_ros_to_h264_msgs_packet/lib/isaac_ros_to_h264_msgs_packet
-
-Installed /workspaces/isaac_ros-dev/build/isaac_ros_to_h264_msgs_packet
+creating ../../../../build/isaac_ros_to_h264_msgs_packet/isaac_ros_to_h264_msgs_packet.egg-info
+writing ../../../../build/isaac_ros_to_h264_msgs_packet/isaac_ros_to_h264_msgs_packet.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/isaac_ros_to_h264_msgs_packet/isaac_ros_to_h264_msgs_packet.egg-info/dependency_links.txt
+writing entry points to ../../../../build/isaac_ros_to_h264_msgs_packet/isaac_ros_to_h264_msgs_packet.egg-info/entry_points.txt
+writing requirements to ../../../../build/isaac_ros_to_h264_msgs_packet/isaac_ros_to_h264_msgs_packet.egg-info/requires.txt
+writing top-level names to ../../../../build/isaac_ros_to_h264_msgs_packet/isaac_ros_to_h264_msgs_packet.egg-info/top_level.txt
+writing manifest file '../../../../build/isaac_ros_to_h264_msgs_packet/isaac_ros_to_h264_msgs_packet.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/isaac_ros_to_h264_msgs_packet/isaac_ros_to_h264_msgs_packet.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/isaac_ros_to_h264_msgs_packet/isaac_ros_to_h264_msgs_packet.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspaces/isaac_ros-dev/build/isaac_ros_to_h264_msgs_packet/build
+creating /workspaces/isaac_ros-dev/build/isaac_ros_to_h264_msgs_packet/build/lib
+creating /workspaces/isaac_ros-dev/build/isaac_ros_to_h264_msgs_packet/build/lib/isaac_ros_to_h264_msgs_packet
+copying isaac_ros_to_h264_msgs_packet/ToH264MsgsPacket.py -> /workspaces/isaac_ros-dev/build/isaac_ros_to_h264_msgs_packet/build/lib/isaac_ros_to_h264_msgs_packet
+copying isaac_ros_to_h264_msgs_packet/__init__.py -> /workspaces/isaac_ros-dev/build/isaac_ros_to_h264_msgs_packet/build/lib/isaac_ros_to_h264_msgs_packet
+running install
+running install_lib
+creating /workspaces/isaac_ros-dev/install/isaac_ros_to_h264_msgs_packet/lib/python3.8/site-packages/isaac_ros_to_h264_msgs_packet
+copying /workspaces/isaac_ros-dev/build/isaac_ros_to_h264_msgs_packet/build/lib/isaac_ros_to_h264_msgs_packet/ToH264MsgsPacket.py -> /workspaces/isaac_ros-dev/install/isaac_ros_to_h264_msgs_packet/lib/python3.8/site-packages/isaac_ros_to_h264_msgs_packet
+copying /workspaces/isaac_ros-dev/build/isaac_ros_to_h264_msgs_packet/build/lib/isaac_ros_to_h264_msgs_packet/__init__.py -> /workspaces/isaac_ros-dev/install/isaac_ros_to_h264_msgs_packet/lib/python3.8/site-packages/isaac_ros_to_h264_msgs_packet
+byte-compiling /workspaces/isaac_ros-dev/install/isaac_ros_to_h264_msgs_packet/lib/python3.8/site-packages/isaac_ros_to_h264_msgs_packet/ToH264MsgsPacket.py to ToH264MsgsPacket.cpython-38.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/isaac_ros_to_h264_msgs_packet/lib/python3.8/site-packages/isaac_ros_to_h264_msgs_packet/__init__.py to __init__.cpython-38.pyc
 running install_data
 creating /workspaces/isaac_ros-dev/install/isaac_ros_to_h264_msgs_packet/share/ament_index
 creating /workspaces/isaac_ros-dev/install/isaac_ros_to_h264_msgs_packet/share/ament_index/resource_index
@@ -23,3 +31,8 @@ copying package.xml -> /workspaces/isaac_ros-dev/install/isaac_ros_to_h264_msgs_
 creating /workspaces/isaac_ros-dev/install/isaac_ros_to_h264_msgs_packet/share/isaac_ros_to_h264_msgs_packet/launch
 copying launch/h264_compatible_decoder.launch.py -> /workspaces/isaac_ros-dev/install/isaac_ros_to_h264_msgs_packet/share/isaac_ros_to_h264_msgs_packet/launch
 creating /workspaces/isaac_ros-dev/install/isaac_ros_to_h264_msgs_packet/share/isaac_ros_to_h264_msgs_packet/config
+running install_egg_info
+Copying ../../../../build/isaac_ros_to_h264_msgs_packet/isaac_ros_to_h264_msgs_packet.egg-info to /workspaces/isaac_ros-dev/install/isaac_ros_to_h264_msgs_packet/lib/python3.8/site-packages/isaac_ros_to_h264_msgs_packet-0.30.0-py3.8.egg-info
+running install_scripts
+Installing ToH264MsgsPacket script to /workspaces/isaac_ros-dev/install/isaac_ros_to_h264_msgs_packet/lib/isaac_ros_to_h264_msgs_packet
+writing list of installed files to '/workspaces/isaac_ros-dev/build/isaac_ros_to_h264_msgs_packet/install.log'

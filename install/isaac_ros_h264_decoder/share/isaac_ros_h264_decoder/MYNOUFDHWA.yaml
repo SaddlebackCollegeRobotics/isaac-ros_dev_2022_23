@@ -1,0 +1,123 @@
+---
+name: MYNOUFDHWA_decoder
+components:
+  - name: input_image
+    type: nvidia::gxf::DoubleBufferReceiver
+    parameters:
+      capacity: 12
+      policy: 0
+  - type: nvidia::gxf::MessageAvailableSchedulingTerm
+    parameters:
+      receiver: input_image
+      min_size: 1
+  - name: data_transmitter
+    type: nvidia::gxf::DoubleBufferTransmitter
+    parameters:
+      capacity: 12
+      policy: 0
+  - type: nvidia::gxf::DownstreamReceptiveSchedulingTerm
+    parameters:
+      transmitter: data_transmitter
+      min_size: 1
+  - name: pool
+    type: nvidia::gxf::BlockMemoryPool
+    parameters:
+      storage_type: 1
+      block_size: 6912000
+      num_blocks: 40
+  - type: nvidia::isaac::Decoder
+    parameters:
+      image_receiver: input_image
+      output_transmitter: data_transmitter
+      pool: pool
+      input_width: 1920
+      input_height: 1080
+      log_level: 2
+---
+name: MYNOUFDHWA_color_converter
+components:
+  - name: data_receiver
+    type: nvidia::gxf::DoubleBufferReceiver
+    parameters:
+      capacity: 1
+      policy: 0
+  - type: nvidia::gxf::MessageAvailableSchedulingTerm
+    parameters:
+      receiver: data_receiver
+      min_size: 1
+  - name: data_transmitter
+    type: nvidia::gxf::DoubleBufferTransmitter
+    parameters:
+      capacity: 1
+      policy: 0
+  - type: nvidia::gxf::DownstreamReceptiveSchedulingTerm
+    parameters:
+      transmitter: data_transmitter
+      min_size: 1
+  - name: pool
+    type: nvidia::gxf::BlockMemoryPool
+    parameters:
+      storage_type: 1
+      block_size: 6912000
+      num_blocks: 40
+  - name: color_converter_operator
+    type: nvidia::cvcore::tensor_ops::StreamConvertColorFormat
+    parameters:
+      output_type: RGB_U8
+      receiver: data_receiver
+      transmitter: data_transmitter
+      pool: pool
+      input_adapter: MYNOUFDHWA_global/adapter
+      output_adapter: MYNOUFDHWA_global/adapter
+      output_name: image
+      stream: MYNOUFDHWA_global/stream
+---
+name: MYNOUFDHWA_global
+components:
+  - name: adapter
+    type: nvidia::cvcore::tensor_ops::ImageAdapter
+    parameters:
+      message_type: VideoBuffer
+  - name: stream
+    type: nvidia::cvcore::tensor_ops::TensorStream
+    parameters:
+      backend_type: VPI
+      engine_type: GPU
+---
+name: MYNOUFDHWA_vault
+components:
+  - name: signal
+    type: nvidia::gxf::DoubleBufferReceiver
+    parameters:
+      capacity: 1
+      policy: 0
+  - type: nvidia::gxf::MessageAvailableSchedulingTerm
+    parameters:
+      receiver: signal
+      min_size: 1
+  - name: vault
+    type: nvidia::gxf::Vault
+    parameters:
+      source: signal
+      max_waiting_count: 1
+      drop_waiting: false
+---
+name: MYNOUFDHWA_connections
+components:
+  - type: nvidia::gxf::Connection
+    parameters:
+      source: MYNOUFDHWA_decoder/data_transmitter
+      target: MYNOUFDHWA_color_converter/data_receiver
+  - type: nvidia::gxf::Connection
+    parameters:
+      source: MYNOUFDHWA_color_converter/data_transmitter
+      target: MYNOUFDHWA_vault/signal
+---
+name: MYNOUFDHWA_SCXXMFXKQG
+components:
+  - type: nvidia::gxf::GreedyScheduler
+    parameters:
+      clock: clock
+      stop_on_deadlock: false
+  - name: clock
+    type: nvidia::gxf::RealtimeClock

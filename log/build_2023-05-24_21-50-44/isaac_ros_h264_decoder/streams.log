@@ -1,0 +1,202 @@
+[0.056s] Invoking command in '/workspaces/isaac_ros-dev/build/isaac_ros_h264_decoder': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_image_proc:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_image_proc:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_image_proc/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake /workspaces/isaac_ros-dev/src/isaac_ros_compression/isaac_ros_h264_decoder -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder
+[0.114s] -- The C compiler identification is GNU 9.4.0
+[0.158s] -- The CXX compiler identification is GNU 9.4.0
+[0.166s] -- Detecting C compiler ABI info
+[0.211s] -- Detecting C compiler ABI info - done
+[0.226s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.226s] -- Detecting C compile features
+[0.227s] -- Detecting C compile features - done
+[0.231s] -- Detecting CXX compiler ABI info
+[0.285s] -- Detecting CXX compiler ABI info - done
+[0.294s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.294s] -- Detecting CXX compile features
+[0.295s] -- Detecting CXX compile features - done
+[0.297s] -- Found ament_cmake_auto: 1.3.3 (/opt/ros/humble/install/share/ament_cmake_auto/cmake)
+[0.860s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+[1.032s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)
+[1.037s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+[1.046s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)
+[1.060s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.080s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.154s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)
+[1.160s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/install/share/rmw_fastrtps_cpp/cmake)
+[1.246s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.278s] -- Found FastRTPS: /opt/ros/humble/install/include  
+[1.320s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.329s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.375s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.375s] -- Looking for pthread_create in pthreads
+[1.413s] -- Looking for pthread_create in pthreads - not found
+[1.414s] -- Looking for pthread_create in pthread
+[1.458s] -- Looking for pthread_create in pthread - found
+[1.459s] -- Found Threads: TRUE  
+[1.844s] -- Loading isaac_ros_common extras
+[1.844s] -- CMAKE_BUILD_TYPE: Release
+[1.860s] -- Found CUDA: /usr/local/cuda (found version "11.8") 
+[1.861s] -- Loading isaac_ros_common extras (modules)
+[1.938s] -- Loading isaac_ros_gxf extras
+[2.887s] -- Found CUDAToolkit: /usr/local/cuda/include (found version "11.8.89") 
+[2.976s] -- Found atlas lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/libgxf_atlas.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[2.977s] -- Found cuda lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/cuda/libgxf_cuda.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[2.979s] -- Found isaac_messages lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/libgxf_isaac_messages.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[2.980s] -- Found isaac_ros_messages lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/libgxf_isaac_ros_messages.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[2.981s] -- Found multimedia lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/multimedia/libgxf_multimedia.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[2.984s] -- Found gxf_optimizer lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/libgxf_optimizer.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[2.985s] -- Found serialization lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/serialization/libgxf_serialization.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[2.986s] -- Found std lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/std/libgxf_std.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[2.988s] -- Found core lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/core/libgxf_core.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[2.990s] -- Found GXF:  (found suitable version "2.5.0", minimum required is "2.5.0") found components: core cuda multimedia serialization std 
+[4.637s] -- Performing Test FLAG_WEXTRA
+[4.687s] -- Performing Test FLAG_WEXTRA - Success
+[4.690s] -- Architecture: x86_64
+[4.692s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/install/share/ament_lint_auto/cmake)
+[4.718s] -- Found launch_testing_ament_cmake: 1.0.4 (/opt/ros/humble/install/share/launch_testing_ament_cmake/cmake)
+[4.719s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/install/share/python_cmake_module/cmake)
+[4.737s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.6") 
+[4.742s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[4.742s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.742s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[4.742s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[4.760s] -- Found PythonExtra: .so  
+[4.765s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.768s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.769s] -- Configured cppcheck include dirs: /workspaces/isaac_ros-dev/src/isaac_ros_compression/isaac_ros_h264_decoder/include
+[4.769s] -- Configured cppcheck exclude dirs and/or files: 
+[4.771s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.771s] -- Configured cpplint exclude dirs and/or files: 
+[4.771s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.772s] -- Added test 'lint_cmake' to check CMake code style
+[4.773s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.774s] -- Added test 'uncrustify' to check C / C++ code style
+[4.775s] -- Configured uncrustify additional arguments: 
+[4.775s] -- Added test 'xmllint' to check XML markup files
+[4.778s] -- Configuring done (4.7s)
+[4.807s] -- Generating done (0.0s)
+[4.809s] -- Build files have been written to: /workspaces/isaac_ros-dev/build/isaac_ros_h264_decoder
+[4.822s] Invoked command in '/workspaces/isaac_ros-dev/build/isaac_ros_h264_decoder' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_image_proc:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_image_proc:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_image_proc/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake /workspaces/isaac_ros-dev/src/isaac_ros_compression/isaac_ros_h264_decoder -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder
+[4.826s] Invoking command in '/workspaces/isaac_ros-dev/build/isaac_ros_h264_decoder': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_image_proc:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_image_proc:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_image_proc/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /workspaces/isaac_ros-dev/build/isaac_ros_h264_decoder -- -j16 -l16
+[4.866s] [  2%] [32mBuilding CXX object CMakeFiles/decoder_node.dir/src/decoder_node.cpp.o[0m
+[4.866s] [  5%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/binary.cpp.o[0m
+[4.867s] [ 11%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/convert.cpp.o[0m
+[4.867s] [ 13%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emit.cpp.o[0m
+[4.867s] [ 13%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/directives.cpp.o[0m
+[4.868s] [ 19%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o[0m
+[4.868s] [ 22%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o[0m
+[4.868s] [ 22%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o[0m
+[4.868s] [ 25%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.o[0m
+[4.868s] [ 27%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o[0m
+[4.868s] [ 30%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/exp.cpp.o[0m
+[4.869s] [ 36%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/memory.cpp.o[0m
+[4.869s] [ 36%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/node.cpp.o[0m
+[4.869s] [ 41%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o[0m
+[4.869s] [ 41%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o[0m
+[4.869s] [ 44%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o[0m
+[5.272s] [ 47%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/null.cpp.o[0m
+[5.296s] [ 50%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o[0m
+[5.301s] [ 52%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/parse.cpp.o[0m
+[5.507s] [ 55%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/parser.cpp.o[0m
+[5.556s] [ 58%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.o[0m
+[5.680s] [ 61%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o[0m
+[5.716s] [ 63%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o[0m
+[5.720s] [ 66%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o[0m
+[5.780s] [ 69%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o[0m
+[5.857s] [ 72%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o[0m
+[5.882s] [ 75%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o[0m
+[5.985s] [ 77%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/stream.cpp.o[0m
+[5.991s] [ 80%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/tag.cpp.o[0m
+[6.019s] [ 83%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.o[0m
+[6.105s] [ 86%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.o[0m
+[9.724s] [ 88%] [32m[1mLinking CXX static library libyaml-cpp.a[0m
+[9.746s] [ 88%] Built target yaml-cpp
+[9.755s] [ 94%] [32mBuilding CXX object gxf/codec/CMakeFiles/gxf_codec_extension.dir/decoder_extension.cpp.o[0m
+[9.755s] [ 94%] [32mBuilding CXX object gxf/codec/CMakeFiles/gxf_codec_extension.dir/components/decoder.cpp.o[0m
+[13.310s] [ 97%] [32m[1mLinking CXX shared library libgxf_codec_extension.so[0m
+[13.374s] [ 97%] Built target gxf_codec_extension
+[29.887s] [100%] [32m[1mLinking CXX shared library libdecoder_node.so[0m
+[30.096s] [100%] Built target decoder_node
+[30.103s] Invoked command in '/workspaces/isaac_ros-dev/build/isaac_ros_h264_decoder' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_image_proc:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_image_proc:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_image_proc/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /workspaces/isaac_ros-dev/build/isaac_ros_h264_decoder -- -j16 -l16
+[30.149s] Invoking command in '/workspaces/isaac_ros-dev/build/isaac_ros_h264_decoder': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_image_proc:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_image_proc:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_image_proc/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --install /workspaces/isaac_ros-dev/build/isaac_ros_h264_decoder
+[30.171s] -- Install configuration: "Release"
+[30.171s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/lib/libyaml-cpp.a
+[30.172s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/include/yaml-cpp
+[30.172s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/include/yaml-cpp/mark.h
+[30.172s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/include/yaml-cpp/emittermanip.h
+[30.172s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/include/yaml-cpp/emitter.h
+[30.172s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/include/yaml-cpp/exceptions.h
+[30.172s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/include/yaml-cpp/traits.h
+[30.172s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/include/yaml-cpp/eventhandler.h
+[30.172s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/include/yaml-cpp/parser.h
+[30.172s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/include/yaml-cpp/dll.h
+[30.173s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/include/yaml-cpp/null.h
+[30.173s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/include/yaml-cpp/contrib
+[30.173s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/include/yaml-cpp/contrib/graphbuilder.h
+[30.173s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/include/yaml-cpp/contrib/anchordict.h
+[30.173s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/include/yaml-cpp/emitterdef.h
+[30.173s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/include/yaml-cpp/anchor.h
+[30.173s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/include/yaml-cpp/emitfromevents.h
+[30.173s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/include/yaml-cpp/emitterstyle.h
+[30.173s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/include/yaml-cpp/node
+[30.173s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/include/yaml-cpp/node/impl.h
+[30.173s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/include/yaml-cpp/node/parse.h
+[30.173s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/include/yaml-cpp/node/detail
+[30.173s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/include/yaml-cpp/node/detail/node_data.h
+[30.173s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/include/yaml-cpp/node/detail/impl.h
+[30.173s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/include/yaml-cpp/node/detail/node_iterator.h
+[30.173s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/include/yaml-cpp/node/detail/memory.h
+[30.174s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/include/yaml-cpp/node/detail/iterator.h
+[30.174s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/include/yaml-cpp/node/detail/iterator_fwd.h
+[30.174s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/include/yaml-cpp/node/detail/node.h
+[30.174s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/include/yaml-cpp/node/detail/bool_type.h
+[30.174s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/include/yaml-cpp/node/detail/node_ref.h
+[30.174s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/include/yaml-cpp/node/convert.h
+[30.174s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/include/yaml-cpp/node/iterator.h
+[30.174s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/include/yaml-cpp/node/type.h
+[30.174s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/include/yaml-cpp/node/node.h
+[30.174s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/include/yaml-cpp/node/emit.h
+[30.174s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/include/yaml-cpp/node/ptr.h
+[30.174s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/include/yaml-cpp/ostream_wrapper.h
+[30.174s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/include/yaml-cpp/stlemitter.h
+[30.174s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/include/yaml-cpp/binary.h
+[30.174s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/include/yaml-cpp/yaml.h
+[30.174s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/lib/cmake/yaml-cpp/yaml-cpp-config.cmake
+[30.174s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/lib/cmake/yaml-cpp/yaml-cpp-config-version.cmake
+[30.175s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/lib/cmake/yaml-cpp/yaml-cpp-targets.cmake
+[30.175s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/lib/cmake/yaml-cpp/yaml-cpp-targets-release.cmake
+[30.175s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/lib/pkgconfig/yaml-cpp.pc
+[30.175s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/share/isaac_ros_h264_decoder/gxf/lib/codec/libgxf_codec_extension.so
+[30.175s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/share/isaac_ros_h264_decoder/gxf/lib/codec/libgxf_codec_extension.so" to ""
+[30.175s] -- Up-to-date: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/include
+[30.175s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/include/isaac_ros_h264_decoder
+[30.175s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/include/isaac_ros_h264_decoder/decoder_node.hpp
+[30.175s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/share/isaac_ros_h264_decoder/environment/library_path.sh
+[30.175s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/share/isaac_ros_h264_decoder/environment/library_path.dsv
+[30.175s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/lib/libdecoder_node.so
+[30.178s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/lib/libdecoder_node.so" to ""
+[30.178s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/share/isaac_ros_h264_decoder/config
+[30.178s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/share/isaac_ros_h264_decoder/config/namespace_injector_rule.yaml
+[30.178s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/share/isaac_ros_h264_decoder/config/nitros_decoder_node.yaml
+[30.178s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/share/isaac_ros_h264_decoder/config/spec.yaml
+[30.178s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/share/isaac_ros_h264_decoder/config/nitros_decoder_node_jetson.yaml
+[30.178s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/share/isaac_ros_h264_decoder/launch
+[30.179s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/share/isaac_ros_h264_decoder/launch/isaac_ros_h264_decoder_rosbag.launch.py
+[30.179s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/share/isaac_ros_h264_decoder/launch/isaac_ros_h264_decoder.launch.py
+[30.179s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/share/ament_index/resource_index/package_run_dependencies/isaac_ros_h264_decoder
+[30.179s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/share/ament_index/resource_index/parent_prefix_path/isaac_ros_h264_decoder
+[30.179s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/share/isaac_ros_h264_decoder/environment/ament_prefix_path.sh
+[30.179s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/share/isaac_ros_h264_decoder/environment/ament_prefix_path.dsv
+[30.179s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/share/isaac_ros_h264_decoder/environment/path.sh
+[30.179s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/share/isaac_ros_h264_decoder/environment/path.dsv
+[30.180s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/share/isaac_ros_h264_decoder/local_setup.bash
+[30.180s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/share/isaac_ros_h264_decoder/local_setup.sh
+[30.180s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/share/isaac_ros_h264_decoder/local_setup.zsh
+[30.180s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/share/isaac_ros_h264_decoder/local_setup.dsv
+[30.180s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/share/isaac_ros_h264_decoder/package.dsv
+[30.180s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/share/ament_index/resource_index/packages/isaac_ros_h264_decoder
+[30.180s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/share/ament_index/resource_index/rclcpp_components/isaac_ros_h264_decoder
+[30.180s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/share/isaac_ros_h264_decoder/cmake/ament_cmake_export_dependencies-extras.cmake
+[30.180s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/share/isaac_ros_h264_decoder/cmake/ament_cmake_export_include_directories-extras.cmake
+[30.180s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/share/isaac_ros_h264_decoder/cmake/ament_cmake_export_libraries-extras.cmake
+[30.180s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/share/isaac_ros_h264_decoder/cmake/isaac_ros_h264_decoderConfig.cmake
+[30.181s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/share/isaac_ros_h264_decoder/cmake/isaac_ros_h264_decoderConfig-version.cmake
+[30.181s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_h264_decoder/share/isaac_ros_h264_decoder/package.xml
+[30.185s] Invoked command in '/workspaces/isaac_ros-dev/build/isaac_ros_h264_decoder' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_image_proc:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_image_proc:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_image_proc/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_compressed_image_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --install /workspaces/isaac_ros-dev/build/isaac_ros_h264_decoder

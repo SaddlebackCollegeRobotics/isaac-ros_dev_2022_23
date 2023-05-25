@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/workspaces/isaac_ros-dev/build/isaac_ros_stereo_image_proc/libpoint_cloud_node.so" "/workspaces/isaac_ros-dev/build/isaac_ros_stereo_image_proc/libdisparity_node.so" "TARGETS" "point_cloud_node" "disparity_node" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

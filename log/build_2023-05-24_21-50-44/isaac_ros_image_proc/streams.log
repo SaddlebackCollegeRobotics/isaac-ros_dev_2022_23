@@ -1,0 +1,281 @@
+[0.028s] Invoking command in '/workspaces/isaac_ros-dev/build/isaac_ros_image_proc': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake /workspaces/isaac_ros-dev/src/isaac_ros_image_pipeline/isaac_ros_image_proc -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/isaac_ros_image_proc
+[0.112s] -- The C compiler identification is GNU 9.4.0
+[0.157s] -- The CXX compiler identification is GNU 9.4.0
+[0.168s] -- Detecting C compiler ABI info
+[0.213s] -- Detecting C compiler ABI info - done
+[0.222s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.222s] -- Detecting C compile features
+[0.223s] -- Detecting C compile features - done
+[0.226s] -- Detecting CXX compiler ABI info
+[0.278s] -- Detecting CXX compiler ABI info - done
+[0.287s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.287s] -- Detecting CXX compile features
+[0.288s] -- Detecting CXX compile features - done
+[0.291s] -- Found ament_cmake_auto: 1.3.3 (/opt/ros/humble/install/share/ament_cmake_auto/cmake)
+[0.933s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+[1.052s] -- Loading isaac_ros_common extras
+[1.052s] -- CMAKE_BUILD_TYPE: Release
+[1.064s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.113s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.113s] -- Looking for pthread_create in pthreads
+[1.151s] -- Looking for pthread_create in pthreads - not found
+[1.151s] -- Looking for pthread_create in pthread
+[1.195s] -- Looking for pthread_create in pthread - found
+[1.196s] -- Found Threads: TRUE  
+[1.214s] -- Found CUDA: /usr/local/cuda (found version "11.8") 
+[1.215s] -- Loading isaac_ros_common extras (modules)
+[1.266s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)
+[1.273s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+[1.283s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)
+[1.301s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.326s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.408s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)
+[1.412s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/install/share/rmw_fastrtps_cpp/cmake)
+[1.518s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.541s] -- Found FastRTPS: /opt/ros/humble/install/include  
+[1.584s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.893s] -- Loading isaac_ros_gxf extras
+[8.837s] -- Performing Test FLAG_WEXTRA
+[8.893s] -- Performing Test FLAG_WEXTRA - Success
+[8.898s] -- Found atlas lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/libgxf_atlas.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[8.900s] -- Found cuda lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/cuda/libgxf_cuda.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[8.901s] -- Found isaac_messages lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/libgxf_isaac_messages.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[8.903s] -- Found isaac_ros_messages lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/libgxf_isaac_ros_messages.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[8.904s] -- Found multimedia lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/multimedia/libgxf_multimedia.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[8.907s] -- Found gxf_optimizer lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/libgxf_optimizer.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[8.909s] -- Found serialization lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/serialization/libgxf_serialization.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[8.910s] -- Found std lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/std/libgxf_std.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[8.912s] -- Found core lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/core/libgxf_core.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[8.915s] -- Found GXF:  (found suitable version "2.5.0", minimum required is "2.5.0") found components: multimedia 
+[8.929s] -- Found CUDAToolkit: /usr/local/cuda/include (found version "11.8.89") 
+[9.023s] -- Found atlas lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/libgxf_atlas.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[9.023s] -- Found cuda lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/cuda/libgxf_cuda.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[9.023s] -- Found isaac_messages lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/libgxf_isaac_messages.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[9.023s] -- Found isaac_ros_messages lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/libgxf_isaac_ros_messages.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[9.023s] -- Found multimedia lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/multimedia/libgxf_multimedia.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[9.023s] -- Found gxf_optimizer lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/libgxf_optimizer.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[9.023s] -- Found serialization lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/serialization/libgxf_serialization.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[9.024s] -- Found std lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/std/libgxf_std.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[9.024s] -- Found core lib=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/lib/core/libgxf_core.so, include=/workspaces/isaac_ros-dev/install/isaac_ros_gxf/share/isaac_ros_gxf/gxf/include/gxf
+[9.026s] -- Found GXF:  (found suitable version "2.5.0", minimum required is "2.5.0") found components: cuda multimedia 
+[9.028s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/install/share/ament_lint_auto/cmake)
+[9.055s] -- Found launch_testing_ament_cmake: 1.0.4 (/opt/ros/humble/install/share/launch_testing_ament_cmake/cmake)
+[9.057s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/install/share/python_cmake_module/cmake)
+[9.077s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.6") 
+[9.082s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[9.082s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[9.082s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[9.082s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[9.103s] -- Found PythonExtra: .so  
+[9.110s] -- Added test 'copyright' to check source files copyright and LICENSE
+[9.118s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.118s] -- Configured cppcheck include dirs: /workspaces/isaac_ros-dev/src/isaac_ros_image_pipeline/isaac_ros_image_proc/include
+[9.119s] -- Configured cppcheck exclude dirs and/or files: 
+[9.124s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[9.124s] -- Configured cpplint exclude dirs and/or files: 
+[9.125s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.127s] -- Added test 'lint_cmake' to check CMake code style
+[9.128s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[9.133s] -- Added test 'uncrustify' to check C / C++ code style
+[9.133s] -- Configured uncrustify additional arguments: 
+[9.134s] -- Added test 'xmllint' to check XML markup files
+[9.137s] -- Configuring done (9.1s)
+[9.276s] -- Generating done (0.1s)
+[9.279s] -- Build files have been written to: /workspaces/isaac_ros-dev/build/isaac_ros_image_proc
+[9.298s] Invoked command in '/workspaces/isaac_ros-dev/build/isaac_ros_image_proc' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake /workspaces/isaac_ros-dev/src/isaac_ros_image_pipeline/isaac_ros_image_proc -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/isaac_ros_image_proc
+[9.301s] Invoking command in '/workspaces/isaac_ros-dev/build/isaac_ros_image_proc': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /workspaces/isaac_ros-dev/build/isaac_ros_image_proc -- -j16 -l16
+[9.343s] [  3%] [32mBuilding CXX object gxf/tensorops/CMakeFiles/cvcore.dir/cvcore/src/tensor_ops/BBoxUtils.cpp.o[0m
+[9.344s] [  4%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/binary.cpp.o[0m
+[9.344s] [  5%] [32mBuilding CXX object gxf/tensorops/CMakeFiles/cvcore.dir/cvcore/src/tensor_ops/ColorConversions.cpp.o[0m
+[9.344s] [  5%] [32mBuilding CXX object gxf/tensorops/CMakeFiles/cvcore.dir/cvcore/src/tensor_ops/ArithmeticOperations.cpp.o[0m
+[9.344s] [  6%] [32mBuilding CXX object gxf/tensorops/CMakeFiles/cvcore.dir/cvcore/src/tensor_ops/DBScan.cpp.o[0m
+[9.344s] [  8%] [32mBuilding CXX object gxf/tensorops/CMakeFiles/cvcore.dir/cvcore/src/tensor_ops/Errors.cpp.o[0m
+[9.344s] [  9%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o[0m
+[9.345s] [ 10%] [32mBuilding CXX object gxf/tensorops/CMakeFiles/cvcore.dir/cvcore/src/tensor_ops/Filters.cpp.o[0m
+[9.345s] [ 10%] [32mBuilding CXX object CMakeFiles/image_format_converter_node.dir/src/image_format_converter_node.cpp.o[0m
+[9.345s] [ 12%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emit.cpp.o[0m
+[9.345s] [ 12%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o[0m
+[9.345s] [ 13%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/convert.cpp.o[0m
+[9.345s] [ 14%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/directives.cpp.o[0m
+[9.346s] [ 16%] [32mBuilding CXX object gxf/tensorops/CMakeFiles/cvcore.dir/cvcore/src/tensor_ops/FusedOperations.cpp.o[0m
+[9.346s] [ 17%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o[0m
+[9.348s] [ 18%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o[0m
+[9.797s] [ 19%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.o[0m
+[9.919s] [ 20%] [32mBuilding CXX object gxf/tensorops/CMakeFiles/cvcore.dir/cvcore/src/tensor_ops/GeometryTransforms.cpp.o[0m
+[10.285s] [ 21%] [32mBuilding CXX object gxf/tensorops/CMakeFiles/cvcore.dir/cvcore/src/tensor_ops/IImageWarp.cpp.o[0m
+[10.309s] [ 22%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/exp.cpp.o[0m
+[10.314s] [ 24%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/memory.cpp.o[0m
+[10.321s] [ 25%] [32mBuilding CXX object gxf/tensorops/CMakeFiles/cvcore.dir/cvcore/src/tensor_ops/NppUtils.cpp.o[0m
+[10.360s] [ 26%] [32mBuilding CXX object gxf/tensorops/CMakeFiles/cvcore.dir/cvcore/src/tensor_ops/OneEuroFilter.cpp.o[0m
+[10.445s] [ 27%] [32mBuilding CXX object gxf/tensorops/CMakeFiles/cvcore.dir/cvcore/src/tensor_ops/TensorOperators.cpp.o[0m
+[10.464s] [ 28%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/node.cpp.o[0m
+[10.672s] [ 29%] [32mBuilding CXX object gxf/tensorops/CMakeFiles/cvcore.dir/cvcore/src/tensor_ops/vpi/VPIColorConvertImpl.cpp.o[0m
+[10.756s] [ 31%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o[0m
+[10.793s] [ 32%] [32mBuilding CXX object gxf/tensorops/CMakeFiles/cvcore.dir/cvcore/src/tensor_ops/vpi/VPIRemapImpl.cpp.o[0m
+[10.865s] [ 33%] [32mBuilding CXX object gxf/tensorops/CMakeFiles/cvcore.dir/cvcore/src/tensor_ops/vpi/VPIResizeImpl.cpp.o[0m
+[10.893s] [ 34%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o[0m
+[11.001s] [ 35%] [32mBuilding CXX object gxf/tensorops/CMakeFiles/cvcore.dir/cvcore/src/tensor_ops/vpi/VPIStatusMapping.cpp.o[0m
+[11.128s] [ 36%] [32mBuilding CXX object gxf/tensorops/CMakeFiles/cvcore.dir/cvcore/src/tensor_ops/vpi/VPIStereoDisparityEstimatorImpl.cpp.o[0m
+[11.141s] [ 37%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o[0m
+[11.160s] [ 39%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/null.cpp.o[0m
+[11.220s] [ 40%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o[0m
+[11.487s] [ 41%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/parse.cpp.o[0m
+[11.494s] [ 42%] [32mBuilding CXX object gxf/tensorops/CMakeFiles/cvcore.dir/cvcore/src/tensor_ops/vpi/VPITensorOperators.cpp.o[0m
+[11.814s] [ 43%] [32mBuilding CXX object gxf/tensorops/CMakeFiles/cvcore.dir/cvcore/src/core/cvcore/Array.cpp.o[0m
+[12.001s] [ 44%] [32mBuilding CXX object gxf/tensorops/CMakeFiles/cvcore.dir/cvcore/src/core/cvcore/MathTypes.cpp.o[0m
+[12.286s] [ 45%] [32mBuilding CXX object gxf/tensorops/CMakeFiles/cvcore.dir/cvcore/src/core/cvcore/Tensor.cpp.o[0m
+[12.420s] [ 47%] [32mBuilding CXX object gxf/tensorops/CMakeFiles/cvcore.dir/cvcore/src/core/utility/CVError.cpp.o[0m
+[12.478s] [ 48%] [32mBuilding CXX object gxf/tensorops/CMakeFiles/cvcore.dir/cvcore/src/core/utility/Instrumentation.cpp.o[0m
+[12.481s] [ 49%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/parser.cpp.o[0m
+[12.518s] [ 50%] [32mBuilding CXX object gxf/tensorops/CMakeFiles/cvcore.dir/cvcore/src/core/utility/Memory.cpp.o[0m
+[12.577s] [ 52%] [32mBuilding CXX object gxf/tensorops/CMakeFiles/cvcore.dir/cvcore/src/core/utility/ProfileUtils.cpp.o[0m
+[12.577s] [ 52%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.o[0m
+[12.594s] [ 54%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o[0m
+[12.784s] [ 55%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o[0m
+[12.857s] [ 56%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o[0m
+[13.038s] [ 57%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o[0m
+[13.082s] [ 58%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o[0m
+[13.096s] [ 59%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o[0m
+[13.180s] [ 60%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/stream.cpp.o[0m
+[13.200s] [ 62%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/tag.cpp.o[0m
+[13.233s] [ 63%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilder.cpp.o[0m
+[13.472s] [ 64%] [32mBuilding CXX object _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/contrib/graphbuilderadapter.cpp.o[0m
+[15.084s] [ 65%] [32m[1mLinking CXX static library libyaml-cpp.a[0m
+[15.106s] [ 65%] Built target yaml-cpp
+[15.114s] [ 67%] [32mBuilding CXX object gxf/image_flip/CMakeFiles/gxf_image_flip.dir/image_flip_extension.cpp.o[0m
+[15.115s] [ 67%] [32mBuilding CXX object gxf/image_flip/CMakeFiles/gxf_image_flip.dir/image_flip.cpp.o[0m
+[16.678s] [ 68%] [32m[1mLinking CXX static library libcvcore.a[0m
+[16.699s] [ 68%] Built target cvcore
+[16.708s] [ 73%] [32mBuilding CXX object gxf/tensorops/CMakeFiles/gxf_tensorops.dir/ImageUtils.cpp.o[0m
+[16.709s] [ 73%] [32mBuilding CXX object gxf/tensorops/CMakeFiles/gxf_tensorops.dir/ConvertColorFormat.cpp.o[0m
+[16.709s] [ 73%] [32mBuilding CXX object gxf/tensorops/CMakeFiles/gxf_tensorops.dir/CameraModel.cpp.o[0m
+[16.709s] [ 73%] [32mBuilding CXX object gxf/tensorops/CMakeFiles/gxf_tensorops.dir/Frame3D.cpp.o[0m
+[16.709s] [ 75%] [32mBuilding CXX object gxf/tensorops/CMakeFiles/gxf_tensorops.dir/ImageAdapter.cpp.o[0m
+[16.709s] [ 75%] [32mBuilding CXX object gxf/tensorops/CMakeFiles/gxf_tensorops.dir/CropAndResize.cpp.o[0m
+[16.709s] [ 77%] [32mBuilding CXX object gxf/tensorops/CMakeFiles/gxf_tensorops.dir/InterleavedToPlanar.cpp.o[0m
+[16.709s] [ 78%] [32mBuilding CXX object gxf/tensorops/CMakeFiles/gxf_tensorops.dir/Normalize.cpp.o[0m
+[16.710s] [ 79%] [32mBuilding CXX object gxf/tensorops/CMakeFiles/gxf_tensorops.dir/Reshape.cpp.o[0m
+[17.717s] [ 82%] [32mBuilding CXX object gxf/tensorops/CMakeFiles/gxf_tensorops.dir/TensorStream.cpp.o[0m
+[17.717s] [ 82%] [32mBuilding CXX object gxf/tensorops/CMakeFiles/gxf_tensorops.dir/TensorOps.cpp.o[0m
+[17.717s] [ 82%] [32mBuilding CXX object gxf/tensorops/CMakeFiles/gxf_tensorops.dir/Undistort.cpp.o[0m
+[17.720s] [ 83%] [32mBuilding CXX object gxf/tensorops/CMakeFiles/gxf_tensorops.dir/TensorOperator.cpp.o[0m
+[17.722s] [ 85%] [32mBuilding CXX object gxf/tensorops/CMakeFiles/gxf_tensorops.dir/Resize.cpp.o[0m
+[18.008s] [ 86%] [32mBuilding CXX object gxf/tensorops/CMakeFiles/gxf_tensorops.dir/detail/ImageAdapterTensorImpl.cpp.o[0m
+[20.037s] [ 87%] [32m[1mLinking CXX shared library libgxf_image_flip.so[0m
+[20.297s] [ 87%] Built target gxf_image_flip
+[20.302s] [ 88%] [32mBuilding CXX object gxf/tensorops/CMakeFiles/gxf_tensorops.dir/detail/ImageAdapterVideoBufferImpl.cpp.o[0m
+[25.529s] [ 89%] [32m[1mLinking CXX shared library libgxf_tensorops.so[0m
+[25.678s] [ 89%] Built target gxf_tensorops
+[33.614s] [ 90%] [32m[1mLinking CXX shared library libimage_format_converter_node.so[0m
+[33.791s] [ 90%] Built target image_format_converter_node
+[33.799s] [ 91%] [32mBuilding CXX object CMakeFiles/rectify_node.dir/src/rectify_node.cpp.o[0m
+[56.260s] [ 93%] [32m[1mLinking CXX shared library librectify_node.so[0m
+[56.456s] [ 93%] Built target rectify_node
+[56.465s] [ 94%] [32mBuilding CXX object CMakeFiles/resize_node.dir/src/resize_node.cpp.o[0m
+[78.473s] [ 95%] [32m[1mLinking CXX shared library libresize_node.so[0m
+[78.714s] [ 95%] Built target resize_node
+[78.722s] [ 96%] [32mBuilding CXX object CMakeFiles/flip_node.dir/src/image_flip_node.cpp.o[0m
+[94.660s] [ 97%] [32m[1mLinking CXX shared library libflip_node.so[0m
+[94.878s] [ 97%] Built target flip_node
+[94.887s] [ 98%] [32mBuilding CXX object CMakeFiles/isaac_ros_image_proc.dir/src/image_proc_main.cpp.o[0m
+[99.206s] [100%] [32m[1mLinking CXX executable isaac_ros_image_proc[0m
+[99.429s] [100%] Built target isaac_ros_image_proc
+[99.436s] Invoked command in '/workspaces/isaac_ros-dev/build/isaac_ros_image_proc' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /workspaces/isaac_ros-dev/build/isaac_ros_image_proc -- -j16 -l16
+[99.496s] Invoking command in '/workspaces/isaac_ros-dev/build/isaac_ros_image_proc': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --install /workspaces/isaac_ros-dev/build/isaac_ros_image_proc
+[99.516s] -- Install configuration: "Release"
+[99.516s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/lib/libyaml-cpp.a
+[99.518s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/yaml-cpp
+[99.518s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/yaml-cpp/mark.h
+[99.518s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/yaml-cpp/emittermanip.h
+[99.518s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/yaml-cpp/emitter.h
+[99.518s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/yaml-cpp/exceptions.h
+[99.518s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/yaml-cpp/traits.h
+[99.518s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/yaml-cpp/eventhandler.h
+[99.518s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/yaml-cpp/parser.h
+[99.518s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/yaml-cpp/dll.h
+[99.518s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/yaml-cpp/null.h
+[99.518s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/yaml-cpp/contrib
+[99.518s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/yaml-cpp/contrib/graphbuilder.h
+[99.518s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/yaml-cpp/contrib/anchordict.h
+[99.518s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/yaml-cpp/emitterdef.h
+[99.519s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/yaml-cpp/anchor.h
+[99.519s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/yaml-cpp/emitfromevents.h
+[99.519s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/yaml-cpp/emitterstyle.h
+[99.519s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/yaml-cpp/node
+[99.519s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/yaml-cpp/node/impl.h
+[99.519s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/yaml-cpp/node/parse.h
+[99.519s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/yaml-cpp/node/detail
+[99.519s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/yaml-cpp/node/detail/node_data.h
+[99.519s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/yaml-cpp/node/detail/impl.h
+[99.519s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/yaml-cpp/node/detail/node_iterator.h
+[99.519s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/yaml-cpp/node/detail/memory.h
+[99.519s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/yaml-cpp/node/detail/iterator.h
+[99.519s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/yaml-cpp/node/detail/iterator_fwd.h
+[99.519s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/yaml-cpp/node/detail/node.h
+[99.519s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/yaml-cpp/node/detail/bool_type.h
+[99.519s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/yaml-cpp/node/detail/node_ref.h
+[99.520s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/yaml-cpp/node/convert.h
+[99.520s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/yaml-cpp/node/iterator.h
+[99.520s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/yaml-cpp/node/type.h
+[99.520s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/yaml-cpp/node/node.h
+[99.520s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/yaml-cpp/node/emit.h
+[99.520s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/yaml-cpp/node/ptr.h
+[99.520s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/yaml-cpp/ostream_wrapper.h
+[99.520s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/yaml-cpp/stlemitter.h
+[99.520s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/yaml-cpp/binary.h
+[99.520s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/yaml-cpp/yaml.h
+[99.520s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/lib/cmake/yaml-cpp/yaml-cpp-config.cmake
+[99.520s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/lib/cmake/yaml-cpp/yaml-cpp-config-version.cmake
+[99.520s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/lib/cmake/yaml-cpp/yaml-cpp-targets.cmake
+[99.520s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/lib/cmake/yaml-cpp/yaml-cpp-targets-release.cmake
+[99.520s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/lib/pkgconfig/yaml-cpp.pc
+[99.520s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/gxf/lib/image_proc/libgxf_image_flip.so
+[99.521s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/gxf/lib/image_proc/libgxf_image_flip.so" to ""
+[99.521s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/gxf/lib/image_proc/libgxf_tensorops.so
+[99.522s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/gxf/lib/image_proc/libgxf_tensorops.so" to ""
+[99.522s] -- Up-to-date: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include
+[99.522s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/isaac_ros_image_proc
+[99.522s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/isaac_ros_image_proc/image_flip_node.hpp
+[99.522s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/isaac_ros_image_proc/rectify_node.hpp
+[99.522s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/isaac_ros_image_proc/image_format_converter_node.hpp
+[99.522s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/include/isaac_ros_image_proc/resize_node.hpp
+[99.522s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/environment/library_path.sh
+[99.522s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/environment/library_path.dsv
+[99.522s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/lib/libimage_format_converter_node.so
+[99.524s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/lib/librectify_node.so
+[99.526s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/lib/libresize_node.so
+[99.528s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/lib/libflip_node.so
+[99.530s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/isaac_ros_image_proc/lib/libflip_node.so" to ""
+[99.530s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/lib/isaac_ros_image_proc/isaac_ros_image_proc
+[99.530s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/isaac_ros_image_proc/lib/isaac_ros_image_proc/isaac_ros_image_proc" to ""
+[99.530s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/launch
+[99.530s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/launch/isaac_ros_image_flip.launch.py
+[99.531s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/config
+[99.531s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/config/nitros_rectify_node.yaml
+[99.531s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/config/nitros_image_flip_node.yaml
+[99.531s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/config/namespace_injector_rule_rectify.yaml
+[99.531s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/config/image_format_converter_substitution.yaml
+[99.531s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/config/namespace_injector_rule_image_format_converter.yaml
+[99.531s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/config/nitros_resize_node.yaml
+[99.532s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/config/nitros_image_format_converter_node.yaml
+[99.532s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/config/namespace_injector_rule_resize.yaml
+[99.532s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/ament_index/resource_index/package_run_dependencies/isaac_ros_image_proc
+[99.532s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/ament_index/resource_index/parent_prefix_path/isaac_ros_image_proc
+[99.532s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/environment/ament_prefix_path.sh
+[99.532s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/environment/ament_prefix_path.dsv
+[99.532s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/environment/path.sh
+[99.533s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/environment/path.dsv
+[99.533s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/local_setup.bash
+[99.533s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/local_setup.sh
+[99.533s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/local_setup.zsh
+[99.533s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/local_setup.dsv
+[99.533s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/package.dsv
+[99.533s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/ament_index/resource_index/packages/isaac_ros_image_proc
+[99.533s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/ament_index/resource_index/rclcpp_components/isaac_ros_image_proc
+[99.533s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/cmake/ament_cmake_export_dependencies-extras.cmake
+[99.533s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/cmake/ament_cmake_export_include_directories-extras.cmake
+[99.533s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/cmake/ament_cmake_export_libraries-extras.cmake
+[99.534s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/cmake/isaac_ros_image_procConfig.cmake
+[99.534s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/cmake/isaac_ros_image_procConfig-version.cmake
+[99.534s] -- Installing: /workspaces/isaac_ros-dev/install/isaac_ros_image_proc/share/isaac_ros_image_proc/package.xml
+[99.538s] Invoked command in '/workspaces/isaac_ros-dev/build/isaac_ros_image_proc' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type:/workspaces/isaac_ros-dev/install/isaac_ros_nitros:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_gxf:/workspaces/isaac_ros-dev/install/isaac_ros_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_image_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_camera_info_type/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/isaac_ros-dev/install/isaac_ros_nitros_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --install /workspaces/isaac_ros-dev/build/isaac_ros_image_proc
