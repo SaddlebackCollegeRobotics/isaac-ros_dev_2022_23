@@ -25,4 +25,4 @@ https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_compression/blob/main/docs/tutoria
 
 **First time setup**
 <br>
-1. 
+1. TODO : Instructions
