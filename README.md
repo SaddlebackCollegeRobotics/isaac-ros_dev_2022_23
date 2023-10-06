@@ -1,11 +1,8 @@
 # isaac-ros_dev_2022_23
 An Isaac ROS Workspace using the Isaac ROS Compression package.
-<br>
 [NVIDIA-ISAAC-ROS-Compression Repo](https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_compression)
-<br>
 ## What is Isaac ROS Compression?
 Lets you set up an h264 encoder and decoder that uses hardware acceleration. Has ROS 2 support. Very low bandwidth usage (~7-9 MegaBits per second for 1280 x 720). Has many options that can be set via ROS parameters.
-<br>
 ## Important Notes
 - This repo is a code edit of the original repo, that gives the ability to start up the docker container without an internet connection.
 - Can only run the encoder on an Nvidia Jetson computer (Check original repo docs to see if this ever changes)
@@ -13,7 +10,6 @@ Lets you set up an h264 encoder and decoder that uses hardware acceleration. Has
 
 ## Dependencies
 Docker, Nvidia GPU, CUDA Toolkit, Nvidia Container Toolkit, Git LFS
-<br>
 ## Checking Dependencies
 - Install Git LFS: `$ sudo apt-get install git-lfs && git lfs install --skip-repo`
 - Check if docker is installed: `$ docker`
@@ -44,7 +40,7 @@ Docker, Nvidia GPU, CUDA Toolkit, Nvidia Container Toolkit, Git LFS
 4. Check to make sure all scripts have executable permissions:
 
         $ cd src/isaac_ros_common/scripts/ && ls -l
-   a. If needed, add permissions using `$ sudo chmod +x <filename>`
+    a. If needed, add permissions using `$ sudo chmod +x <filename>`
 
 5. Run the start_docker.bash script in the repo's root folder, this will begin downloading the docker image. Once downloaded and built, you will be connected to a docker container. Exit the container with `Ctrl + D or $ logout`
 
@@ -68,8 +64,8 @@ Docker, Nvidia GPU, CUDA Toolkit, Nvidia Container Toolkit, Git LFS
 ## How to run the encoder or decoder:
 1. Run the docker container using the `start_docker.bash` file.
 
-2. Once within docker, run the `start_encoder.bash` or `start_decoder.bash`.
-  a. If you are unable to run the scripts, you may need to add executable permissions to the files.
-  b. If you get a "cannot find package" error from ROS, you may need to do `source install/setup.bash`
-
-
+2. Once within docker, run the `start_encoder.bash` or `start_decoder.bash`:
+ 
+Notes:
+- If you get a "cannot find package" error from ROS, you may need to do `source install/setup.bash`
+- If you are unable to run the scripts, you may need to add executable permissions to the files.
