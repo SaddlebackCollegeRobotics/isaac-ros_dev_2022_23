@@ -28,11 +28,10 @@ Docker, Nvidia GPU, CUDA Toolkit, Nvidia Container Toolkit, Git LFS
 - Make sure docker is configured to use the nvidia-container-runtime:
     - [Nvidia Container Runtime Config](https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_common/blob/main/docs/dev-env-setup.md)
 
-## Setting up the Package:
+## Setting up the Package (If you do not have the docker image):
 1. Clone the repo:
         
-        $ git clone https://github.com/SaddlebackCollegeRobotics/isaac-ros_dev_2022_23
-Note: Skip to step # if you have already pulled the docker image.
+        $ git clone https://github.com/SaddlebackCollegeRobotics/isaac-ros_dev_2022_23 && cd isaac-ros_dev_2022_23
 
 2. Rename the current isaac_ros_common:
 
@@ -57,5 +56,17 @@ Note: Skip to step # if you have already pulled the docker image.
         source install/setup.bash
 
 8. Once built, run the start_encoder.bash or start_decoder.bash.
+   a. If you are unable to run the scripts, you may need to add executable permissions to the files.
+   b. If you get a "cannot find package" error from ROS, you may need to do `source install/setup.bash`
+
+## Setting up the Package (If you already have the docker image):
+1. Clone the repo:
+        
+        $ git clone https://github.com/SaddlebackCollegeRobotics/isaac-ros_dev_2022_23
+
+2. Run the start_docker.bash script. Once within the docked container, build the ROS package (The build may take a while):
+
+        $ colcon build --symlink-install && \
+                source install/setup.bash
 
 
