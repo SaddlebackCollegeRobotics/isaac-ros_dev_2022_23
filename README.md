@@ -28,7 +28,7 @@ Docker, Nvidia GPU, CUDA Toolkit, Nvidia Container Toolkit, Git LFS
 - Make sure docker is configured to use the nvidia-container-runtime:
     - [Nvidia Container Runtime Config](https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_common/blob/main/docs/dev-env-setup.md)
 
-## Setting up the Package (If you do not have the docker image):
+## Setting up the Package (If you do not have the docker image)
 1. Clone the repo:
         
         $ git clone https://github.com/SaddlebackCollegeRobotics/isaac-ros_dev_2022_23 && cd isaac-ros_dev_2022_23/
@@ -55,7 +55,7 @@ Docker, Nvidia GPU, CUDA Toolkit, Nvidia Container Toolkit, Git LFS
         $ colcon build --symlink-install && \
         source install/setup.bash
 
-## Setting up the Package (If you already have the docker image):
+## Setting up the Package (If you already have the docker image)
 1. Clone the repo:
         
         $ git clone https://github.com/SaddlebackCollegeRobotics/isaac-ros_dev_2022_23 && cd isaac-ros_dev_2022_23/
@@ -66,10 +66,10 @@ Docker, Nvidia GPU, CUDA Toolkit, Nvidia Container Toolkit, Git LFS
                 source install/setup.bash
 
 ## How to run the encoder or decoder:
+1. Run the docker container using the `start_docker.bash` file.
 
-- Once built, run the start_encoder.bash or start_decoder.bash.
-   a. If you are unable to run the scripts, you may need to add executable permissions to the files.
-   b. If you get a "cannot find package" error from ROS, you may need to do `source install/setup.bash`
-
+2. Once within docker, run the `start_encoder.bash` or `start_decoder.bash`.
+  a. If you are unable to run the scripts, you may need to add executable permissions to the files.
+  b. If you get a "cannot find package" error from ROS, you may need to do `source install/setup.bash`
 
 
